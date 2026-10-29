@@ -1,0 +1,6 @@
+{
+  "name": "Türkçe Ülküsü - 7. Sınıf 1. Dönem 1. Yazılı Sınav Portalı",
+  "description": "Türkiye Yüzyılı Maarif Modeline ve MEB kazanımlarına tam uyumlu 7. Sınıf Türkçe 1. Dönem 1. Yazılı örnek sınavları, açık uçlu sorular ve ayrıntılı çözüm anahtarları.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

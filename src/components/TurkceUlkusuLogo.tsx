@@ -1,4 +1,5 @@
 import React from 'react';
+import { TURKCE_ULKUSU_LOGO_DATA_URI } from '../assets/logoDataUri';
 
 interface LogoProps {
   variant?: 'full' | 'compact' | 'seal' | 'banner';
@@ -8,31 +9,12 @@ interface LogoProps {
 }
 
 export const TurkceUlkusuEmblemSvg: React.FC<{ className?: string }> = ({ className = 'w-full h-full' }) => (
-  <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
-    <defs>
-      <linearGradient id="emblemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stopColor="#b91c1c" />
-        <stop offset="100%" stopColor="#7f1d1d" />
-      </linearGradient>
-    </defs>
-    <circle cx="50" cy="50" r="48" fill="url(#emblemGrad)" stroke="#f59e0b" strokeWidth="3" />
-    <circle cx="50" cy="50" r="44" fill="none" stroke="#fef3c7" strokeWidth="1" strokeDasharray="2,2" />
-    
-    {/* Star / Torch motif */}
-    <path d="M50 18 L52.5 25 L60 26 L54 31 L56 38 L50 34 L44 38 L46 31 L40 26 L47.5 25 Z" fill="#fbbf24" stroke="#d97706" strokeWidth="0.5" />
-    
-    {/* Open Book */}
-    <path d="M50 72 V46 C44 42 30 42 22 46 V72 C30 68 44 68 50 72 Z" fill="#ffffff" stroke="#0f172a" strokeWidth="1.8" strokeLinejoin="round" />
-    <path d="M50 72 V46 C56 42 70 42 78 46 V72 C70 68 56 68 50 72 Z" fill="#ffffff" stroke="#0f172a" strokeWidth="1.8" strokeLinejoin="round" />
-    <path d="M50 46 V72" stroke="#94a3b8" strokeWidth="2" />
-    <path d="M28 54 H44" stroke="#cbd5e1" strokeWidth="1.5" strokeLinecap="round" />
-    <path d="M28 60 H44" stroke="#cbd5e1" strokeWidth="1.5" strokeLinecap="round" />
-    <path d="M56 54 H72" stroke="#cbd5e1" strokeWidth="1.5" strokeLinecap="round" />
-    <path d="M56 60 H72" stroke="#cbd5e1" strokeWidth="1.5" strokeLinecap="round" />
-    
-    {/* Golden Ribbon */}
-    <path d="M20 84 Q50 92 80 84 Q50 88 20 84 Z" fill="#fbbf24" />
-  </svg>
+  <img
+    src={TURKCE_ULKUSU_LOGO_DATA_URI}
+    alt="Türkçe Ülküsü Logo"
+    className={`object-contain select-none ${className}`}
+    draggable={false}
+  />
 );
 
 export const TurkceUlkusuLogo: React.FC<LogoProps> = ({
@@ -44,7 +26,7 @@ export const TurkceUlkusuLogo: React.FC<LogoProps> = ({
   if (variant === 'seal') {
     return (
       <div className={`inline-flex flex-col items-center justify-center text-center ${className}`}>
-        <div className="w-14 h-14 sm:w-16 sm:h-16 flex items-center justify-center shrink-0">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center shrink-0">
           <TurkceUlkusuEmblemSvg className={`w-full h-full object-contain ${imgClassName}`} />
         </div>
         <span className="text-[11px] font-black tracking-tight text-slate-900 font-serif uppercase mt-1 leading-none">
@@ -60,7 +42,7 @@ export const TurkceUlkusuLogo: React.FC<LogoProps> = ({
   if (variant === 'compact') {
     return (
       <div className={`flex items-center gap-2.5 ${className}`}>
-        <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+        <div className="w-12 h-12 shrink-0 flex items-center justify-center">
           <TurkceUlkusuEmblemSvg className={`w-full h-full object-contain drop-shadow-xs ${imgClassName}`} />
         </div>
         <div className="flex flex-col justify-center">
@@ -79,7 +61,7 @@ export const TurkceUlkusuLogo: React.FC<LogoProps> = ({
     return (
       <div className={`flex items-center justify-between p-3 border-b-2 border-slate-300 bg-white ${className}`}>
         <div className="flex items-center gap-3">
-          <div className="w-12 h-12 shrink-0">
+          <div className="w-14 h-14 shrink-0">
             <TurkceUlkusuEmblemSvg className="w-full h-full object-contain drop-shadow-xs" />
           </div>
           <div className="flex flex-col justify-center">
@@ -106,8 +88,8 @@ export const TurkceUlkusuLogo: React.FC<LogoProps> = ({
 
   // Full default view
   return (
-    <div className={`flex items-center gap-2.5 sm:gap-3.5 ${className}`}>
-      <div className="w-11 h-11 sm:w-13 sm:h-13 shrink-0 flex items-center justify-center">
+    <div className={`flex items-center gap-3 sm:gap-3.5 ${className}`}>
+      <div className="w-13 h-13 sm:w-15 sm:h-15 shrink-0 flex items-center justify-center">
         <TurkceUlkusuEmblemSvg className={`w-full h-full object-contain drop-shadow-sm ${imgClassName}`} />
       </div>
       <div className="flex flex-col justify-center">

@@ -332,7 +332,7 @@ export const CustomExamBuilder: React.FC<CustomExamBuilderProps> = ({
         </div>
       </div>
 
-      {/* Bottom Bar: Outcomes Modal Button, Font Size, Lines Toggle, and Print Button */}
+      {/* Bottom Bar: Outcomes Modal Button, Font Size, and Lines Toggle */}
       <div className="flex items-center justify-between flex-wrap gap-3 pt-2 border-t border-slate-100">
         <div className="flex items-center gap-3 flex-wrap">
           <button
@@ -380,28 +380,6 @@ export const CustomExamBuilder: React.FC<CustomExamBuilderProps> = ({
             />
             <span>Cevap Çizgilerini Göster</span>
           </label>
-        </div>
-
-        <div className="flex items-center gap-2 flex-wrap">
-          {onDownloadPdf && (
-            <button
-              onClick={onDownloadPdf}
-              disabled={isPdfGenerating}
-              className="flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-black bg-emerald-700 text-white hover:bg-emerald-800 shadow-md hover:shadow-lg transition-all cursor-pointer disabled:opacity-60"
-              title="Sınavı PDF dosyası olarak doğrudan bilgisayarınıza indirin"
-            >
-              <Download className="w-4 h-4" />
-              <span>{isPdfGenerating ? 'PDF Hazırlanıyor...' : 'PDF İndir'}</span>
-            </button>
-          )}
-
-          <button
-            onClick={handlePrint}
-            className="flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black bg-gradient-to-r from-red-700 to-red-800 text-white hover:from-red-800 hover:to-red-900 shadow-md hover:shadow-lg transition-all cursor-pointer"
-          >
-            <Printer className="w-4 h-4" />
-            <span>Yazdır / PDF</span>
-          </button>
         </div>
       </div>
     </div>

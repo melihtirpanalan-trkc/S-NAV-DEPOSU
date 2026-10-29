@@ -14,13 +14,13 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
   isAnswerKey = false,
 }) => {
   return (
-    <div className="w-full border-2 border-slate-800 rounded-lg p-3 bg-white mb-5 text-slate-900 shadow-xs">
-      {/* Top Bar: Official Logos and Central Title */}
+    <div className="w-full border-2 border-slate-800 rounded-lg p-3 sm:p-3.5 bg-white mb-5 text-slate-900 shadow-xs avoid-break">
+      {/* Top Bar: Official Logo and Central Title */}
       <div className="grid grid-cols-12 gap-2 items-center border-b border-slate-300 pb-3">
-        {/* Left: Türkçe Ülküsü Logo & Yayınları Branding (Tek yer) */}
+        {/* Left: Türkçe Ülküsü Logo & Yayınları Branding */}
         <div className="col-span-3 flex items-center justify-start">
           <div className="flex items-center gap-2.5">
-            <div className="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center shrink-0">
+            <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center shrink-0">
               <TurkceUlkusuEmblemSvg className="w-full h-full object-contain" />
             </div>
             <div className="flex flex-col justify-center leading-none">
@@ -30,7 +30,7 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
               <span className="text-[10px] sm:text-xs font-black text-slate-900 font-serif tracking-widest uppercase mt-1 leading-none">
                 YAYINLARI
               </span>
-              <span className="text-[9px] font-semibold text-slate-500 mt-1 hidden sm:block">
+              <span className="text-[9px] font-semibold text-slate-500 mt-1">
                 Ölçme & Değerlendirme
               </span>
             </div>
@@ -59,7 +59,7 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
           </div>
         </div>
 
-        {/* Right: Sınav Bilgi / Format Kartı (Logosuz, tek ve sade) */}
+        {/* Right: Sınav Bilgi / Format Kartı */}
         <div className="col-span-3 flex justify-end">
           <div className="bg-slate-50 border border-slate-200 rounded-lg p-2 sm:px-3 text-right leading-tight">
             <span className="block text-[10px] font-bold uppercase text-slate-500">
@@ -69,7 +69,7 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
               Açık Uçlu Yazılı
             </span>
             <span className="block text-[10px] font-bold text-red-700 mt-0.5">
-              100 Puan • 40 Dk.
+              {scenario.totalPoints || 100} Puan • {scenario.durationMinutes || 40} Dk.
             </span>
           </div>
         </div>
@@ -80,22 +80,22 @@ export const ExamHeader: React.FC<ExamHeaderProps> = ({
         <div className="grid grid-cols-12 gap-2 mt-2.5 text-xs">
           <div className="col-span-8 grid grid-cols-2 gap-x-3 gap-y-1.5 bg-slate-50 p-2 rounded border border-slate-200">
             <div className="flex items-center">
-              <span className="font-bold text-slate-700 w-24">Adı Soyadı:</span>
+              <span className="font-bold text-slate-700 w-24 shrink-0">Adı Soyadı:</span>
               <span className="border-b border-dotted border-slate-400 flex-1 h-5 text-slate-800"></span>
             </div>
             <div className="flex items-center">
-              <span className="font-bold text-slate-700 w-20">Sınıfı / Şubesi:</span>
-              <span className="border-b border-dotted border-slate-400 flex-1 h-5 text-slate-800">
+              <span className="font-bold text-slate-700 w-24 shrink-0">Sınıfı / Şubesi:</span>
+              <span className="border-b border-dotted border-slate-400 flex-1 h-5 text-slate-800 font-semibold pl-1">
                 {config.classGroup ? `${config.classGroup}` : `${scenario.gradeLevel || 5} / .....`}
               </span>
             </div>
             <div className="flex items-center">
-              <span className="font-bold text-slate-700 w-24">Okul Numarası:</span>
+              <span className="font-bold text-slate-700 w-24 shrink-0">Okul Numarası:</span>
               <span className="border-b border-dotted border-slate-400 flex-1 h-5 text-slate-800"></span>
             </div>
             <div className="flex items-center">
-              <span className="font-bold text-slate-700 w-20">Sınav Tarihi:</span>
-              <span className="border-b border-dotted border-slate-400 flex-1 h-5 text-slate-800">
+              <span className="font-bold text-slate-700 w-24 shrink-0">Sınav Tarihi:</span>
+              <span className="border-b border-dotted border-slate-400 flex-1 h-5 text-slate-800 font-semibold pl-1">
                 {config.examDate || '..... / ..... / 2026'}
               </span>
             </div>

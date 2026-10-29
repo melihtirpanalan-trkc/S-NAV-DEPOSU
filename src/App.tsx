@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { EXAM_SCENARIOS } from './data/examScenarios';
 import { CustomExamConfig, ExamScenario } from './types/exam';
-import { TurkceUlkusuLogo, TurkceUlkusuEmblemSvg } from './components/TurkceUlkusuLogo';
+import { TurkceUlkusuLogo } from './components/TurkceUlkusuLogo';
 import { ExamPaperView } from './components/ExamPaperView';
 import { AnswerKeyView } from './components/AnswerKeyView';
 import { InteractiveExamView } from './components/InteractiveExamView';
@@ -149,24 +149,17 @@ export default function App() {
           activeView={activeView}
           onChangeView={setActiveView}
           onOpenOutcomes={() => setIsOutcomeModalOpen(true)}
+          onPrint={handlePrint}
         />
 
         {/* Active View Rendering */}
         <div className="py-2">
           {activeView === 'paper' && (
-            <ExamPaperView
-              scenario={activeScenario}
-              config={config}
-              onPrintOrPdf={handlePrint}
-            />
+            <ExamPaperView scenario={activeScenario} config={config} />
           )}
 
           {activeView === 'answers' && (
-            <AnswerKeyView
-              scenario={activeScenario}
-              config={config}
-              onPrintOrPdf={handlePrint}
-            />
+            <AnswerKeyView scenario={activeScenario} config={config} />
           )}
 
           {activeView === 'interactive' && (
@@ -182,9 +175,6 @@ export default function App() {
       <footer className="no-print bg-white border-t border-slate-200 py-6 mt-12 text-center text-xs text-slate-600">
         <div className="max-w-7xl mx-auto px-4 space-y-2">
           <div className="flex flex-col items-center justify-center leading-none">
-            <div className="w-14 h-14 mb-2 flex items-center justify-center">
-              <TurkceUlkusuEmblemSvg className="w-full h-full object-contain drop-shadow-xs" />
-            </div>
             <span className="font-serif font-black text-base text-slate-900 leading-none">TÜRKÇE ÜLKÜSÜ</span>
             <span className="font-serif font-black text-xs text-slate-900 tracking-widest uppercase mt-1 leading-none">YAYINLARI</span>
             <span className="text-slate-500 text-[11px] font-medium mt-1.5">Türkiye Yüzyılı Maarif Modeli Ölçme & Değerlendirme Sistemi</span>
@@ -213,8 +203,8 @@ export default function App() {
           <div className="bg-white rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-slate-200 space-y-4">
             <div className="flex items-center justify-between border-b border-slate-100 pb-3">
               <div className="flex items-center gap-3 text-red-700">
-                <div className="w-11 h-11 shrink-0">
-                  <TurkceUlkusuEmblemSvg className="w-full h-full object-contain" />
+                <div className="p-2.5 bg-red-50 rounded-xl">
+                  <Printer className="w-6 h-6 text-red-700" />
                 </div>
                 <div>
                   <h3 className="text-base font-black text-slate-900">

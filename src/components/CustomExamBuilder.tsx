@@ -381,6 +381,16 @@ export const CustomExamBuilder: React.FC<CustomExamBuilderProps> = ({
             <span>Cevap Çizgilerini Göster</span>
           </label>
         </div>
+
+        <div className="flex items-center gap-2 flex-wrap">
+          <button
+            onClick={handlePrint}
+            className="flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-black bg-gradient-to-r from-red-700 to-red-800 text-white hover:from-red-800 hover:to-red-900 shadow-md hover:shadow-lg transition-all cursor-pointer"
+          >
+            <Printer className="w-4 h-4" />
+            <span>Yazdır / PDF İndir</span>
+          </button>
+        </div>
       </div>
     </div>
   );

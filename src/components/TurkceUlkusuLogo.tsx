@@ -8,10 +8,23 @@ interface LogoProps {
   gradeText?: string;
 }
 
-export const TurkceUlkusuEmblemSvg: React.FC<{ className?: string }> = ({ className = 'w-full h-full' }) => (
+export const TurkceUlkusuEmblemSvg: React.FC<{ className?: string; size?: number }> = ({
+  className = 'w-full h-full',
+  size = 56,
+}) => (
   <img
     src={TURKCE_ULKUSU_LOGO_DATA_URI}
     alt="Türkçe Ülküsü Logo"
+    width={size}
+    height={size}
+    style={{
+      width: `${size}px`,
+      height: `${size}px`,
+      maxWidth: `${size}px`,
+      maxHeight: `${size}px`,
+      objectFit: 'contain',
+      display: 'block',
+    }}
     className={`object-contain select-none ${className}`}
     draggable={false}
   />
@@ -26,8 +39,8 @@ export const TurkceUlkusuLogo: React.FC<LogoProps> = ({
   if (variant === 'seal') {
     return (
       <div className={`inline-flex flex-col items-center justify-center text-center ${className}`}>
-        <div className="w-16 h-16 sm:w-20 sm:h-20 flex items-center justify-center shrink-0">
-          <TurkceUlkusuEmblemSvg className={`w-full h-full object-contain ${imgClassName}`} />
+        <div className="w-14 h-14 flex items-center justify-center shrink-0">
+          <TurkceUlkusuEmblemSvg size={56} className={imgClassName} />
         </div>
         <span className="text-[11px] font-black tracking-tight text-slate-900 font-serif uppercase mt-1 leading-none">
           TÜRKÇE ÜLKÜSÜ
@@ -42,8 +55,8 @@ export const TurkceUlkusuLogo: React.FC<LogoProps> = ({
   if (variant === 'compact') {
     return (
       <div className={`flex items-center gap-2.5 ${className}`}>
-        <div className="w-12 h-12 shrink-0 flex items-center justify-center">
-          <TurkceUlkusuEmblemSvg className={`w-full h-full object-contain drop-shadow-xs ${imgClassName}`} />
+        <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+          <TurkceUlkusuEmblemSvg size={40} className={imgClassName} />
         </div>
         <div className="flex flex-col justify-center">
           <span className="text-sm sm:text-base font-black tracking-tight text-slate-900 font-serif leading-none">
@@ -61,8 +74,8 @@ export const TurkceUlkusuLogo: React.FC<LogoProps> = ({
     return (
       <div className={`flex items-center justify-between p-3 border-b-2 border-slate-300 bg-white ${className}`}>
         <div className="flex items-center gap-3">
-          <div className="w-14 h-14 shrink-0">
-            <TurkceUlkusuEmblemSvg className="w-full h-full object-contain drop-shadow-xs" />
+          <div className="w-12 h-12 shrink-0 flex items-center justify-center">
+            <TurkceUlkusuEmblemSvg size={48} />
           </div>
           <div className="flex flex-col justify-center">
             <h2 className="text-lg font-black tracking-tight text-slate-900 font-serif leading-none">
@@ -88,9 +101,9 @@ export const TurkceUlkusuLogo: React.FC<LogoProps> = ({
 
   // Full default view
   return (
-    <div className={`flex items-center gap-3 sm:gap-3.5 ${className}`}>
-      <div className="w-13 h-13 sm:w-15 sm:h-15 shrink-0 flex items-center justify-center">
-        <TurkceUlkusuEmblemSvg className={`w-full h-full object-contain drop-shadow-sm ${imgClassName}`} />
+    <div className={`flex items-center gap-2.5 sm:gap-3.5 ${className}`}>
+      <div className="w-12 h-12 shrink-0 flex items-center justify-center">
+        <TurkceUlkusuEmblemSvg size={48} className={imgClassName} />
       </div>
       <div className="flex flex-col justify-center">
         <span className="text-base sm:text-xl font-black tracking-tight text-slate-900 font-serif leading-none">

@@ -20,9 +20,9 @@ export const GRADE_8_EXAMS: ExamScenario[] = [
       title: 'Fırtınada Kırılan Zincir',
       author: 'Türkçe Ülküsü Yayınları (Özgün Anlatı)',
       source: '8. Sınıf Türkçe Dersi - MEBİ Yazılıya Hazırlanıyorum Uyarlaması',
-      content: `Ufukta fırtınanın kopacağını gösteren türlü alametler vardı. Kararan gökyüzü ile kurşuni deniz birbirine karışıyor, sert rüzgâr dalgaları devasa dağlar gibi şaha kaldırıyordu. Bulutlar ürkütücü şekillerde parçalanıyor; bir kısmı başımızın üstünden süratle geçerken bir kısmı ötede heybetli kayalar gibi hareketsiz duruyordu. Gökte hiç mavilik kalmamıştı; yalnız soluk ve zeytuni bir ışıltı yeri göğü aydınlatıyordu.
+      content: `Ufukta fırtınanın kopacağını gösteren pek çok belirti vardı. Kararan gökyüzü ile grileşen deniz birbirine karışıyor, sert rüzgâr dalgaları koca dağlar gibi yukarı kaldırıyordu. Bulutlar ürkütücü şekillerde dağılıyor; bir kısmı başımızın üstünden hızla geçerken bir kısmı uzakta büyük kayalar gibi hareketsiz duruyordu. Gökte hiç mavilik kalmamıştı; yalnız soluk ve mat bir ışıltı yeri göğü aydınlatıyordu.
 
-Koca geminin boyuna azgın dalgalarla boğuşması sonucunda nihayet korkulan oldu. Denizdeki tonlarca ağırlıktaki demirlerin kalın zincirleri büyük bir çatırtıyla kırıldı. Gemi, arkadaki tek zincirle tutunmaya çalışıyordu ancak devasa dalgalar demiri tarayarak gemiyi kayalıklara doğru sürüklemeye başladı. Kaptan ve tayfalar, hayatları pahasına makine dairesine inerek son bir gayretle pervanelere güç verdiler.`
+Büyük geminin sürekli hırçın dalgalarla boğuşması sonucunda sonunda korkulan oldu. Denizdeki tonlarca ağırlıktaki çapaların kalın zincirleri büyük bir çatırtıyla kırıldı. Gemi, arkadaki tek zincirle tutunmaya çalışıyordu ancak dev dalgalar çapayı yerinden oynatarak gemiyi kayalıklara doğru sürüklemeye başladı. Kaptan ve gemiciler, büyük bir cesaretle makine dairesine inerek son bir çabayla pervanelere güç verdiler.`
     },
     questions: [
       {
@@ -32,11 +32,11 @@ Koca geminin boyuna azgın dalgalarla boğuşması sonucunda nihayet korkulan ol
         title: 'Bağlamdan Kelime Anlamı Bulma',
         points: 10,
         prompt: `Metinde yer alan aşağıdaki anlamların karşılığı olan sözcükleri metinden bularak yazınız:
-a) Bir olayın veya durumun anlaşılmasına yardım eden belirti, işaret: .......................................
+a) Bir olayın veya durumun anlaşılmasına yardım eden iz, işaret: .......................................
 b) Parlaklığını ve canlılığını yitirmiş olan: .......................................
-c) Koyu yeşil ile kahverengi arası renk, zeytin rengi: .......................................
+c) Geminin yerinde sabit durmasını sağlayan ağır demir araç: .......................................
 ç) Yerinden kımıldamayan, durgun olan: .......................................`,
-        expectedAnswer: 'a) alamet\nb) soluk\nc) zeytuni\nç) hareketsiz',
+        expectedAnswer: 'a) belirti\nb) soluk (veya mat)\nc) çapa\nç) hareketsiz',
         rubric: [
           { criterion: '4 sözcüğün tamamını doğru bulma', points: 10 },
           { criterion: '3 sözcüğü doğru bulma', points: 7 },
@@ -80,7 +80,7 @@ Kullanılan Söz Sanatı: .......................................`,
 • İsim-fiil (Mastar): .......................................
 • Sıfat-fiil (Ortaç): .......................................
 • Zarf-fiil (Ulaç): .......................................`,
-        expectedAnswer: '• İsim-fiil: boğuşması (veya tutunmaya)\n• Sıfat-fiil: kopacağını, gösteren, kararan, kırılan\n• Zarf-fiil: geçerken, tarayarak (veya inerek)',
+        expectedAnswer: '• İsim-fiil: boğuşması, tutunmaya, sürüklemeye\n• Sıfat-fiil: kopacağını, gösteren, kararan, grileşen, kırılan\n• Zarf-fiil: geçerken, oynatarak, inerek',
         rubric: [
           { criterion: '3 fiilimsi türüne de metinden doğru örnek verme', points: 15 },
           { criterion: '2 fiilimsi türüne doğru örnek verme', points: 10 },
@@ -95,11 +95,11 @@ Kullanılan Söz Sanatı: .......................................`,
         outcomeCode: 'T.8.3.14',
         title: 'Metinle İlgili Soruları Cevaplama',
         points: 15,
-        prompt: 'Geminin zincirleri kırıldıktan sonra dalgalar gemiyi nasıl bir tehlikeyle karşı karşıya bırakmıştır? Kaptan ve tayfalar buna karşı nasıl tepki vermiştir? Metne göre açıklayınız.',
-        expectedAnswer: 'Dalgalar demiri tarayarak gemiyi kayalıklara doğru sürüklemiş ve parçalanma tehlikesi yaratmıştır. Kaptan ve tayfalar hayatları pahasına makine dairesine inerek pervanelere güç vermişlerdir.',
+        prompt: 'Geminin zincirleri kırıldıktan sonra dalgalar gemiyi nasıl bir tehlikeyle karşı karşıya bırakmıştır? Kaptan ve gemiciler buna karşı nasıl tepki vermiştir? Metne göre açıklayınız.',
+        expectedAnswer: 'Dalgalar çapayı yerinden oynatarak gemiyi kayalıklara doğru sürüklemiş ve parçalanma tehlikesi yaratmıştır. Kaptan ve gemiciler büyük bir cesaretle makine dairesine inerek pervanelere güç vermişlerdir.',
         rubric: [
-          { criterion: 'Tehlikeyi ve tayfaların mücadelesini metne dayanarak eksiksiz açıklama', points: 15 },
-          { criterion: 'Yalnızca tehlikeyi veya yalnızca tayfaları açıklama', points: 8 },
+          { criterion: 'Tehlikeyi ve gemicilerin mücadelesini metne dayanarak eksiksiz açıklama', points: 15 },
+          { criterion: 'Yalnızca tehlikeyi veya yalnızca gemicileri açıklama', points: 8 },
           { criterion: 'Hatalı açıklama', points: 0 }
         ],
         linesNeeded: 3
@@ -111,7 +111,7 @@ Kullanılan Söz Sanatı: .......................................`,
         title: 'Metnin Yüzey Anlamı (Metnin Konusu)',
         points: 10,
         prompt: 'Okuduğunuz metnin konusunu (yüzey anlamını) belirleyerek bir cümleyle ifade ediniz.',
-        expectedAnswer: 'Şiddetli bir fırtınada zincirleri kopan bir geminin kayalıklara sürüklenmesi ve mürettebatın kurtulmak için verdiği zorlu mücadele.',
+        expectedAnswer: 'Şiddetli bir fırtınada zincirleri kopan bir geminin kayalıklara sürüklenmesi ve gemicilerin kurtulmak için verdiği zorlu mücadele.',
         rubric: [
           { criterion: 'Metnin konusunu (yüzey anlamını) eksiksiz ve özlü ifade etme', points: 10 },
           { criterion: 'Konuyu kısmen doğru ifade etme', points: 5 },
@@ -125,8 +125,8 @@ Kullanılan Söz Sanatı: .......................................`,
         outcomeCode: 'T.8.3.34',
         title: 'Düşünceyi Geliştirme Yollarını Belirleme',
         points: 15,
-        prompt: 'Metinde geçen "sert rüzgâr dalgaları devasa dağlar gibi şaha kaldırıyordu" ve "ötede heybetli kayalar gibi hareketsiz duruyordu" cümlelerinde kullanılan düşünceyi geliştirme yolunu yazınız ve gerekçesini belirtiniz.',
-        expectedAnswer: 'Kullanılan düşünceyi geliştirme yolu: Benzetme (veya Karşılaştırma).\nGerekçesi: Dalgaların büyüklüğü devasa dağlara, bulutların durgunluğu ise heybetli kayalara benzetilerek anlatım somutlaştırılmış ve güçlendirilmiştir.',
+        prompt: 'Metinde geçen "sert rüzgâr dalgaları koca dağlar gibi yukarı kaldırıyordu" ve "uzakta büyük kayalar gibi hareketsiz duruyordu" cümlelerinde kullanılan düşünceyi geliştirme yolunu yazınız ve gerekçesini belirtiniz.',
+        expectedAnswer: 'Kullanılan düşünceyi geliştirme yolu: Benzetme (veya Karşılaştırma).\nGerekçesi: Dalgaların büyüklüğü koca dağlara, bulutların durgunluğu ise büyük kayalara benzetilerek anlatım somutlaştırılmış ve güçlendirilmiştir.',
         rubric: [
           { criterion: 'Düşünceyi geliştirme yolunu ve gerekçesini tam yazma', points: 15 },
           { criterion: 'Yalnızca benzetme deyip gerekçeyi yazmama', points: 8 },
@@ -342,9 +342,9 @@ b) Yönü belirlemek, istikameti bulmak: .......................................
       title: 'Vaktin Kıymeti ve Yaşlı Bilge',
       author: 'Türkçe Ülküsü Yayınları (Özgün Deneme Metni)',
       source: '8. Sınıf Türkçe Dersi - MEBİ Hazırlık Metni Uyarlaması',
-      content: `Gençlikte tükenmez gibi görünen vakit, yaş ilerledikçe akıp giden bir su gibi azalacaktır. Yetmiş beş yaşına varan bir âlim, "Kabil olsa da köşe başlarında şapkamı gelene geçene uzatsam, boşa harcadıkları vakitleri içine atmaları için yalvarsam!" derken kendisi için ayrılmış zamanın bitmekte olduğunu ne çarpıcı anlatmıştır.
+      content: `Gençlikte hiç tükenmeyecekmiş gibi görünen zaman, yaş ilerledikçe akıp giden bir su gibi azalacaktır. Yetmiş beş yaşına ulaşan bir bilgin, "Elimden gelse de köşe başlarında şapkamı gelene geçene uzatsam, boşa harcadıkları vakitleri içine atmaları için rica etsem!" derken kendisi için ayrılmış zamanın bitmekte olduğunu ne çarpıcı anlatmıştır.
 
-Bir insanın içinde yaşadığı topluma faydalı olabilmesi; ancak gençliğinin kıymetini bilmesine, o çağlarda zamanını iyi değerlendirmesine ve zihinsel heybesini bilgiyle doldurmasına bağlıdır. "Gençlik bilse, ihtiyarlık yapabilse!" sözü bu hakikati özetler. İhtiyarlığın kudretli ve saygın olması, gençliğin üretken geçmesine dayanır. En güçlü yaşlılar, gençliklerini heba etmemiş olanlardır. Eğer bugün insanlık birilerinin önünde saygıyla eğiliyorsa, gençliğini ilimle yoğuranların önünde eğilmektedir.`
+Bir insanın içinde yaşadığı topluma faydalı olabilmesi; ancak gençliğinin değerini bilmesine, o çağlarda zamanını iyi değerlendirmesine ve zihin dağarcığını bilgiyle doldurmasına bağlıdır. "Gençlik bilse, yaşlılık yapabilse!" sözü bu gerçeği özetler. Yaşlılığın güçlü ve saygın olması, gençliğin üretken geçmesine dayanır. En saygın yaşlılar, gençlik yıllarını boşa harcamamış olanlardır. Eğer bugün insanlık birilerinin önünde saygıyla eğiliyorsa, gençliğini bilim ve bilgiyle yoğuranların önünde eğilmektedir.`
     },
     questions: [
       {
@@ -353,8 +353,8 @@ Bir insanın içinde yaşadığı topluma faydalı olabilmesi; ancak gençliğin
         outcomeCode: 'T.8.3.5',
         title: 'Bağlamdan Kelime Anlamı Bulma',
         points: 10,
-        prompt: 'Metinde geçen "kabil olmak" ve "heba etmek" deyimlerinin anlamlarını metnin bağlamından hareketle yazınız.',
-        expectedAnswer: 'Kabil olmak: Mümkün olmak, olanağı bulunmak, yapılabilmek.\nHeba etmek: Boşa harcamak, ziyan etmek, kıymetini bilmeyip yok etmek.',
+        prompt: 'Metinde geçen "elinden gelmek" ve "boşa harcamak" deyimlerinin anlamlarını metnin bağlamından hareketle yazınız.',
+        expectedAnswer: 'Elinden gelmek: Bir işi yapmaya gücü, olanağı yetmek, mümkün olmak.\nBoşa harcamak: Zamanı veya emeği yararsız yere tüketmek, kıymetini bilmeyip ziyan etmek.',
         rubric: [
           { criterion: 'Her iki ifadenin de anlamını doğru yazma', points: 10 },
           { criterion: 'Bir ifadenin anlamını doğru yazma', points: 5 },
@@ -369,7 +369,7 @@ Bir insanın içinde yaşadığı topluma faydalı olabilmesi; ancak gençliğin
         title: 'Fiilimsilerin İşlevlerini Kavrama',
         points: 10,
         prompt: `Metinde geçen aşağıdaki altı çizili sözcüklerin fiilimsi türlerini (isim-fiil, sıfat-fiil, zarf-fiil) belirleyiniz:
-a) "Gençlikte tükenmez gibi görünen vakit..." -> görünen: .......................................
+a) "...tükenmeyecekmiş gibi görünen zaman..." -> görünen: .......................................
 b) "...boşa harcadıkları vakitleri içine atmaları için..." -> atmaları: .......................................
 c) "...yaş ilerledikçe akıp giden bir su gibi..." -> ilerledikçe: .......................................`,
         expectedAnswer: 'a) Sıfat-fiil (Ortaç)\nb) İsim-fiil (Mastar)\nc) Zarf-fiil (Ulaç)',
@@ -388,7 +388,7 @@ c) "...yaş ilerledikçe akıp giden bir su gibi..." -> ilerledikçe: ..........
         title: 'Metindeki Anlatım Biçimlerini Belirleme',
         points: 10,
         prompt: 'Okuduğunuz metinde ağırlıklı olarak hangi anlatım biçimi (açıklayıcı, tartışmacı, betimleyici, öyküleyici) kullanılmıştır? Gerekçesiyle yazınız.',
-        expectedAnswer: 'Tartışmacı anlatım (veya Açıklayıcı anlatım). Yazar zamanın boşa harcanmaması konusundaki kişisel kanaatini okuyucuyla sohbet edercesine savunmuş, alıntı ve atasözleriyle fikrini desteklemiştir.',
+        expectedAnswer: 'Tartışmacı anlatım (veya Açıklayıcı anlatım). Yazar zamanın boşa harcanmaması konusundaki kişisel görüşünü okuyucuyla sohbet edercesine savunmuş, alıntı ve özdeyişlerle düşüncesini desteklemiştir.',
         rubric: [
           { criterion: 'Anlatım biçimini ve metne dayalı gerekçesini doğru yazma', points: 10 },
           { criterion: 'Yalnızca anlatım biçiminin adını yazma', points: 5 },
@@ -402,8 +402,8 @@ c) "...yaş ilerledikçe akıp giden bir su gibi..." -> ilerledikçe: ..........
         outcomeCode: 'T.8.3.14',
         title: 'Metinle İlgili Soruları Cevaplama',
         points: 15,
-        prompt: 'Metinde sözü edilen yetmiş beş yaşındaki âlimin insanlardan boşa harcadıkları vakitleri şapkasına atmalarını istemesiyle vurguladığı asıl düşünce nedir?',
-        expectedAnswer: 'Zamanın geri getirilemeyecek kadar kıymetli bir sermaye olduğu ve özellikle yaş kemale erdiğinde boşa harcanmış anların telafisinin imkânsızlığı vurgulanmaktadır.',
+        prompt: 'Metinde sözü edilen yetmiş beş yaşındaki bilginin insanlardan boşa harcadıkları vakitleri şapkasına atmalarını istemesiyle vurguladığı asıl düşünce nedir?',
+        expectedAnswer: 'Zamanın geri getirilemeyecek kadar değerli bir hazine olduğu ve özellikle yaş ilerlediğinde boşa harcanmış yılların telafisinin imkânsızlığı vurgulanmaktadır.',
         rubric: [
           { criterion: 'Zamanın geri dönülemezliği ve telafisiz değerini eksiksiz açıklama', points: 15 },
           { criterion: 'Kısmi açıklama', points: 8 },
@@ -432,8 +432,8 @@ c) "...yaş ilerledikçe akıp giden bir su gibi..." -> ilerledikçe: ..........
         outcomeCode: 'T.8.3.25',
         title: 'Okuduklarıyla İlgili Çıkarımda Bulunma',
         points: 15,
-        prompt: 'Metindeki "Eğer bugün insanlık birilerinin önünde saygıyla eğiliyorsa, gençliğini ilimle yoğuranların önünde eğilmektedir." sözünden hareketle nesnel ve öznel birer çıkarım yazınız.',
-        expectedAnswer: 'Öznel Çıkarım: Gençliğini ilim yoluna adayan insanlar dünyanın en hayranlık verici şahsiyetleridir.\nNesnel Çıkarım: Yazar, saygı görmenin gençlik döneminde edinilen bilgi ve üretkenlikle ilişkili olduğunu savunmaktadır.',
+        prompt: 'Metindeki "Eğer bugün insanlık birilerinin önünde saygıyla eğiliyorsa, gençliğini bilim ve bilgiyle yoğuranların önünde eğilmektedir." sözünden hareketle nesnel ve öznel birer çıkarım yazınız.',
+        expectedAnswer: 'Öznel Çıkarım: Gençliğini bilim yoluna adayan insanlar dünyanın en hayranlık verici kişileridir.\nNesnel Çıkarım: Yazar, saygı görmenin gençlik döneminde edinilen bilgi ve üretkenlikle ilişkili olduğunu savunmaktadır.',
         rubric: [
           { criterion: 'Öznel ve nesnel çıkarımları doğru şekilde yazma', points: 15 },
           { criterion: 'Yalnızca bir çıkarımı doğru yazma', points: 8 },
@@ -448,7 +448,7 @@ c) "...yaş ilerledikçe akıp giden bir su gibi..." -> ilerledikçe: ..........
         title: 'Metin Türlerini Ayırt Etme',
         points: 10,
         prompt: 'Okuduğunuz metnin türü (makale, deneme, fıkra, masal) nedir? İki kanıt göstererek açıklayınız.',
-        expectedAnswer: 'Metnin türü Denemedir.\n1. Kanıt: Yazarın zaman ve gençlik hakkındaki kişisel görüşlerini samimi ve içten bir üslupla kanıtlama zorunluluğu gütmeden paylaşması.\n2. Kanıt: Konunun kesin bilimsel terimlerle değil, bilge sözleri ve hayata dair felsefi sorgulamalarla ele alınması.',
+        expectedAnswer: 'Metnin türü Denemedir.\n1. Kanıt: Yazarın zaman ve gençlik hakkındaki kişisel görüşlerini samimi ve içten bir üslupla kanıtlama zorunluluğu gütmeden paylaşması.\n2. Kanıt: Konunun kesin bilimsel terimlerle değil, bilge sözleri ve hayata dair sorgulamalarla ele alınması.',
         rubric: [
           { criterion: 'Metin türünü (deneme) belirleyip iki geçerli kanıt gösterme', points: 10 },
           { criterion: 'Türü doğru bilip tek kanıt gösterme', points: 5 },
@@ -462,7 +462,7 @@ c) "...yaş ilerledikçe akıp giden bir su gibi..." -> ilerledikçe: ..........
         outcomeCode: 'T.8.3.34',
         title: 'Düşünceyi Geliştirme Yollarını Belirleme',
         points: 10,
-        prompt: 'Metinde yaşlı âlimin sözüne yer verilmesi ve "Gençlik bilse, ihtiyarlık yapabilse!" ifadesinin kullanılması hangi düşünceyi geliştirme yoluna örnektir?',
+        prompt: 'Metinde yaşlı bilginin sözüne yer verilmesi ve "Gençlik bilse, yaşlılık yapabilse!" ifadesinin kullanılması hangi düşünceyi geliştirme yoluna örnektir?',
         expectedAnswer: 'Tanık gösterme (Alıntı yapma) yoluna örnektir. Yazar savunduğu zaman fikrini pekiştirmek için alanında tanınmış bir bilgenin sözünü doğrudan aktarmıştır.',
         rubric: [
           { criterion: 'Tanık gösterme yolunu ve gerekçesini doğru yazma', points: 10 },
@@ -673,9 +673,9 @@ Mısır’da bir firavunun mezarında arkeologlar tarafından bulunan 3300 yıll
       title: 'Kör Kuyudaki Mücadele',
       author: 'Türkçe Ülküsü Yayınları (Özgün Fabl/Kıssa)',
       source: '8. Sınıf Türkçe Dersi - MEBİ Hazırlık Metni Uyarlaması',
-      content: `Günlerden bir gün, köylerden birinde bir çiftçinin emektar eşeği kör bir kuyuya düşer. Hayvan saatlerce acı içinde çırpınır ve feryat eder. Sesini duyan sahibi baktığında eşeği kuyunun dibinde çaresizce görür. Çiftçi köylüleri yardıma çağırır; fakat köylüler kuyunun çok derin olduğunu, hayvanı çıkarmanın imkânsız olduğunu söyleyerek üzerini toprakla doldurmaya karar verirler.
+      content: `Günlerden bir gün, köylerden birinde bir çiftçinin emektar eşeği susuz ve derin bir kör kuyuya düşer. Hayvan saatlerce acı içinde çırpınır ve bağırır. Sesini duyan sahibi baktığında eşeği kuyunun dibinde çaresizce görür. Çiftçi köylüleri yardıma çağırır; fakat köylüler kuyunun çok derin olduğunu, hayvanı çıkarmanın imkânsız olduğunu söyleyerek üzerini toprakla doldurmaya karar verirler.
 
-Herkes ellerine aldığı küreklerle kuyuya toprak atmaya başlar. Üzerine atılan toprakların ağırlığını hisseden eşek önce korkuya kapılır. Fakat çok geçmeden üzerine dökülen her kürek toprağı sırtından silkeleyip ayaklarının altına almaya başlar. Toprak döküldükçe eşek bir basamak daha yükselir. Sonunda kuyunun ağzına kadar tırmanarak dışarı çıkar. Hayat da bazen bizim üzerimize dertler ve engeller yağdırır; mühim olan o dertleri silkip ayağımızın altında basamak yapabilmektir.`
+Herkes ellerine aldığı küreklerle kuyuya toprak atmaya başlar. Üzerine atılan toprakların ağırlığını hisseden eşek önce korkuya kapılır. Fakat çok geçmeden üzerine dökülen her kürek toprağı sırtından silkeleyip ayaklarının altına almaya başlar. Toprak döküldükçe eşek bir basamak daha yükselir. Sonunda kuyunun ağzına kadar tırmanarak dışarı çıkar. Hayat da bazen bizim üzerimize sıkıntılar ve engeller yağdırır; önemli olan o sıkıntıları silkip ayağımızın altında basamak yapabilmektir.`
     },
     questions: [
       {
@@ -1083,9 +1083,9 @@ Sanatçı sadece kuru bilgiler öğretmek veya bazı doğruları dayatmak amacı
       title: 'Tarihin Taşlaşmış Şiiri: Mimar Sinan',
       author: 'Türkçe Ülküsü Yayınları (Özgün Makale/Deneme)',
       source: '8. Sınıf Türkçe Dersi - Klasik Sanatlarımız',
-      content: `Koca Sinan’ın eserlerine baktığınızda taşa can veren mimari bir dehanın ayak seslerini duyarsınız. Selimiye Camii’nin göğe uzanan dört minaresi ve devasa kubbesi, sadece teknik bir zafer değil; taşın zarafetle yoğrulduğu estetik bir mucizedir. Sinan, kubbeyi sekiz filayağı üzerine öyle bir hafiflikle oturtmuştur ki bina ağırlığını unutmuş gibidir.
+      content: `Mimar Sinan’ın eserlerine baktığınızda taşa can veren mimari bir ustalığın izlerini görürsünüz. Selimiye Camii’nin göğe uzanan dört minaresi ve büyük kubbesi, sadece teknik bir başarı değil; taşın zarafetle işlendiği estetik bir harikadır. Sinan, kubbeyi sekiz büyük taş sütun üzerine öyle bir hafiflikle oturtmuştur ki bina ağırlığını unutmuş gibidir.
 
-Geleneksel mimaride binalar yalnızca ibadet veya barınma amacıyla inşa edilmezdi. Çevreyle olan ahengi, rüzgârın yönü ve ışığın düşüş açısı matematiksel bir hassasiyetle hesaplanırdı. Selimiye’de kullanılan akustik düzen, imamın fısıltısının dahi binanın en arka köşesinden berrakça duyulmasını sağlar. İşte bu yüzden Sinan’ın yapıları birer bina değil; yüzyılları aşan taşlaşmış birer şiirdir.`
+Geleneksel mimaride binalar yalnızca ibadet veya barınma amacıyla inşa edilmezdi. Çevreyle olan uyumu, rüzgârın yönü ve ışığın düşüş açısı matematiksel bir özenle hesaplanırdı. Selimiye’de kullanılan akustik (ses yayılımı) düzeni, en alçak sesin bile binanın en arka köşesinden net biçimde duyulmasını sağlar. İşte bu yüzden Sinan’ın yapıları sıradan birer bina değil; yüzyılları aşan taşlaşmış birer şiirdir.`
     },
     questions: [
       {
@@ -1094,8 +1094,8 @@ Geleneksel mimaride binalar yalnızca ibadet veya barınma amacıyla inşa edilm
         outcomeCode: 'T.8.3.5',
         title: 'Bağlamdan Kelime Anlamı Bulma',
         points: 15,
-        prompt: 'Metinde geçen "filayağı" ve "akustik" terimlerinin anlamlarını açıklayınız.',
-        expectedAnswer: 'Filayağı: Büyük kubbeleri ve kemerleri taşımak için yapılan çok kalın, masif taş sütun.\nAkustik: Sesin bir mekân içerisindeki yankılanma, yayılma ve duyulma özelliklerini inceleyen fizik/mimari düzen.',
+        prompt: 'Metinde geçen "kubbe" ve "akustik" sözcüklerinin anlamlarını metnin bağlamından hareketle açıklayınız.',
+        expectedAnswer: 'Kubbe: Yapıların üstünü örtmek için kullanılan yarım küre biçimindeki mimari tavan örtüsü.\nAkustik: Sesin bir mekân içerisindeki yankılanma, yayılma ve net duyulma özelliği.',
         rubric: [
           { criterion: 'İki terimi de doğru açıklama', points: 15 },
           { criterion: 'Bir terimi doğru açıklama', points: 8 },
@@ -1215,7 +1215,7 @@ Geleneksel mimaride binalar yalnızca ibadet veya barınma amacıyla inşa edilm
       title: 'Galata Kulesi’nin Panoraması',
       author: 'Türkçe Ülküsü Yayınları (Özgün Anlatı)',
       source: '8. Sınıf Türkçe Dersi - MEBİ Hazırlık Metni Uyarlaması',
-      content: `(I) Galata Kulesi, İstanbul’un tarihî yarımadasını seyretmek amacıyla inşa edilen görkemli yapılardan biridir. (II) Cenevizliler tarafından fener ve gözetleme kulesi olarak yapılan bu eser, yüzyıllar boyunca birçok kez restore edildiği için günümüze kadar sağlam bir şekilde ulaşabilmiştir. (III) Kulenin en üst katına çıkarsanız İstanbul Boğazı’nın büyüleyici manzarasını panoramik olarak seyredebilirsiniz. (IV) İstanbul’un diğer tarihî yapılarına göre çok daha fazla yerli ve yabancı ziyaretçi çeken Galata Kulesi, şehrin silüetini süsleyen en gözde simgedir.`
+      content: `(I) Galata Kulesi, İstanbul’un tarihî yarımadasını seyretmek amacıyla inşa edilen görkemli yapılardan biridir. (II) Cenevizliler tarafından gözetleme kulesi olarak yapılan bu eser, yüzyıllar boyunca özenle korunarak günümüze kadar sağlam bir şekilde ulaşabilmiştir. (III) Kulenin en üst katına çıkarsanız İstanbul Boğazı’nın büyüleyici manzarasını bütünüyle seyredebilirsiniz. (IV) İstanbul’un diğer tarihî yapılarına göre çok daha fazla yerli ve yabancı ziyaretçi çeken Galata Kulesi, şehrin görünümünü süsleyen en gözde simgedir.`
     },
     questions: [
       {
@@ -1224,8 +1224,8 @@ Geleneksel mimaride binalar yalnızca ibadet veya barınma amacıyla inşa edilm
         outcomeCode: 'T.8.3.7',
         title: 'Söz Sanatlarını Tespit Etme',
         points: 10,
-        prompt: 'Metindeki "şehrin silüetini süsleyen en gözde simge" ifadesindeki söz sanatını ve kişileştirilen/benzetilen durumu açıklayınız.',
-        expectedAnswer: 'Kişileştirme veya Benzetme sanatı vardır. Kulenin bir şehri "süsleyen bir takı/figür" gibi düşünülmesi veya kuleye "en gözde" nitelemesi verilmesi sanatlı bir edebi ve kişileştirme söyleyişidir.',
+        prompt: 'Metindeki "şehrin görünümünü süsleyen en gözde simge" ifadesindeki söz sanatını ve kişileştirilen/benzetilen durumu açıklayınız.',
+        expectedAnswer: 'Kişileştirme veya Benzetme sanatı vardır. Kulenin bir şehri "süsleyen bir takı/figür" gibi düşünülmesi ve kuleye "en gözde" nitelemesi verilmesi sanatlı bir söyleyiş ve kişileştirmedir.',
         rubric: [
           { criterion: 'Söz sanatını ve gerekçesini doğru açıklama', points: 10 },
           { criterion: 'Yalnızca sanatın adını yazma', points: 5 },
@@ -1239,11 +1239,11 @@ Geleneksel mimaride binalar yalnızca ibadet veya barınma amacıyla inşa edilm
         outcomeCode: 'T.8.3.9',
         title: 'Fiilimsilerin İşlevlerini Kavrama',
         points: 15,
-        prompt: `Metinden aşağıdaki fiilimsileri bularak türlerini yazınız:
+        prompt: `Metinde geçen aşağıdaki fiilimsilerin türlerini (isim-fiil, sıfat-fiil, zarf-fiil) yazınız:
 • "seyretmek" -> .......................................
 • "yapılan" -> .......................................
-• "edildiği için" (edildik-te) -> .......................................`,
-        expectedAnswer: '• seyretmek: İsim-fiil (Mastar)\n• yapılan: Sıfat-fiil (Ortaç)\n• edildiği için (edildik): Sıfat-fiil veya Zarf-fiil öbeği (Sıfat-fiil eki alıp edatla zarflaşmıştır)',
+• "korunarak" -> .......................................`,
+        expectedAnswer: '• seyretmek: İsim-fiil (Mastar)\n• yapılan: Sıfat-fiil (Ortaç)\n• korunarak: Zarf-fiil (Ulaç)',
         rubric: [
           { criterion: '3 fiilimsi türünü de doğru belirtme', points: 15 },
           { criterion: '2 fiilimsiyi doğru belirtme', points: 10 },
@@ -1566,9 +1566,9 @@ Geleneksel mimaride binalar yalnızca ibadet veya barınma amacıyla inşa edilm
       title: 'Bozkırın Tezenesi Neşet Ertaş',
       author: 'Türkçe Ülküsü Yayınları (Özgün Sanatçı Biyografisi)',
       source: '8. Sınıf Türkçe Dersi - Kültür Hazinelerimiz',
-      content: `Bozkırın sarı sıcağında bağlamasının tellerine dokunduğunda yalnızca bir melodi değil, Anadolu insanının yüzyıllık çilesi, aşkı ve gurbet hasreti yankılanırdı. Neşet Ertaş; tevazusu, arı Türkçesi ve kalpten gelen sesiyle halkın gönlünde taht kurmuş ulu bir halk ozanıdır. O, "Gönülden gönüle bir yol vardır, görülmez." diyerek samimiyetin her türlü yapmacıklıktan üstün olduğunu kanıtlamıştır.
+      content: `Bozkırın sarı sıcağında bağlamasının tellerine dokunduğunda yalnızca bir ezgi değil, Anadolu insanının yüzyıllık emeği, sevdası ve gurbet özlemi yankılanırdı. Neşet Ertaş; alçak gönüllülüğü, duru Türkçesi ve içten sesiyle halkın gönlünde yer edinmiş büyük bir halk ozanıdır. O, "Gönülden gönüle bir yol vardır, görülmez." diyerek içtenliğin her türlü yapmacıklıktan üstün olduğunu kanıtlamıştır.
 
-Babası Muharrem Ertaş’tan devraldığı abdal geleneğini modern zamanlara taşırken sazına ve sözüne asla yabancı unsurlar karıştırmadı. Konserlerine başlarken dinleyicilerine "Ayaklarınızın turabıyım." diyecek kadar engin bir alçakgönüllülüğe sahipti. Onun türküleri, bozkırın kuru toprağında filizlenen en berrak sevgi çiçeğidir.`
+Babası Muharrem Ertaş’tan devraldığı ozanlık geleneğini günümüze taşırken sazına ve sözüne asla yabancı unsurlar karıştırmadı. Konserlerine başlarken dinleyicilerinin önünde ceketini ilikleyip "Saygıdeğer dinleyicilerim, hepinizi gönülden selamlıyorum." diyecek kadar derin bir alçak gönüllülüğe sahipti. Onun türküleri, bozkırın kuru toprağında filizlenen en berrak sevgi çiçeğidir.`
     },
     questions: [
       {
@@ -1578,7 +1578,7 @@ Babası Muharrem Ertaş’tan devraldığı abdal geleneğini modern zamanlara t
         title: 'Söz Sanatlarını Tespit Etme',
         points: 10,
         prompt: 'Metinde geçen "Onun türküleri, bozkırın kuru toprağında filizlenen en berrak sevgi çiçeğidir." cümlesindeki söz sanatını yazınız.',
-        expectedAnswer: 'Benzetme (Teşbih) veya İstiare sanatı kullanılmıştır. Türküler kuru toprakta açan bir sevgi çiçeğine benzetilmiştir.',
+        expectedAnswer: 'Benzetme (Teşbih) sanatı kullanılmıştır. Türküler kuru toprakta açan berrak bir sevgi çiçeğine benzetilmiştir.',
         rubric: [
           { criterion: 'Benzetme sanatını ve unsurlarını doğru yazma', points: 10 },
           { criterion: 'Yalnızca benzetme yazma', points: 5 },
@@ -1606,8 +1606,8 @@ Babası Muharrem Ertaş’tan devraldığı abdal geleneğini modern zamanlara t
         outcomeCode: 'T.8.3.14',
         title: 'Metinle İlgili Soruları Cevaplama',
         points: 10,
-        prompt: 'Neşet Ertaş konserlerine başlarken seyircilerine nasıl hitap ederdi ve bu onun hangi kişilik özelliğini gösterir?',
-        expectedAnswer: '"Ayaklarınızın turabıyım (toprağıyım)" diye hitap ederdi. Bu söz onun engin bir alçakgönüllülüğe, tevazuya ve halka duyduğu derin saygıya sahip olduğunu gösterir.',
+        prompt: 'Neşet Ertaş konserlerine başlarken dinleyicilerine nasıl bir davranış sergilerdi ve bu onun hangi kişilik özelliğini gösterir?',
+        expectedAnswer: 'Dinleyicilerinin önünde ceketini ilikleyerek onları gönülden selamlardı. Bu davranış onun derin bir alçak gönüllülüğe ve halka duyduğu büyük saygıya sahip olduğunu gösterir.',
         rubric: [
           { criterion: 'Hitabı ve alçakgönüllülük özelliğini tam yazma', points: 10 },
           { criterion: 'Kısmi yazma', points: 5 },
@@ -1622,7 +1622,7 @@ Babası Muharrem Ertaş’tan devraldığı abdal geleneğini modern zamanlara t
         title: 'Metinle İlgili Sorular Sorma',
         points: 10,
         prompt: 'Metnin içeriğiyle ilgili cevabı metinde olan bir analiz sorusu yazınız.',
-        expectedAnswer: 'Neşet Ertaş abdal geleneğini babasından devralıp sürdürürken sazına ve sözüne nasıl bir yaklaşım sergilemiştir?',
+        expectedAnswer: 'Neşet Ertaş ozanlık geleneğini babasından devralıp sürdürürken sazına ve sözüne nasıl bir yaklaşım sergilemiştir?',
         rubric: [
           { criterion: 'Nitelikli analiz sorusu yazma', points: 10 },
           { criterion: 'Basit soru yazma', points: 5 },

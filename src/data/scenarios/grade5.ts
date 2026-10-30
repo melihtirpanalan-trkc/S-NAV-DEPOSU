@@ -267,9 +267,9 @@ c) Yarışmada serçeyi ilk gören Ali 1( ) sırayı aldı.
       title: 'Miras Kalan Dokuma Tezgahı',
       author: 'Türkçe Ülküsü Yayınları (Özgün Kültür Metni)',
       source: '5. Sınıf Türkçe Dersi - Somut Olmayan Kültürel Miras',
-      content: `Isparta’nın eski bir mahallesinde yaşayan Fatma Nine, evin alt katındaki taş odada ahşap dokuma tezgahının başına geçerdi. Bu tezgah ona kendi annesinden, annesine de ninesinden kalmıştı. Parmakları yün ipleri mekikle buluştururken çıkardığı "tık-tık" sesleri evin neşesiydi. Fatma Nine, halılara sadece desen işlemez; Anadolu insanının sevincini, hüznünü ve doğaya olan sevgisini de nakşederdi. Her motifin bir dili vardı: Koçboynuzu gücü, hayat ağacı bereketi, su yolu ise ömrün akıp giden berraklığını simgelerdi.
+      content: `Isparta’nın eski bir mahallesinde yaşayan Fatma Nine, evin alt katındaki taş odada ahşap dokuma tezgâhının başına geçerdi. Bu tezgâh ona kendi annesinden, annesine de ninesinden kalmıştı. Parmakları yün ipleri mekikle buluştururken çıkardığı "tık-tık" sesleri evin neşesiydi. Fatma Nine, halılara sadece desen işlemez; Anadolu insanının sevincini, hüznünü ve doğaya olan sevgisini de ilmek ilmek dokurdu. Her motifin bir dili vardı: Koçboynuzu gücü, hayat ağacı bereketi, su yolu ise ömrün akıp giden berraklığını simgelerdi.
 
-Torunu Selim, okulda açılacak geleneksel el sanatları sergisi için ninesini hayranlıkla izliyordu. Fatma Nine ipleri tezgaha itinayla gerdi. Her düğümü tek tek kontrol etti, gevşek kalan ipleri tarağıyla sıkıca bastırdı. "Evladım," dedi, "sabırla dokunmayan halının deseni çabuk dağılır." Selim, sergide arkadaşlarına tanıtmak için halı motiflerinin anlamlarını küçük kartlara yazmaya başladı.`
+Torunu Selim, okulda açılacak geleneksel el sanatları sergisi için ninesini hayranlıkla izliyordu. Fatma Nine ipleri tezgâha özenle gerdi. Her düğümü tek tek kontrol etti, gevşek kalan ipleri tarağıyla sıkıca bastırdı. "Evladım," dedi, "sabırla dokunmayan halının deseni çabuk dağılır." Selim, sergide arkadaşlarına tanıtmak için halı motiflerinin anlamlarını küçük kartlara yazmaya başladı.`
     },
     questions: [
       {
@@ -278,10 +278,10 @@ Torunu Selim, okulda açılacak geleneksel el sanatları sergisi için ninesini 
         outcomeCode: 'T.O.5.5',
         title: 'Bağlamdan Kelime Anlamı Tahmini ve Ön Bilgi',
         points: 15,
-        prompt: `Metinde geçen "itinayla" kelimesini inceleyiniz:
+        prompt: `Metinde geçen "özenle" kelimesini inceleyiniz:
 a) Metinde bu kelimenin anlamını tahmin etmenizi sağlayan ipucunu yazınız.
 b) Bu kelimenin anlamını metnin bağlamından hareketle tahmin ederek yazınız.`,
-        expectedAnswer: 'a) Metindeki İpucu: Fatma Nine’nin her düğümü tek tek kontrol etmesi, gevşek kalan ipleri tarağıyla sıkıca bastırması.\nb) Tahminim: Büyük bir dikkatle, özen göstererek, titizlikle.',
+        expectedAnswer: 'a) Metindeki İpucu: Fatma Nine’nin her düğümü tek tek kontrol etmesi, gevşek kalan ipleri tarağıyla sıkıca bastırması.\nb) Tahminim: Büyük bir dikkatle, emek vererek, titizlikle.',
         rubric: [
           { criterion: 'İpucu ve anlam tahminini eksiksiz ve doğru yazma', points: 15 },
           { criterion: 'Yalnızca anlamı tahmin edip metin ipucunu yazmama', points: 8 },
@@ -926,7 +926,7 @@ Diğer çocuklar bahçedeki kamelyaların arkasına, spor salonunun köşesine v
         title: 'Metnin Yüzey Anlamı (Metnin Konusu)',
         points: 15,
         prompt: 'Okuduğunuz metnin konusunu (yüzey anlamını) belirleyerek bir cümleyle yazınız.',
-        expectedAnswer: 'Metnin konusu; çocukların mahallede saklambaç oynarken arkadaşları düştüğünde oyunu bırakıp ona yardım etmeleridir.',
+        expectedAnswer: 'Metnin konusu; çocukların teneffüste okul bahçesinde saklambaç oynarken arkadaşları düştüğünde oyunu bırakıp ona yardım etmeleridir.',
         rubric: [
           { criterion: 'Metnin konusunu eksiksiz ve doğru biçimde tek cümleyle belirleme', points: 15 },
           { criterion: 'Konuyu kısmen ifade etme veya eksik bırakma', points: 8 },

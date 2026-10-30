@@ -5,23 +5,25 @@ export const SCENARIO_1_EXAMS: ExamScenario[] = [
     id: 's1-e1',
     scenarioGroup: 'senaryo-1',
     scenarioGroupTitle: 'MEB Senaryo 1',
-    scenarioName: '1. Sınav (Yıldızlara Dokunan Eller)',
+    scenarioName: '1. Sınav (Dedemin Ceviz Fidanları)',
     examNumber: 1,
-    title: 'Yıldızlara Dokunan Eller',
-    theme: '1. Tema: Hayat Boyu Gelişim & Merak ve Azim',
+    title: 'Dedemin Ceviz Fidanları',
+    theme: '1. Tema: Doğa Sevgisi, Emek ve Geleceğe Miras',
     targetClass: '7. Sınıf',
     termInfo: '1. Dönem 1. Yazılı Sınavı',
     durationMinutes: 40,
     totalPoints: 100,
     readingPassage: {
-      title: 'Yıldızlara Dokunan Eller',
+      title: 'Dedemin Ceviz Fidanları',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
-      source: '7. Sınıf Türkçe Dersi - Bilim, Merak ve Azim',
-      content: `Köyün ucundaki taş evin çatı katı, on üç yaşındaki Murat için dünyanın en ilgi çekici sığınağıydı. Yaşıtları meydanda top koştururken ya da derenin kıyısında vakit öldürürken o, dedesinden kalma kırık bir dürbün merceğini güneşe tutar, ışığın kırılışını hayranlıkla incelerdi. Babası ise köyün marangozuydu; oğlunun da eline keseri alıp ahşaptan sağlam masalar yapmasını istiyordu. Fakat Murat’ın aklı fikri, gece olunca gökyüzünü kaplayan o parıltılı yıldızlardaydı.
+      source: '7. Sınıf Türkçe Dersi - Doğa Sevgisi, Emek ve Sorumluluk',
+      content: `Köyün yamaçlarındaki taşlı tarla, yıllardır ekilip biçilmediği için kurumuş otlarla kaplıydı. On üç yaşındaki Emre, hafta sonları dedesi Salih Amca’nın yanına gittiğinde onun hep aynı yamaçta kazma kürekle çalıştığını görürdü. Salih Amca, taşları tek tek temizliyor, açtığı çukurlara özenle ceviz fidanları dikiyordu. Yaşıtları kahvede oturup dinlenirken seksen yaşındaki dedesinin güneşin altında ter dökmesi Emre’yi şaşırtıyordu.
 
-Murat, ortaokulun kütüphanesine her gün uğramayı alışkanlık edindi. Fizik ve gök bilimine dair eline geçen her sayfayı bir solukta okuyor, anlamadığı kavramları öğretmeniyle paylaşıyordu. Ancak çıplak gözle ya da eski bir dürbünle göğün derinliklerini incelemek imkânsızdı; bir teleskoba ihtiyacı vardı. Köy şartlarında böyle bir aracı satın alabilmek çok zordu. Murat vazgeçmedi. Kasaba pazarındaki ikinci el tezgâhlarını günlerce dolaşarak eski bir soba borusu, kırık bir fotoğraf makinesi merceği ve metal bir halka buldu. Geceleri masa lambasının ışığında bu cam parçalarını saatlerce özenle parlatarak pürüzsüz hâle getirdi. Uykusuzluktan göz kapakları ağırlaşıyor, yorgunluktan hâlsiz düşüyordu ama gökyüzü tutkusu onu dimdik ayakta tutuyordu.
+Bir cumartesi günü Emre, elindeki su kovasını fidanların dibine bırakırken dayanamayıp sordu:
+— Dede, ceviz ağacı çok geç büyür derler. Bu fidanların büyüyüp meyve verdiğini belki de göremeyeceksin. Neden kendini bu kadar yoruyorsun?
 
-Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney ufkuna çevirdi. Merceğin ardından baktığında daha önce hiçbir gökyüzü haritasında görmediği, kuyruğundan mavimsi ışıklar saçan bir kuyruklu yıldızın süzüldüğünü gördü. Heyecanla soluğu kesildi; o dondurucu gecede elleri buz tutsa da yüreğinde sönmeyecek bir başarı ateşi yanmıştı.`
+Salih Amca, alnındaki teri elinin tersiyle sildi; şefkatle torununun omzuna dokundu:
+— Haklısın oğlum, belki ben bu ağaçların cevizini yiyemeyeceğim. Ama dün bizim gölgesinde dinlendiğimiz ulu çınarları da bizden öncekiler dikmişti. İnsan yalnızca kendi göreceği günler için çalışmaz; bizden sonra gelecek çocukların gölgesinde nefes alacağı bir doğa bırakmak hepimizin borcudur, dedi. Emre o an dedesinin nasırlı ellerine baktı; yorgun bedeni bükülse de yüreğinde hiç solmayan bir iyilik çiçeği açmıştı.`
     },
     questions: [
       {
@@ -34,16 +36,16 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından yararlanarak tahmin ediniz. Tahminlerinizi ve sizi bu tahmine götüren metin içi gerekçeleri yazınız.',
         subQuestions: [
           {
-            label: 'a. sığınak',
-            text: 'Metindeki: "Köyün ucundaki taş evin çatı katı, on üç yaşındaki Murat için dünyanın en ilgi çekici sığınağıydı." cümlesindeki "sığınak" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: İnsanın kendini huzurlu, güvende ve rahatsız edilmeden çalışabilecek durumda hissettiği özel yer.\n• Metin İçi Gerekçe: Murat\'ın çatı katında tek başına merceklerle deney yapıp gökyüzünü incelemesi.',
+            label: 'a. yamaç',
+            text: 'Metindeki: "Köyün yamaçlarındaki taşlı tarla, yıllardır ekilip biçilmediği için kurumuş otlarla kaplıydı." cümlesindeki "yamaç" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Bir dağın veya tepenin herhangi bir yanındaki eğimli yüzeyi, bayır.\n• Metin İçi Gerekçe: Köyün kenarındaki taşlı tarlanın bulunduğu eğimli araziyi ifade etmesi.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), metin içi somut gerekçe (3 Puan).'
           },
           {
-            label: 'b. parlatarak',
-            text: 'Metindeki: "...bu cam parçalarını saatlerce özenle parlatarak pürüzsüz hâle getirdi." cümlesindeki "parlatarak" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Bir nesnenin yüzeyini silip temizleyerek ışığı net geçirecek, parlak ve pürüzsüz duruma getirmek.\n• Metin İçi Gerekçe: Cümlenin devamındaki "pürüzsüz hâle getirdi" ifadesi ve mercek camı üzerinde çalışması.',
+            label: 'b. özenle',
+            text: 'Metindeki: "Salih Amca, taşları tek tek temizliyor, açtığı çukurlara özenle ceviz fidanları dikiyordu." cümlesindeki "özenle" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Bir işi elinden geldiğince iyi yapmaya çalışarak, dikkat ve itina göstererek.\n• Metin İçi Gerekçe: Salih Amca\'nın önce taşları tek tek temizlemesi ve fidanları zarar görmeyecek şekilde dikkatle dikmesi.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), metin içi somut gerekçe (4 Puan).'
           }
@@ -62,7 +64,7 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         points: 10,
         linesNeeded: 3,
         prompt: 'Okuduğunuz metnin konusunu bir cümleyle yazınız.',
-        expectedAnswer: 'Metnin konusu; gök bilimine büyük merak duyan Murat\'ın kısıtlı imkânlara rağmen azimle kendi teleskobunu yapması ve gökyüzünü keşfetme tutkusudur.',
+        expectedAnswer: 'Metnin konusu; seksen yaşındaki Salih Amca\'nın gelecek nesillere yeşil bir doğa bırakmak amacıyla taşlı yamaca sabırla ceviz fidanları dikmesi ve torunu Emre\'ye bu bilinci kazandırmasıdır.',
         rubric: [
           { criterion: 'Metnin konusunun ana fikre kaymadan, eksiksiz ve tek cümleyle ifade edilmesi', points: 10 }
         ]
@@ -74,11 +76,11 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         title: 'Metnin Derin Anlamı (Metnin Ana Fikri / İletisi)',
         points: 15,
         linesNeeded: 5,
-        prompt: 'Metnin son cümlesinde geçen "elleri buz tutsa da yüreğinde sönmeyecek bir başarı ateşi yanmıştı" ifadesindeki tezatlığı (zıtlığı) açıklayarak yazarın burada okuyucuya aktarmak istediği derin anlamı (metnin ana fikrini) değerlendiriniz.',
-        expectedAnswer: 'Fiziksel soğukluk ve dondurucu kış şartları zorlukları simgelerken, yürekte yanan ateş ise insanın içindeki ideali, manevi coşkuyu ve azmin getirdiği sarsılmaz inancı simgeler. Yazar, dış dünyanın engelleri ne kadar dondurucu ve zor olursa olsun, insanın içinde taşıdığı bilim sevgisi ve başarma tutkusunun her türlü engeli eritecek güçte olduğunu vurgulamaktadır.',
+        prompt: 'Salih Amca’nın "İnsan yalnızca kendi göreceği günler için çalışmaz; bizden sonra gelecek çocukların gölgesinde nefes alacağı bir doğa bırakmak hepimizin borcudur." sözünden ve metnin son cümlesinden hareketle yazarın okuyucuya aktarmak istediği derin anlamı (metnin ana fikrini) değerlendiriniz.',
+        expectedAnswer: 'İnsan, yalnızca kendi ömrüne ve çıkarına sığan işlerle yetinmemeli; kendisinden sonra yaşayacak insanların da yararlanacağı kalıcı güzellikler bırakmalıdır. Salih Amca\'nın bedeni yaşlılıktan yorulsa bile içindeki iyilik ve gelecek sevgisi onu dinç tutmaktadır. Metnin ana fikri; karşılık beklemeden gelecek kuşaklar için üretmenin ve doğayı yaşatmanın en yüce insanlık görevi olduğudur.',
         rubric: [
-          { criterion: 'Buz tutan eller ile yürekteki ateş zıtlığının doğru tahlil edilmesi', points: 8 },
-          { criterion: 'Fiziksel zorluklara karşı içsel azim ve inanç ilişkisinin üst düzey derinlikle açıklanması', points: 7 }
+          { criterion: 'Gelecek kuşaklara karşı sorumluluk ve karşılıksız iyilik mesajının doğru tahlil edilmesi', points: 8 },
+          { criterion: 'Bedenin yorgunluğu ile yürekteki iyilik sevgisi arasındaki derin anlamın açıklanması', points: 7 }
         ]
       },
       {
@@ -88,8 +90,8 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         title: 'Söz Varlığını Çözümleme - Sebep-Sonuç ve Deyimler',
         points: 15,
         linesNeeded: 5,
-        prompt: 'Metinde geçen "vakit öldürmek" deyiminin metne kattığı anlamı açıklayınız. Ayrıca metindeki olay akışından hareketle Murat’ın başarısını sağlayan temel "sebep" ve ortaya çıkan "sonuç" arasındaki mantıksal bağı yazınız.',
-        expectedAnswer: '• "Vakit öldürmek" deyimi: Zamanı yararsız, boş ve faydasız işlerle harcamak anlamındadır. Yazar, akranlarının zamanı boşa geçirmesi ile Murat\'ın üretkenliğini karşılaştırmak için kullanmıştır.\n• Sebep-Sonuç: Murat\'ın kütüphanede araştırma yapıp hurdalıklardan topladığı parçaları sabırla işlemesi (sebep), daha önce görmediği kuyruklu yıldızı keşfederek hedefine ulaşmasını (sonuç) sağlamıştır.',
+        prompt: 'Metinde geçen "ter dökmek" deyiminin metne kattığı anlamı açıklayınız. Ayrıca metindeki olay akışından hareketle Salih Amca’nın fidan dikmesinin temel "sebep" ve ortaya çıkan "sonuç" ilişkisini yazınız.',
+        expectedAnswer: '• "Ter dökmek" deyimi: Bir işi başarmak için çok yorulmak, büyük bir emek ve çaba harcamak anlamındadır.\n• Sebep-Sonuç: Geçmişteki insanların diktiği ağaçların gölgesinde bugün bizim dinlenmemiz ve gelecek nesillere yaşanabilir bir doğa bırakma sorumluluğu (sebep), Salih Amca\'nın ilerlemiş yaşına rağmen taşlı yamacı temizleyip ceviz fidanları dikmesini (sonuç) sağlamıştır.',
         rubric: [
           { criterion: 'Deyimin bağlamsal anlamının eksiksiz açıklanması', points: 7 },
           { criterion: 'Sebep ve sonuç bağıntısının metne dayalı olarak kurulması', points: 8 }
@@ -102,8 +104,8 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         title: 'İçerik ve Yapıya Yönelik Seçimleri Yönetme (Yazma)',
         points: 15,
         linesNeeded: 7,
-        prompt: '"Hayatta karşılaşılan engeller, insanı hedeflerinden vazgeçirmemeli; aksine yeni çözüm yolları aramaya sevk etmelidir." düşüncesini savunan; giriş, gelişme ve sonuç bölümlerinden oluşan kısa bir düşünce yazısı kaleme alınız.',
-        expectedAnswer: 'Örnek Yanıt: Başarıya giden yolda engeller kaçınılmazdır. Önemli olan bu engelleri birer duvar olarak değil, aşılması gereken birer basamak olarak görebilmektir. Tıpkı imkânsızlıklar içinde kendi teleskobunu yapan bir kâşif gibi, karşılaştığımız yokluklar bizi yıldırmamalı, üretkenliğe sevk etmelidir. Kararlılıkla çalışan insan için aşılamayacak hiçbir engel yoktur.',
+        prompt: '"İnsan yalnızca kendi yaşadığı günü değil, gelecek nesillerin yaşamını da güzelleştirmek için çalışmalıdır." düşüncesini savunan; giriş, gelişme ve sonuç bölümlerinden oluşan kısa bir düşünce yazısı kaleme alınız.',
+        expectedAnswer: 'Örnek Yanıt: Bugün üzerinde yaşadığımız vatan, okuduğumuz kitaplar ve gölgesinde serinlediğimiz ağaçlar bizden önceki kuşakların emeğiyle var olmuştur. Eğer atalarımız sadece kendi günlerini düşünseydi bugün elimizde hiçbir değer kalmazdı. Bizler de aynı sorumlulukla hareket etmeli; doğayı koruyarak, faydalı eserler üreterek yarının dünyasına katkıda bulunmalıyız. Çünkü gerçek insanlık, meyvesini başkalarının toplayacağını bilse bile toprağa fidan dikebilmektir.',
         rubric: [
           { criterion: 'Giriş, gelişme ve sonuç planına uygun tutarlı bir yapı kurulması', points: 8 },
           { criterion: 'Düşünceyi geliştirme yollarının etkili kullanımı ve akıcılık', points: 7 }
@@ -116,8 +118,8 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         title: 'Yazısını Zenginleştirecek Söz Varlığı Kullanımı',
         points: 15,
         linesNeeded: 6,
-        prompt: 'Aşağıda verilen metin başlangıcını; "öz güven, kararlılık, basamak" kelimelerini ve en az bir "benzetme" ile bir "ikileme"yi kullanarak anlamlı bir şekilde tamamlayınız:\n\n"Teleskobun parçalarını masaya dizdiğinde etrafındakiler onun başaramayacağını söylüyorlardı..."',
-        expectedAnswer: 'Örnek Metin: "Teleskobun parçalarını masaya dizdiğinde etrafındakiler onun başaramayacağını söylüyorlardı. Oysa o, içindeki ÖZ GÜVEN sayesinde hiçbir söze aldırmadı. Karşısına çıkan her engeli göklere ulaştıracak sağlam birer BASAMAK olarak gördü. Gece gündüz demeden, tırnaklarıyla kaza kaza parçaları birleştirdi. Gösterdiği KARARLILIK, karanlıkta parlayan bir kutup yıldızı gibi yolunu aydınlattı."',
+        prompt: 'Aşağıda verilen metin başlangıcını; "emek, umut, miras" kelimelerini ve en az bir "benzetme" ile bir "ikileme"yi kullanarak anlamlı bir şekilde tamamlayınız:\n\n"Toprağa dikilen her fidan, aslında geleceğe yazılmış sessiz bir mektuptur..."',
+        expectedAnswer: 'Örnek Metin: "Toprağa dikilen her fidan, aslında geleceğe yazılmış sessiz bir mektuptur. Alın teri ve büyük bir EMEK ile sulanan o küçük dallar, yıllar içinde büyüyerek koruyucu bir şemsiye gibi toprağı sarar. Yeşeren her yaprak, yarınlara duyulan sarsılmaz bir UMUT ışığıdır. Bizler de adım adım, yavaş yavaş doğayı yeşertmeliyiz ki çocuklarımıza bırakacağımız en değerli MİRAS yemyeşil ormanlar olsun."',
         rubric: [
           { criterion: 'Verilen 3 anahtar kelimenin yerinde ve doğru kullanımı', points: 7 },
           { criterion: 'Benzetme ve ikilemeye yer verilmesi, dil zenginliği', points: 8 }
@@ -134,15 +136,15 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         subQuestions: [
           {
             label: 'a. Üç Nokta (...) ve Kullanım Görevleri',
-            text: 'Aşağıdaki cümlelerde geçen üç noktanın (...) hangi görevle kullanıldığını altlarındaki boşluklara yazınız:\n1. "— Kapıyı çalan kimdi Murat?\n   — Ali Kuşçu Atölyesi\'nden bir usta..."\n   Kullanım Görevi: ........................................................................\n2. "Koca Yusuf!.. Çevir merceğini kutup yıldızına doğru!"\n   Kullanım Görevi: ........................................................................',
+            text: 'Aşağıdaki cümlelerde geçen üç noktanın (...) hangi görevle kullanıldığını altlarındaki boşluklara yazınız:\n1. "— Bu fidanları hangi bahçeden aldın Salih Amca?\n   — Kasabadaki fidanlıktan..."\n   Kullanım Görevi: ........................................................................\n2. "Emre!.. Çabuk su kovalarını çeşmeden doldurup getir!"\n   Kullanım Görevi: ........................................................................',
             expectedAnswer: '1. Cümle: Karşılıklı konuşmalarda yeterli olmayan, eksik bırakılan cevaplarda kullanılır.\n2. Cümle: Ünlem ve seslenmelerde anlatımı pekiştirmek için kullanılır. (Ünlem işaretinden sonra iki nokta konulması yeterlidir.)',
             points: 7,
             guideline: '1. kullanım görevi (4 Puan), 2. kullanım görevi (3 Puan).'
           },
           {
             label: 'b. Noktalı Virgül (;) ve Noktalama Uygulaması',
-            text: 'Aşağıdaki parçada yay ayraçla ( ) gösterilen yerlere uygun noktalama işaretlerini getiriniz ve noktalı virgülün (;) buradaki kullanım gerekçesini yazınız:\n"Murat; mercekleri, pirinç boruları, cam aynaları özenle dizdi ( ) çekiç, zımpara ve tutkalları ise yan tezgâha koydu ( ) Gökyüzü geceleri ne kadar da büyüleyiciydi ( )"\n• Noktalı virgülün (;) kullanım gerekçesi: .....................................................................',
-            expectedAnswer: '• Yay ayraçlara sırasıyla: ( ; ) ( . ) ( ! ) işaretleri gelmelidir.\n• Noktalı Virgülün (;) Kullanım Gerekçesi: Cümle içinde virgüllerle ayrılmış tür veya takımları (optik parçalar ile el aletleri) birbirinden ayırmak için konmuştur.',
+            text: 'Aşağıdaki parçada yay ayraçla ( ) gösterilen yerlere uygun noktalama işaretlerini getiriniz ve noktalı virgülün (;) buradaki kullanım gerekçesini yazınız:\n"Salih Amca; ceviz, badem, kestane fidanlarını yamaca dikti ( ) kazma, kürek ve su kovalarını ise ağacın altına bıraktı ( ) Yeşeren doğa ne kadar da huzur vericiydi ( )"\n• Noktalı virgülün (;) kullanım gerekçesi: .....................................................................',
+            expectedAnswer: '• Yay ayraçlara sırasıyla: ( ; ) ( . ) ( ! ) işaretleri gelmelidir.\n• Noktalı Virgülün (;) Kullanım Gerekçesi: Cümle içinde virgüllerle ayrılmış tür veya takımları (fidan türleri ile bahçe aletleri) birbirinden ayırmak için konmuştur.',
             points: 8,
             guideline: 'Ayraçların doğru doldurulması (4 Puan), noktalı virgül kuralının doğru açıklanması (4 Puan).'
           }

@@ -20,9 +20,9 @@ export const GRADE_6_EXAMS: ExamScenario[] = [
       title: 'Türkçenin Kökleri ve Ulu Çınar',
       author: 'Türkçe Ülküsü Yayınları (Özgün Kültür Metni)',
       source: '6. Sınıf Türkçe Dersi - Dilimizin Zenginlikleri',
-      content: `Türkçemiz, asırlar boyunca farklı coğrafyalarda yankılanmış, her devirde yeni kelimelerle zenginleşmiş ulu bir çınar gibidir. Dede Korkut’un kopuzundan Yunus Emre’nin duru dizelerine kadar bu dil, milletimizin sevinç ve hüzünlerini bağrında taşımıştır. Büyük yazarlarımız, unutulmaya yüz tutmuş sözleri yeniden gün ışığına çıkarmak için ömürlerini vermişlerdir. Bir dili özenle derleyip milletine armağan etmek, onlar için büyük bir itibar vesilesi olmuştur.
+      content: `Türkçemiz, yüzyıllar boyunca farklı coğrafyalarda yankılanmış, her dönemde yeni kelimelerle zenginleşmiş ulu bir çınar gibidir. Dede Korkut’un kopuzundan Yunus Emre’nin duru dizelerine kadar bu dil, milletimizin sevinç ve hüzünlerini bağrında taşımıştır. Büyük yazarlarımız, unutulmaya yüz tutmuş sözleri yeniden gün ışığına çıkarmak için ömürlerini vermişlerdir. Bir dili özenle derleyip milletine armağan etmek, onlar için büyük bir saygınlık kaynağı olmuştur.
 
-Kütüphanelerimizdeki eski yazmalarda ve dedelerimizin masallarında yaşayan kelimeler, geçmişle bugün arasında sağlam bir köprü vazifesi görür. Eğer bu kelimeleri konuşmalarımızdan ve yazılarımızdan çıkarırsak hafızamızı da kaybederiz. Aydınlık düşünceler ancak zengin bir kelime hazinesiyle выразить edilebilir. Dilini kaybeden bir toplum, kökleri kuruyan ulu bir ağaç gibi rüzgârın önünde savrulur.`
+Kütüphanelerimizdeki eski eserlerde ve dedelerimizin masallarında yaşayan kelimeler, geçmişle bugün arasında sağlam bir köprü görevi görür. Eğer bu kelimeleri konuşmalarımızdan ve yazılarımızdan çıkarırsak toplumsal hafızamızı da kaybederiz. Aydınlık düşünceler ancak zengin bir kelime hazinesiyle açıkça ifade edilebilir. Dilini kaybeden bir toplum, kökleri kuruyan ulu bir ağaç gibi rüzgârın önünde savrulur.`
     },
     questions: [
       {
@@ -31,8 +31,8 @@ Kütüphanelerimizdeki eski yazmalarda ve dedelerimizin masallarında yaşayan k
         outcomeCode: 'T.O.6.5',
         title: 'Bağlamdan Kelime Anlamı Tahmini ve Gerekçe',
         points: 15,
-        prompt: 'Metinde koyu yazılmış "itibar" kelimesinin anlamını metnin bağlamından hareketle tahmin ediniz. Tahmininizi yazarken metindeki hangi ifadeden yararlandığınızı da belirtiniz.',
-        expectedAnswer: 'Tahminim: Saygınlık, değer görme, güvenilirlik.\nMetindeki İpucu: "Bir dili özenle derleyip milletine armağan etmek" ifadesi, yazarların bu asil ve faydalı çalışma sayesinde toplumda büyük bir saygınlık kazandığını düşündürür.',
+        prompt: 'Metinde geçen "saygınlık" kelimesinin anlamını metnin bağlamından hareketle tahmin ediniz. Tahmininizi yazarken metindeki hangi ifadeden yararlandığınızı da belirtiniz.',
+        expectedAnswer: 'Tahminim: Toplum içinde değer görme, saygı uyandırma, güvenilir olma durumu.\nMetindeki İpucu: "Bir dili özenle derleyip milletine armağan etmek" ifadesi, yazarların bu değerli çalışma sayesinde toplumda büyük bir saygı ve değer kazandığını göstermektedir.',
         rubric: [
           { criterion: 'Tahmini ve metindeki ipucu gerekçesini eksiksiz yazma', points: 15 },
           { criterion: 'Yalnızca tahmini doğru yazıp metin ifadesini belirtmeme', points: 8 },
@@ -236,9 +236,9 @@ b) "Aydınlanmak" sözcüğünü bu anlamıyla uyumlu olacak şekilde yeni ve ö
         outcomeCode: 'T.Y.6.21',
         title: 'Yazım Kuralları ve Noktalama',
         points: 20,
-        prompt: `a) "Sözlükte ki kelimeleri inceledim ancak bazılarını bulamadım da not aldım." cümlesindeki yazım yanlışlarını bulunuz ve doğrularını yazınız.
+        prompt: `a) "Sözlükte ki kelimeleri inceledim ve yeni öğrendiğim sözcükleride defterime not aldım." cümlesindeki iki yazım yanlışını bulunuz ve doğrularını yazınız.
 b) "Ünlü yazar, diline sahip çıkmayan bir millet geleceğini kaybeder, dedi." cümlesindeki virgüllerin (,) kullanılma gerekçesini yazınız.`,
-        expectedAnswer: 'a) 1. "Sözlükte ki" bitişik yazılmalıdır -> "Sözlükteki" (Sıfat yapan -ki ekidir).\n2. "bulamadım da" -> "bulamadım da" (Burada de bağlaçtır doğru, ancak "bulamadım da" değil "bulamadığımdan" veya bağlaç yazımı ayrıdır).\nb) Virgüller tırnak içine alınmamış alıntı cümlesini belirtmek için kullanılmıştır.',
+        expectedAnswer: 'a) 1. "Sözlükte ki" bitişik yazılmalıdır -> "Sözlükteki" (Sıfat yapan -ki ekidir).\n2. "sözcükleride" ayrı yazılmalıdır -> "sözcükleri de" (Bağlaç olan "de" ayrı yazılır).\nb) Virgüller tırnak içine alınmamış alıntı cümlesini belirtmek için kullanılmıştır.',
         rubric: [
           { criterion: 'Yazım yanlışını ve tırnak dışı alıntı cümlesi gerekçesini doğru yazma', points: 20 },
           { criterion: 'Yalnızca bir bölümü doğru yapma', points: 10 },
@@ -514,8 +514,8 @@ b) "Ünlü seyyah, Türk lokumu damaklarda unutulmaz bir iz bırakır, der." cü
     readingPassage: {
       title: 'Yunus Emre ve Gönül Dili',
       author: 'Türkçe Ülküsü Yayınları (Özgün Kültür Metni)',
-      source: '6. Sınıf Türkçe Dersi - Tasavvuf ve Türk Dili',
-      content: `Anadolu bilgelerinden Yunus Emre, asırlar boyunca insanları sevgiye, kardeşliğe ve hoşgörüye çağırmıştır. Şiirlerinde sarayların ağdalı dilini değil, halkın konuştuğu arı ve duru Türkçeyi kullanmıştır. Sözün gücünü şu eşsiz dizeyle dile getirir: "Söz ola kese savaşı, söz ola kestire başı." O bilirdi ki tatlı dille çözülemeyecek hiçbir sorun, eritilemeyecek hiçbir buz dağı yoktur. 
+      source: '6. Sınıf Türkçe Dersi - Sevgi ve Türk Dili',
+      content: `Anadolu bilgelerinden Yunus Emre, yüzyıllar boyunca insanları sevgiye, kardeşliğe ve hoşgörüye çağırmıştır. Şiirlerinde anlaşılması güç ve ağır bir dil yerine, halkın konuştuğu arı ve duru Türkçeyi kullanmıştır. Sözün gücünü şu eşsiz dizeyle dile getirir: "Söz ola kese savaşı, söz ola kestire başı." O bilirdi ki tatlı dille çözülemeyecek hiçbir sorun, eritilemeyecek hiçbir buz dağı yoktur. 
 
 Günümüzde Türk Dil Kurumunun yayımladığı eserlerde de Yunus Emre’nin bu birleştirici dili övgüyle anlatılır. O, sözcükleri birer tohum gibi Anadolu toprağına serpmiş; bu tohumlardan sevgi ve barış ormanları yeşermiştir. Peki, bizler onun öğütlerine kulak veriyor muyuz? Evet, bizler de sözlerimizi tartarak konuşmalı, dilimizi bir kavga aracı değil bir gönül köprüsü kılmalıyız.`
     },
@@ -527,7 +527,7 @@ Günümüzde Türk Dil Kurumunun yayımladığı eserlerde de Yunus Emre’nin b
         title: 'Kelime Anlamı Tahmini ve İpucu',
         points: 15,
         prompt: 'Metinde geçen "arı Türkçe" ifadesindeki "arı" sözcüğünün anlamını metnin bağlamından hareketle tahmin ediniz ve tahmini yapmanızı sağlayan karşıt durumu belirtiniz.',
-        expectedAnswer: 'Tahminim: Yabancı etkilerden uzak, saf, temiz, katıksız, duru.\nKarşıt Durum İpucu: Metinde sarayların yabancı kelimelerle dolu "ağdalı" dilinin karşısında halkın konuştuğu temiz Türkçe olarak verilmesi.',
+        expectedAnswer: 'Tahminim: Yabancı etkilerden uzak, saf, temiz, katıksız, anlaşılır.\nKarşıt Durum İpucu: Metinde "anlaşılması güç ve ağır bir dil" ifadesinin karşısında halkın konuştuğu temiz ve duru Türkçe olarak verilmesi.',
         rubric: [
           { criterion: 'Tahmini ve karşıtlık ipucunu eksiksiz yazma', points: 15 },
           { criterion: 'Yalnızca tahmini yazma', points: 8 },
@@ -641,7 +641,7 @@ b) "Evet (1) bizler de onun öğütlerine kulak vermeliyiz. Sözlerimizi tartara
       source: '6. Sınıf Türkçe Dersi - Değerlerimiz',
       content: `Geleneksel Türk mahalle kültüründe komşuluk, kan bağından farksız güçlü bir bağdır. Evlerde pişen sıcak bir çorbanın kokusu mahalleye yayıldığında bir kâse de mutlaka yan komşuya gönderilirdi. Çünkü atalarımız, "Komşu komşunun külüne muhtaçtır." diyerek en küçük bir ihtiyacımızda bile birbirimize destek olmamız gerektiğini hatırlatmışlardır. 
 
-Kapısı herkese açık olan cömert komşular, mahallenin emniyet supabıydı. Hastalanan birinin kapısı çalınır, çarşıdan dönerken eli kolu poşetlerle dolu yaşlı bir amca görüldüğünde el ele verilip poşetleri taşınırdı. Konu komşu bir araya geldiğinde dertler paylaşılır, sevinçler ikiye katlanırdı. Günümüzde apartman katlarında birbirini tanımayan insanların çoğalması, bu güzel yardımlaşma kültürümüzü unutturmamalıdır.`
+Kapısı herkese açık olan cömert komşular, mahallenin en büyük güvencesiydi. Hastalanan birinin kapısı çalınır, çarşıdan dönerken eli kolu poşetlerle dolu yaşlı bir amca görüldüğünde el ele verilip poşetleri taşınırdı. Konu komşu bir araya geldiğinde dertler paylaşılır, sevinçler ikiye katlanırdı. Günümüzde apartman katlarında birbirini tanımayan insanların çoğalması, bu güzel yardımlaşma kültürümüzü unutturmamalıdır.`
     },
     questions: [
       {
@@ -996,9 +996,9 @@ b) "Leylekler yoruldukça (1) dinlenir (2) gökyüzünde düzeni korurlar." cüm
       title: 'Tarihi Çarşıda Bakır Sesleri',
       author: 'Türkçe Ülküsü Yayınları (Özgün Sanat Metni)',
       source: '6. Sınıf Türkçe Dersi - Somut Kültürel Miras',
-      content: `Gaziantep’in dar sokaklı Bakırcılar Çarşısı’na adım attığınızda havayı çekiçlerin ritmik sesleri doldurur. Kazım Usta, yarım asırdır küçük tezgâhında kızıl bakır levhaları çelik kalemlerle işleyen son ustalardan biridir. Bir tencere kapağına işlediği selvi motifi, sabrın ve el emeğinin eşsiz bir abidesidir. Kazım Usta, "Bakıra vururken gönlündeki sevgiyi katmazsan çekiçten çıkan ses gürültü olur; sevgiyle vurursan musikiye dönüşür." der.
+      content: `Gaziantep’in dar sokaklı Bakırcılar Çarşısı’na adım attığınızda havayı çekiçlerin ritmik sesleri doldurur. Kazım Usta, yarım asırdır küçük tezgâhında kızıl bakır levhaları çelik kalemlerle işleyen son ustalardan biridir. Bir tencere kapağına işlediği selvi motifi, sabrın ve el emeğinin eşsiz bir eseridir. Kazım Usta, "Bakıra vururken gönlündeki sevgiyi katmazsan çekiçten çıkan ses gürültü olur; sevgiyle vurursan ezgiye dönüşür." der.
 
-Çırağı Ömer, ustanın her vuruşunu dikkatle izler. Bakır dövülürken kızgın ateşte tavlanır, ardından soğuk suda dinlendirilir. Kazım Usta acele etmez; çekiç darbelerini milim milim hesaplayarak vurur. Günümüzde fabrikasyon alüminyum kaplar çoğalsa da bakır kapların sunduğu sağlık, dayanıklılık ve estetik değer yerini hiçbir şeye bırakmaz.`
+Çırağı Ömer, ustanın her vuruşunu dikkatle izler. Bakır dövülürken kızgın ateşte tavlanır, ardından soğuk suda dinlendirilir. Kazım Usta acele etmez; çekiç darbelerini milim milim hesaplayarak vurur. Günümüzde fabrika üretimi alüminyum kaplar çoğalsa da bakır kapların sunduğu sağlık, dayanıklılık ve estetik değer yerini hiçbir şeye bırakmaz.`
     },
     questions: [
       {
@@ -1052,8 +1052,8 @@ b) "Leylekler yoruldukça (1) dinlenir (2) gökyüzünde düzeni korurlar." cüm
         outcomeCode: 'T.O.6.21',
         title: 'Söz Varlığı Geliştirme (Söz Öbeği Anlamı ve İşlevi)',
         points: 15,
-        prompt: 'Metinde geçen "el emeğinin eşsiz bir abidesi" söz öbeğinin metne kattığı anlamı açıklayınız.',
-        expectedAnswer: 'İnsanın sabırla, sevgiyle ve alın teriyle ürettiği, yıllarca değerini kaybetmeyecek, hayranlık uyandıran kalıcı ve abidevi bir sanat eseri olduğunu ifade eder.',
+        prompt: 'Metinde geçen "el emeğinin eşsiz bir eseri" söz öbeğinin metne kattığı anlamı açıklayınız.',
+        expectedAnswer: 'İnsanın sabırla, sevgiyle ve alın teriyle ürettiği, yıllarca değerini kaybetmeyecek, hayranlık uyandıran kalıcı ve değerli bir sanat ürünü olduğunu ifade eder.',
         rubric: [
           { criterion: 'Söz öbeğinin sabır, el emeği ve kalıcılık anlamını eksiksiz açıklama', points: 15 },
           { criterion: 'Kısmi açıklama', points: 8 },
@@ -1393,9 +1393,9 @@ b) "Safranbolu evleri taştan (1) ahşaptan (2) kerpiçten yapılmıştır." cü
       title: 'Kuş Evlerinin Şefkati',
       author: 'Türkçe Ülküsü Yayınları (Özgün Kültür Metni)',
       source: '6. Sınıf Türkçe Dersi - Osmanlı Mimarisi ve Merhamet',
-      content: `Osmanlı döneminde camilerin, medreselerin, köprülerin ve kütüphanelerin rüzgâr almayan güneşli cephelerine minik ahşap ya da taş köşkler yapılırdı. Bu zarif yapılara "kuş sarayı" veya "kuş evi" denirdi. Bu küçük evler; serçelerin, güvercinlerin ve kırlangıçların kışın dondurucu ayazından, yazın ise kavurucu sıcağından korunmasını sağlardı.
+      content: `Osmanlı döneminde camilerin, medreselerin, köprülerin ve kütüphanelerin rüzgâr almayan güneşli cephelerine minik ahşap ya da taş köşkler yapılırdı. Bu zarif yapılara "kuş sarayı" veya "kuş evi" denirdi. Bu küçük evler; serçelerin, güvercinlerin ve kırlangıçların kışın dondurucu soğuğundan, yazın ise kavurucu sıcağından korunmasını sağlardı.
 
-Kuş evleri rastgele yerlere kondurulmazdı. Kedilerin ve yırtıcı hayvanların ulaşamayacağı yüksekliklere, yağmur sularının girmeyeceği saçak altlarına özenle oyulurdu. Minik minareleri, pencereleri ve kubbeleriyle adeta asıl yapının minyatür bir kopyası gibiydiler. Bu mimari gelenek, ecdadımızın yalnızca insanlara değil, doğadaki en savunmasız canlılara dahi şefkat ve merhametle yaklaştığının taşa kazınmış belgesidir.`
+Kuş evleri rastgele yerlere kondurulmazdı. Kedilerin ve yırtıcı hayvanların ulaşamayacağı yüksekliklere, yağmur sularının girmeyeceği saçak altlarına özenle oyulurdu. Minik minareleri, pencereleri ve kubbeleriyle adeta asıl yapının küçültülmüş bir örneği gibiydiler. Bu mimari gelenek, atalarımızın yalnızca insanlara değil, doğadaki en savunmasız canlılara bile şefkat ve merhametle yaklaştığının taşa kazınmış belgesidir.`
     },
     questions: [
       {

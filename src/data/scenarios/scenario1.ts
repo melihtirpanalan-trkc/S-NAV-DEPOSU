@@ -17,11 +17,11 @@ export const SCENARIO_1_EXAMS: ExamScenario[] = [
       title: 'Yıldızlara Dokunan Eller',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
       source: '7. Sınıf Türkçe Dersi - Bilim, Merak ve Azim',
-      content: `Köyün ucundaki taş evin çatı katı, on üç yaşındaki Murat için dünyanın en gizemli sığınağıydı. Akranları meydanda top koştururken ya da derenin kıyısında vakit öldürürken o, dedesinden kalma kırık bir dürbün merceğini güneşe tutar, ışığın kırılışını hayranlıkla incelerdi. Babası ise köyün marangozuydu; oğlunun da eline keseri alıp tahtadan yontulmuş masalar yapmasını arzuluyordu. Fakat Murat’ın aklı fikri, gece olunca gökyüzünü kaplayan o parıltılı noktalardaydı.
+      content: `Köyün ucundaki taş evin çatı katı, on üç yaşındaki Murat için dünyanın en ilgi çekici sığınağıydı. Yaşıtları meydanda top koştururken ya da derenin kıyısında vakit öldürürken o, dedesinden kalma kırık bir dürbün merceğini güneşe tutar, ışığın kırılışını hayranlıkla incelerdi. Babası ise köyün marangozuydu; oğlunun da eline keseri alıp ahşaptan sağlam masalar yapmasını istiyordu. Fakat Murat’ın aklı fikri, gece olunca gökyüzünü kaplayan o parıltılı yıldızlardaydı.
 
-Murat, ortaokulun kütüphanesine âdeta dadandı. Fizik ve gök bilimine dair eline geçen her sayfayı bir solukta okuyor, anlamadığı terimleri öğretmeniyle paylaşıyordu. Ancak çıplak gözle ya da eski bir dürbünle göğün derinliklerine ulaşmak imkânsızdı; bir teleskoba ihtiyacı vardı. Köy şartlarında böyle bir aleti satın alabilmek hayalden bile uzaktı. Murat pes etmedi. Kasaba pazarındaki hurdalıkları günlerce dolaşarak eski bir soba borusu, kırık bir fotoğraf makinesi merceği ve pirinç bir halka buldu. Geceleri gaz lambasının titrek alevinde bu cam parçalarını saatlerce perdahlayarak pürüzsüz hâle getirdi. Uykusuzluktan göz kapakları ağırlaşıyor, yorgunluktan bitap düşüyordu ama gökyüzü tutkusu onu dimdik ayakta tutuyordu.
+Murat, ortaokulun kütüphanesine her gün uğramayı alışkanlık edindi. Fizik ve gök bilimine dair eline geçen her sayfayı bir solukta okuyor, anlamadığı kavramları öğretmeniyle paylaşıyordu. Ancak çıplak gözle ya da eski bir dürbünle göğün derinliklerini incelemek imkânsızdı; bir teleskoba ihtiyacı vardı. Köy şartlarında böyle bir aracı satın alabilmek çok zordu. Murat vazgeçmedi. Kasaba pazarındaki ikinci el tezgâhlarını günlerce dolaşarak eski bir soba borusu, kırık bir fotoğraf makinesi merceği ve metal bir halka buldu. Geceleri masa lambasının ışığında bu cam parçalarını saatlerce özenle parlatarak pürüzsüz hâle getirdi. Uykusuzluktan göz kapakları ağırlaşıyor, yorgunluktan hâlsiz düşüyordu ama gökyüzü tutkusu onu dimdik ayakta tutuyordu.
 
-Soğuk bir kasım gecesi, teneke çatının üstünde el yapımı teleskobunu güney ufkuna çevirdi. Merceğin ardından baktığında daha önce hiçbir atlas üzerinde görmediği, kuyruğundan mavimsi ışıklar saçan bir yıldızın süzüldüğünü gördü. Heyecanla soluğu kesildi; o dondurucu gecede elleri buz tutsa da yüreğinde sönmeyecek bir başarı ateşi yanmıştı.`
+Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney ufkuna çevirdi. Merceğin ardından baktığında daha önce hiçbir gökyüzü haritasında görmediği, kuyruğundan mavimsi ışıklar saçan bir kuyruklu yıldızın süzüldüğünü gördü. Heyecanla soluğu kesildi; o dondurucu gecede elleri buz tutsa da yüreğinde sönmeyecek bir başarı ateşi yanmıştı.`
     },
     questions: [
       {
@@ -34,16 +34,16 @@ Soğuk bir kasım gecesi, teneke çatının üstünde el yapımı teleskobunu g�
         prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından yararlanarak tahmin ediniz. Tahminlerinizi ve sizi bu tahmine götüren metin içi gerekçeleri yazınız.',
         subQuestions: [
           {
-            label: 'a. dadandı',
-            text: 'Metindeki: "Murat, ortaokulun kütüphanesine âdeta dadandı." cümlesindeki "dadandı" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Bir yere çok sık gitmeyi alışkanlık hâline getirmek, oradan ayrılamamak.\n• Metin İçi Gerekçe: Murat\'ın kütüphanedeki kitapları durmaksızın ve büyük bir hevesle okuması.',
+            label: 'a. sığınak',
+            text: 'Metindeki: "Köyün ucundaki taş evin çatı katı, on üç yaşındaki Murat için dünyanın en ilgi çekici sığınağıydı." cümlesindeki "sığınak" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: İnsanın kendini huzurlu, güvende ve rahatsız edilmeden çalışabilecek durumda hissettiği özel yer.\n• Metin İçi Gerekçe: Murat\'ın çatı katında tek başına merceklerle deney yapıp gökyüzünü incelemesi.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), metin içi somut gerekçe (3 Puan).'
           },
           {
-            label: 'b. perdahlayarak',
-            text: 'Metindeki: "...bu cam parçalarını saatlerce perdahlayarak pürüzsüz hâle getirdi." cümlesindeki "perdahlayarak" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Bir nesnenin yüzeyini överek düzeltmek, cilalayarak pürüzsüz duruma getirmek.\n• Metin İçi Gerekçe: Cümlenin devamındaki "pürüzsüz hâle getirdi" ifadesi.',
+            label: 'b. parlatarak',
+            text: 'Metindeki: "...bu cam parçalarını saatlerce özenle parlatarak pürüzsüz hâle getirdi." cümlesindeki "parlatarak" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Bir nesnenin yüzeyini silip temizleyerek ışığı net geçirecek, parlak ve pürüzsüz duruma getirmek.\n• Metin İçi Gerekçe: Cümlenin devamındaki "pürüzsüz hâle getirdi" ifadesi ve mercek camı üzerinde çalışması.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), metin içi somut gerekçe (4 Puan).'
           }
@@ -171,12 +171,12 @@ Soğuk bir kasım gecesi, teneke çatının üstünde el yapımı teleskobunu g�
       title: 'Çini Fırınında Parlayan Düşler',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
       source: '7. Sınıf Türkçe Dersi - Geleneksel Sanatlarımız ve Kültürel Miras',
-      content: `İznik’in dar sokaklarında çekiç ve fırça sesleri asırlardır birbirine karışırdı. On dört yaşındaki Kerem, dedesi Şükrü Usta’nın çini atölyesinde çıraklık yapıyordu. Atölye; killi toprak, kobalt mavisi boyalar ve kuruyan tabakların yaydığı tebeşir kokusuyla doluydu. Akranları dışarıda telefon oyunlarıyla oyalanırken Kerem, parmaklarının ucundaki samur fırçayla beyaz sırçalı tabağın üzerine lale motifleri konduruyordu. Fakat çizgileri bazen titriyor, bazen boya taşarak zarafeti bozuyordu.
+      content: `İznik’in dar sokaklarında çekiç ve fırça sesleri yüzyıllardır birbirine karışırdı. On dört yaşındaki Kerem, dedesi Şükrü Usta’nın çini atölyesinde çıraklık yapıyordu. Atölye; killi toprak, koyu mavi boyalar ve kuruyan tabakların yaydığı toprak kokusuyla doluydu. Yaşıtları dışarıda telefon oyunlarıyla oyalanırken Kerem, parmaklarının ucundaki ince fırçayla parlak kaplamalı beyaz tabağın üzerine lale motifleri çiziyordu. Fakat çizgileri bazen titriyor, bazen boya taşarak görünümü bozuyordu.
 
 Şükrü Usta tezgâhın başından usulca kalktı; torununun omzuna elini koydu:
-— Kerem oğul, çiniye fırça vurmak sabır işidir. Toprak yoğrulmadan seramik olmaz, boya fırında yanmadan o mercan kırmızısını vermez. İnsan da böyledir; karşılaştığı zorlukların fırınında piştikçe olgunlaşır, dedi.
+— Kerem oğlum, çiniye fırça vurmak sabır işidir. Toprak yoğrulmadan seramik olmaz, boya fırında pişmeden o canlı kırmızısını vermez. İnsan da böyledir; karşılaştığı zorlukların fırınında piştikçe olgunlaşır, dedi.
 
-Kerem o gün dedesinin sözlerini aklına nakşetti. Haftalarca yılmadan fırça tutuşunu düzeltti, sabırla boyaları karıştırdı. Nihayet dedesinin sekseninci yaş günü için geceler boyu gizlice çalıştığı tabağı fırına verdi. Ertesi gün fırının kapağı açıldığında atölyenin loş ışığında parlayan bir şaheser belirdi: Masmavi bir zemin üstünde alev gibi kıvrılan nar taneleri ve laleler... Şükrü Usta tabağı eline aldığında gözleri nemlendi; çünkü toprak bu kez yalnızca bir tabak değil, kuşaktan kuşağa aktarılan bir ruh doğurmuştu.`
+Kerem o gün dedesinin sözlerini zihnine iyice yerleştirdi. Haftalarca yılmadan fırça tutuşunu düzeltti, sabırla boyaları karıştırdı. Sonunda dedesinin sekseninci yaş günü için geceler boyu özenle çalıştığı tabağı fırına verdi. Ertesi gün fırının kapağı açıldığında atölyenin ışığında parlayan eşsiz bir eser belirdi: Masmavi bir zemin üstünde alev gibi kıvrılan nar taneleri ve laleler... Şükrü Usta tabağı eline aldığında gözleri nemlendi; çünkü toprak bu kez yalnızca bir tabak değil, kuşaktan kuşağa aktarılan bir sanat sevgisi ortaya çıkarmıştı.`
     },
     questions: [
       {
@@ -186,26 +186,26 @@ Kerem o gün dedesinin sözlerini aklına nakşetti. Haftalarca yılmadan fırç
         title: 'Bağlamdan Söz Varlığını Tahmin Etme ve Gerekçelendirme',
         points: 15,
         linesNeeded: 6,
-        prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından hareketle tahmin ediniz. Tahminlerinizi metinden gerekçeler göstererek yazınız.',
+        prompt: 'Metinde geçen altı çizili ifadelerin anlamlarını metnin bağlamından hareketle tahmin ediniz. Tahminlerinizi metinden gerekçeler göstererek yazınız.',
         subQuestions: [
           {
-            label: 'a. sırçalı',
-            text: 'Metindeki: "...beyaz sırçalı tabağın üzerine lale motifleri konduruyordu." cümlesindeki "sırçalı" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Üzeri cam gibi parlak ve saydam bir koruyucu tabakayla kaplanmış olan.\n• Metin İçi Gerekçe: Çini ve seramik tabakların fırınlanıp parlatılması bağlamı.',
+            label: 'a. motif',
+            text: 'Metindeki: "...parlak kaplamalı beyaz tabağın üzerine lale motifleri çiziyordu." cümlesindeki "motif" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Süsleme ve bezeme işlerinde kullanılan, tekrarlanan şekil veya desen ögesi.\n• Metin İçi Gerekçe: Çini tabağın üzerine fırçayla lale ve nar desenlerinin çizilmesi.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (3 Puan).'
           },
           {
-            label: 'b. nakşetti',
-            text: 'Metindeki: "Kerem o gün dedesinin sözlerini aklına nakşetti." cümlesindeki "nakşetti" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Bir şeyi hiçbir zaman unutmamak üzere zihnine, hafızasına derinlemesine yerleştirmek, kazımak.\n• Metin İçi Gerekçe: Kerem\'in haftalarca yılmadan dedesinin öğüdüyle çalışmaya devam etmesi.',
+            label: 'b. zihnine yerleştirmek',
+            text: 'Metindeki: "Kerem o gün dedesinin sözlerini zihnine iyice yerleştirdi." cümlesindeki "zihnine yerleştirmek" ifadesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Bir sözü veya öğüdü hiç unutmamak üzere aklında tutmak, benimsemek.\n• Metin İçi Gerekçe: Kerem\'in haftalarca yılmadan dedesinin öğüdüyle çalışmaya devam etmesi.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (4 Puan).'
           }
         ],
         expectedAnswer: 'Kelimelerin bağlam anlamları ve metinden sunulan somut deliller.',
         rubric: [
-          { criterion: 'Sırçalı ve nakşetti kelimelerinin isabetli tahmini', points: 8 },
+          { criterion: 'Motif ve zihnine yerleştirmek ifadelerinin isabetli tahmini', points: 8 },
           { criterion: 'Her tahmin için metinden güçlü gerekçe sunulması', points: 7 }
         ]
       },

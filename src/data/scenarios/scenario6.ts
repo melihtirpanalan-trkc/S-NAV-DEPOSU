@@ -17,15 +17,15 @@ export const SCENARIO_6_EXAMS: ExamScenario[] = [
       title: 'Karanlığı Delen Kağnı Sesleri',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
       source: '7. Sınıf Türkçe Dersi - Millî Mücadele ve Vatan Sevgisi',
-      content: `Ilgaz Dağları’nın geçit vermez yamaçlarında kasım ayazı bıçak gibi kesiyordu. İnebolu kıyılarından cepheye cephane taşıyan kağnı kollarının tekerleklerinden yükselen "gacır gucur" sesler, dağların uğultusuna karışıyordu. Bu çetin kafilede on beş yaşındaki Mehmet ile yaşlı anası da vardı. Kağnıya koşulu Sarıkız ile Kocabaş, dik yokuşlarda nefes nefese kalmış; çamurlu dik yollarda zorlukla adım atıyordu. 
+      content: `Ilgaz Dağları’nın dik yamaçlarında kasım soğuğu bıçak gibi kesiyordu. İnebolu kıyılarından cepheye cephane taşıyan kağnı kollarının tekerleklerinden yükselen sesler, dağların uğultusuna karışıyordu. Bu zorlu yolculukta on beş yaşındaki Mehmet ile yaşlı annesi de vardı. Kağnıya koşulu öküzler, dik yokuşlarda nefes nefese kalmış; çamurlu yollarda zorlukla adım atıyordu. 
 
-Hava karardıkça kar serpiştirmeye, tipi şiddetini artırmaya başladı. Mehmet’in sırtındaki yırtık yelek ayazı önlemeye yetmiyor, dudakları soğuktan morarıyordu. Bir ara kağnı derin bir çamur çukuruna saplandı, öküzler ne kadar zorlasa da tekerlek bir santim dahi ilerlemedi. Mehmet hiç tereddüt etmeden omuzunu çamurlu tekerleğe dayadı, var gücüyle yüklendi. İşte tam o anda sırtındaki kalın keçe abayı çıkarıp ıslanmasınlar diye kağnıdaki sandıkların ve mermilerin üzerine örttü. Anası titreyen elleriyle oğlunun kolunu tuttu:
-— Oğul, donacaksın! Üstünü niye açtın?
+Hava karardıkça kar serpiştirmeye, tipi şiddetini artırmaya başladı. Mehmet’in sırtındaki ince yelek soğuğu önlemeye yetmiyor, dudakları soğuktan titriyordu. Bir ara kağnı derin bir çamur çukuruna saplandı, öküzler ne kadar zorlasa da tekerlek bir santim bile ilerlemedi. Mehmet hiç düşünmeden omzunu çamurlu tekerleğe dayadı, var gücüyle yüklendi. İşte tam o anda sırtındaki kalın yün paltosunu çıkarıp ıslanmasınlar diye kağnıdaki cephane sandıklarının üzerine örttü. Annesi titreyen elleriyle oğlunun kolunu tuttu:
+— Oğlum, üşüyeceksin! Üstünü niye çıkardın?
 
-Mehmet, gözlerinde alevlenen sarsılmaz bir inançla başını kaldırdı:
-— Ana; biz üşürüz, biz ıslanırız ama cephedeki askerimizin cephanesi ıslanırsa vatan söner! 
+Mehmet, gözlerinde parlayan sarsılmaz bir inançla başını kaldırdı:
+— Anne; biz üşürüz, biz ıslanırız ama cephedeki askerimizin cephanesi ıslanırsa vatanımız tehlikeye girer! 
 
-Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağnılardan yetişen köylüler de koşup geldiler. Omuz omuza verip kağnıyı çamurdan çıkardılar. O gece Ilgaz’ın zirvesinde yalnızca bir kağnı değil; bütün bir milletin hürriyet ve bağımsızlık aşkı yürüyordu.`
+Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağnılardan yetişen köylüler de koşup geldiler. Omuz omuza verip kağnıyı çamurdan çıkardılar. O gece Ilgaz’ın zirvesinde yalnızca bir kağnı değil; bütün bir milletin özgürlük ve bağımsızlık sevgisi yürüyordu.`
     },
     questions: [
       {
@@ -38,21 +38,21 @@ Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağ
         prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından hareketle tahmin ediniz ve gerekçelerini yazınız.',
         subQuestions: [
           {
-            label: 'a. çetin',
-            text: 'Metindeki: "Bu çetin kafilede on beş yaşındaki Mehmet ile yaşlı anası da vardı." cümlesindeki "çetin" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Çok zor, güç, aşılması büyük çaba ve dayanıklılık gerektiren, meşakkatli.\n• Metin İçi Gerekçe: Ilgaz Dağları’nın ayazı, kar ve tipinin şiddeti ile yolların çamurlu ve dik olması.',
+            label: 'a. cephane',
+            text: 'Metindeki: "İnebolu kıyılarından cepheye cephane taşıyan kağnı kollarının..." cümlesindeki "cephane" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Savaşta ordunun kullandığı mermi, fişek ve patlayıcı maddelerin tümü, mühimmat.\n• Metin İçi Gerekçe: Cephedeki askerlere kağnılarla sandıklar içinde taşınması ve ıslanmaması için korunması.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (3 Puan).'
           },
           {
-            label: 'b. aba',
-            text: 'Metindeki: "İşte tam o anda sırtındaki kalın keçe abayı çıkarıp ıslanmasınlar diye... örttü." cümlesindeki "aba" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Yünden veya keçeden yapılan, soğuktan korunmak için giyilen kaba ve kalın bir üst giysisi.\n• Metin İçi Gerekçe: Mehmet’in sırtından çıkarıp mermilerin üzerine örtmesi ve anasının "donacaksın" demesi.',
+            label: 'b. sarsılmaz',
+            text: 'Metindeki: "Mehmet, gözlerinde parlayan sarsılmaz bir inançla başını kaldırdı..." cümlesindeki "sarsılmaz" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Hiçbir güçlük karşısında zayıflamayan, bozulmayan, çok sağlam ve güçlü.\n• Metin İçi Gerekçe: Mehmet\'in dondurucu soğuğa rağmen kendi paltosunu çıkarıp cephaneyi korumaktan vazgeçmemesi.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (4 Puan).'
           }
         ],
-        expectedAnswer: 'Çetin ve aba sözcüklerinin bağlamsal tahmini ve gerekçesi.',
+        expectedAnswer: 'Cephane ve sarsılmaz sözcüklerinin bağlamsal tahmini ve gerekçesi.',
         rubric: [
           { criterion: 'Her iki sözcüğün bağlama uygun tahmini', points: 8 },
           { criterion: 'Metin gerekçelerinin açıkça yazılması', points: 7 }
@@ -81,9 +81,9 @@ Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağ
         points: 15,
         linesNeeded: 4,
         prompt: 'Kağnı çamur çukuruna saplandığında Mehmet sırasıyla hangi davranışları sergilemiştir?',
-        expectedAnswer: 'Mehmet tereddüt etmeden omuzunu çamurlu tekerleğe dayayarak var gücüyle yüklenmiş; hemen ardından sırtındaki kalın keçe abayı çıkarıp ıslanmasınlar diye mermilerin ve cephane sandıklarının üzerine örtmüştür.',
+        expectedAnswer: 'Mehmet hiç düşünmeden omzunu çamurlu tekerleğe dayayarak var gücüyle yüklenmiş; hemen ardından sırtındaki kalın yün paltosunu çıkarıp ıslanmasınlar diye cephane sandıklarının üzerine örtmüştür.',
         rubric: [
-          { criterion: 'Mehmet\'in tekerleğe yüklenmesi ve abasını mermilere örtmesi davranışlarının tam aktarılması', points: 15 }
+          { criterion: 'Mehmet\'in tekerleğe yüklenmesi ve paltosunu cephane sandıklarına örtmesi davranışlarının tam aktarılması', points: 15 }
         ]
       },
       {
@@ -94,7 +94,7 @@ Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağ
         points: 20,
         linesNeeded: 6,
         prompt: 'Metinde geçen "omuz omuza vermek" deyiminin anlamını açıklayınız. Mehmet’in sözlerinin gerideki köylüler üzerindeki etkisini sebep-sonuç ilişkisiyle yazınız.',
-        expectedAnswer: '• "Omuz omuza vermek" deyimi: Bir amaç uğruna dayanışma içinde olmak, güçlerini birleştirmek, yardımlaşmak demektir.\n• Sebep-Sonuç: Mehmet\'in "Biz üşürüz ama cephane ıslanırsa vatan söner!" diyerek gösterdiği fedakârlık (sebep), gerideki köylülerin koşup gelerek hep birlikte kağnıyı çamurdan çıkarmasını (sonuç) sağlamıştır.',
+        expectedAnswer: '• "Omuz omuza vermek" deyimi: Bir amaç uğruna dayanışma içinde olmak, güçlerini birleştirmek, yardımlaşmak demektir.\n• Sebep-Sonuç: Mehmet\'in "Biz üşürüz ama cephane ıslanırsa vatanımız tehlikeye girer!" diyerek gösterdiği fedakârlık (sebep), gerideki köylülerin koşup gelerek hep birlikte kağnıyı çamurdan çıkarmasını (sonuç) sağlamıştır.',
         rubric: [
           { criterion: 'Deyimin doğru anlamı', points: 10 },
           { criterion: 'Metindeki sebep-sonuç bağıntısının doğru tespiti', points: 10 }
@@ -164,9 +164,9 @@ Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağ
       title: 'Rüzgârla Yarışan Tay: Bozkırın Sadık Dostu',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
       source: '7. Sınıf Türkçe Dersi - Doğa ve Hayvan Sevgisi',
-      content: `Kuzey bozkırlarında kış kapıya dayandığında rüzgâr kuru otları savururdu. On iki yaşındaki Yusuf, baharda dünyaya gelen yağız tayı Gökkurt’u kendi eliyle büyütmüştü. Annesini doğumdan hemen sonra kaybeden bu narin tay, Yusuf’un avucundan içtiği ılık sütle hayata tutunmuştu. Gökkurt artık parıldayan simsiyah yelesi, mızrak gibi dik kulakları ve geniş göğsüyle asil bir Türkmen atı olmuştu.
+      content: `Kuzey bozkırlarında kış yaklaştığında sert rüzgâr kuru otları savururdu. On iki yaşındaki Yusuf, baharda dünyaya gelen siyah tayı Gökkurt’u kendi eliyle büyütmüştü. Annesini doğumdan hemen sonra kaybeden bu narin tay, Yusuf’un avucundan içtiği ılık sütle hayata tutunmuştu. Gökkurt artık parıldayan simsiyah yelesi, dik kulakları ve güçlü gövdesiyle asil bir at olmuştu.
 
-Bir akşamüzeri yayladan köye dönerken aniden başlayan tipi yolu kapattı. Göz gözü görmüyor, soğuk kemiklere işliyordu. Yusuf yolunu kaybetti ve kayalık bir vadide mahsur kaldı. Soğuktan parmakları uyuşuyor, uykuya teslim olmak üzereydi. Tam o sırada Gökkurt dizlerinin üzerine çöktü; başını Yusuf’un kucağına koyup nefesiyle onu ısıtmaya çalıştı. Ardından gökyüzüne doğru acı bir kişneme savurdu. Bu ses fırtınanın uğultusunu delerek kilometrelerce uzaktaki köylülerin arama meşalelerine ulaştı. Yusuf kurtarıldığında gözlerini açıp tayının boynuna sarıldı; insan ile hayvan arasındaki dostluğun ne büyük bir can yeleği olduğunu o gece bütün köy anladı.`
+Bir akşamüzeri yayladan köye dönerken aniden başlayan tipi yolu kapattı. Göz gözü görmüyor, soğuk gittikçe şiddetleniyordu. Yusuf yolunu kaybetti ve kayalık bir vadide mahsur kaldı. Soğuktan parmakları uyuşuyor, uykuya yenik düşmek üzereydi. Tam o sırada Gökkurt dizlerinin üzerine çöktü; başını Yusuf’un kucağına koyup sıcak nefesiyle onu ısıtmaya çalıştı. Ardından gökyüzüne doğru güçlü bir kişneme sesi yükseltti. Bu ses fırtınanın uğultusunu aşarak uzaktaki köylülerin arama ekibine ulaştı. Yusuf kurtarıldığında gözlerini açıp tayının boynuna sarıldı; insan ile hayvan arasındaki dostluğun ne büyük bir can yeleği olduğunu o gece bütün köy anladı.`
     },
     questions: [
       {
@@ -179,21 +179,21 @@ Bir akşamüzeri yayladan köye dönerken aniden başlayan tipi yolu kapattı. G
         prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından hareketle tahmin ediniz ve gerekçelerini yazınız.',
         subQuestions: [
           {
-            label: 'a. yağız',
-            text: 'Metindeki: "...baharda dünyaya gelen yağız tayı Gökkurt’u kendi eliyle büyütmüştü." cümlesindeki "yağız" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Esmer, koyu buğday renkli veya atlar için koyu parlak siyah renkli.\n• Metin İçi Gerekçe: Devamında gelen "parıldayan simsiyah yelesi" ifadesi.',
+            label: 'a. narin',
+            text: 'Metindeki: "Annesini doğumdan hemen sonra kaybeden bu narin tay, Yusuf’un avucundan içtiği ılık sütle hayata tutunmuştu." cümlesindeki "narin" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: İnce yapılı, kırılgan, özenli bakıma ihtiyaç duyan, hassas.\n• Metin İçi Gerekçe: Tayın yeni doğmuş olması ve annesini kaybettiği için elden ılık sütle beslenerek yaşatılması.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (3 Puan).'
           },
           {
             label: 'b. mahsur',
             text: 'Metindeki: "...kayalık bir vadide mahsur kaldı." cümlesindeki "mahsur" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Bir yerde kısılıp kalmış, kuşatılmış, hiçbir yere gidemeyecek durumda kalmış olan.\n• Metin İçi Gerekçe: Tipiden göz gözü görmemesi ve Yusuf\'un yolunu kaybedip çıkamaması.',
+            expectedAnswer: '• Anlam Tahmini: Bir yerde kısılıp kalmış, çevresi kapanmış, hiçbir yere gidemeyecek durumda kalmış olan.\n• Metin İçi Gerekçe: Tipiden yolun kapanması ve Yusuf\'un yolunu kaybedip vadiden çıkamaması.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (4 Puan).'
           }
         ],
-        expectedAnswer: 'Yağız ve mahsur kelimelerinin bağlam tahmini ve gerekçesi.',
+        expectedAnswer: 'Narin ve mahsur kelimelerinin bağlam tahmini ve gerekçesi.',
         rubric: [
           { criterion: 'Her iki kelimenin doğru tahmini', points: 8 },
           { criterion: 'Metin gerekçelerinin açıkça sunulması', points: 7 }
@@ -305,12 +305,12 @@ Bir akşamüzeri yayladan köye dönerken aniden başlayan tipi yolu kapattı. G
       title: 'Sessiz Şehrin Kitapçısı',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
       source: '7. Sınıf Türkçe Dersi - Kitap Sevgisi, Okuma Kültürü ve Dostluk',
-      content: `Eski kentin sahaf sokağında zaman sanki daha ağır akardı. Bu sokağın en ucunda, ahşap kepenkleri yeşile boyalı küçücük bir dükkân vardı: "Sahaflar Sandığı". Dükkânın sahibi yetmiş yaşındaki Rıza Amca, tavanlara kadar yükselen kitap yığınları arasında yaşardı. İçerisi kurumuş kâğıt, meşe ağacı cilası ve adaçayı kokardı. Rıza Amca kitapları sadece satan bir tüccar değil, her kitabın kapağını okşayan ve hangi okura hangi kitabın iyi geleceğini kalpten hisseden bir gönül hekimiydi.
+      content: `Eski kentin kitapçılar sokağında zaman sanki daha sakin akardı. Bu sokağın en ucunda, ahşap kepenkleri yeşile boyalı küçücük bir sahaf dükkânı vardı: "Kitap Sandığı". Dükkânın sahibi yetmiş yaşındaki Rıza Amca, tavanlara kadar yükselen kitap rafları arasında yaşardı. İçerisi kâğıt, meşe ağacı ve ıhlamur kokardı. Rıza Amca kitapları sadece satan bir esnaf değil, her kitabın kapağını sevgiyle okşayan ve hangi okura hangi kitabın iyi geleceğini içtenlikle hisseden bilge bir insandı.
 
-Bir öğle vakti dükkânın çıngırağı çaldı. İçeri giren on üç yaşındaki Ömer, boynu bükük bir hâlde raflara göz gezdirdi. Okulda arkadaşlarıyla yaşadığı bir kırgınlıktan ötürü içine kapanmıştı. Rıza Amca çocuğun gözlerindeki hüznü hemen fark etti. Sessizce ahşap merdivene tırmandı; en üst raftan kumaş ciltli, sarı kurdeleli bir hikâye kitabı indirdi:
-— Evlat, bazen insanlar seni anlamadığında kitaplar imdada yetişir. Bu kitaptaki kahraman da senin gibi yalnız kalmıştı; ama bak bakalım sayfaların sonunda ne buldu, dedi.
+Bir öğle vakti dükkânın kapı zili çaldı. İçeri giren on üç yaşındaki Ömer, üzgün bir hâlde raflara göz gezdirdi. Okulda arkadaşlarıyla yaşadığı bir kırgınlıktan dolayı içine kapanmıştı. Rıza Amca çocuğun gözlerindeki üzüntüyü hemen fark etti. Sessizce ahşap merdivene çıktı; üst raftan bez ciltli, sarı ayraçlı bir hikâye kitabı indirdi:
+— Evlat, bazen insanlar seni anlamadığında kitaplar yardıma yetişir. Bu kitaptaki kahraman da senin gibi yalnız kalmıştı; ama bak bakalım sayfaların sonunda ne buldu, dedi.
 
-Ömer kitabı kucağına alıp dükkânın köşesindeki mindere oturdu. Sayfaları çevirdikçe içindeki kasvet dağıldı, yüzüne sımsıcak bir tebessüm yerleşti. O gün Ömer anladı ki iyi bir kitap, insanın en vefalı ve en sessiz arkadaşıdır.`
+Ömer kitabı kucağına alıp dükkânın köşesindeki koltuğa oturdu. Sayfaları çevirdikçe içindeki sıkıntı dağıldı, yüzüne sımsıcak bir gülümseme yerleşti. O gün Ömer anladı ki iyi bir kitap, insanın en vefalı ve en sessiz arkadaşıdır.`
     },
     questions: [
       {
@@ -324,20 +324,20 @@ Bir öğle vakti dükkânın çıngırağı çaldı. İçeri giren on üç yaş�
         subQuestions: [
           {
             label: 'a. sahaf',
-            text: 'Metindeki: "Eski kentin sahaf sokağında zaman sanki daha ağır akardı." cümlesindeki "sahaf" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Genellikle eski, kullanılmış, antika veya basımı tükenmiş kitapları alıp satan kitapçı.\n• Metin İçi Gerekçe: Tavanlara kadar yükselen eski kitap yığınları ve kurumuş kâğıt kokusu bağlamı.',
+            text: 'Metindeki: "...ahşap kepenkleri yeşile boyalı küçücük bir sahaf dükkânı vardı..." cümlesindeki "sahaf" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Genellikle eski, kullanılmış veya basımı tükenmiş değerli kitapları alıp satan kitapçı.\n• Metin İçi Gerekçe: Tavanlara kadar yükselen kitap rafları, eski bez ciltli kitaplar ve kâğıt kokusu bağlamı.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (3 Puan).'
           },
           {
-            label: 'b. kasvet',
-            text: 'Metindeki: "Sayfaları çevirdikçe içindeki kasvet dağıldı..." cümlesindeki "kasvet" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: İç sıkıntısı, keder, hüzün, bunaltı.\n• Metin İçi Gerekçe: Ömer\'in arkadaşlarına kırgın olması, boynunu bükmesi ve kitabın bu hüznü dağıtması.',
+            label: 'b. vefalı',
+            text: 'Metindeki: "...iyi bir kitap, insanın en vefalı ve en sessiz arkadaşıdır." cümlesindeki "vefalı" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Dostluğunu ve sevgisini unutmayan, zor zamanlarda dostunu yalnız bırakmayan, bağlılığı süren.\n• Metin İçi Gerekçe: İnsanlar Ömer\'i anlamadığında ve yalnız kaldığında kitabın onun yardımına yetişip üzüntüsünü dağıtması.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (4 Puan).'
           }
         ],
-        expectedAnswer: 'Sahaf ve kasvet sözcüklerinin tahmini ve gerekçesi.',
+        expectedAnswer: 'Sahaf ve vefalı sözcüklerinin tahmini ve gerekçesi.',
         rubric: [
           { criterion: 'Her iki kelimenin doğru tahmini', points: 8 },
           { criterion: 'Metin gerekçelerinin sunulması', points: 7 }

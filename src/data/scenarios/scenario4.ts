@@ -5,23 +5,27 @@ export const SCENARIO_4_EXAMS: ExamScenario[] = [
     id: 's4-e1',
     scenarioGroup: 'senaryo-4',
     scenarioGroupTitle: 'MEB Senaryo 4',
-    scenarioName: '1. Sınav (Yıldızlara Dokunan Eller)',
+    scenarioName: '1. Sınav (Kemençenin Tellerindeki Karadeniz)',
     examNumber: 1,
-    title: 'Yıldızlara Dokunan Eller',
-    theme: '4. Tema: Hayat Boyu Gelişim & Merak ve Azim',
+    title: 'Kemençenin Tellerindeki Karadeniz',
+    theme: '4. Tema: Millî Kültür, Sanat ve Azim',
     targetClass: '7. Sınıf',
     termInfo: '1. Dönem 1. Yazılı Sınavı',
     durationMinutes: 40,
     totalPoints: 100,
     readingPassage: {
-      title: 'Yıldızlara Dokunan Eller',
+      title: 'Kemençenin Tellerindeki Karadeniz',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
-      source: '7. Sınıf Türkçe Dersi - Bilim ve Araştırma Ruhu',
-      content: `Köyün ucundaki taş evin çatı katı, on üç yaşındaki Murat için dünyanın en ilgi çekici sığınağıydı. Yaşıtları meydanda top koştururken ya da derenin kıyısında vakit öldürürken o, dedesinden kalma kırık bir dürbün merceğini güneşe tutar, ışığın kırılışını hayranlıkla incelerdi. Babası ise köyün marangozuydu; oğlunun da eline keseri alıp ahşaptan sağlam masalar yapmasını istiyordu. Fakat Murat’ın aklı fikri, gece olunca gökyüzünü kaplayan o parıltılı yıldızlardaydı.
+      source: '7. Sınıf Türkçe Dersi - Millî Kültür, Sanat ve Sabır',
+      content: `Trabzon’un sisli yaylalarına sonbahar yağmurları indiğinde ahşap evlerin pencerelerinden sıcak soba dumanları yükselirdi. On üç yaşındaki Tuna, okuldan döner dönmez dedesi Dursun Usta’nın evin alt katındaki küçük ahşap atölyesine koşardı. Dursun Usta, Karadeniz’in en bilinen kemençe yapımcılarından biriydi. Atölyenin içi ardıç, dut ve erik ağaçlarının kendine özgü hoş kokusuyla doluydu.
 
-Murat, ortaokulun kütüphanesine her gün uğramayı alışkanlık edindi. Fizik ve gök bilimine dair eline geçen her sayfayı bir solukta okuyor, anlamadığı kavramları öğretmeniyle paylaşıyordu. Ancak çıplak gözle ya da eski bir dürbünle göğün derinliklerini incelemek imkânsızdı; bir teleskoba ihtiyacı vardı. Köy şartlarında böyle bir aracı satın alabilmek çok zordu. Murat vazgeçmedi. Kasaba pazarındaki ikinci el tezgâhlarını günlerce dolaşarak eski bir soba borusu, kırık bir fotoğraf makinesi merceği ve metal bir halka buldu. Geceleri masa lambasının ışığında bu cam parçalarını saatlerce özenle parlatarak pürüzsüz hâle getirdi. Uykusuzluktan göz kapakları ağırlaşıyor, yorgunluktan hâlsiz düşüyordu ama gökyüzü tutkusu onu dimdik ayakta tutuyordu. 
+Tuna, dedesinin yaptığı kemençeleri dinlemeyi çok seviyor; kendisi de bu müzik aletini çalmak istiyordu. Ancak yayı tellere her sürdüğünde kemençeden cılız ve uyumsuz sesler çıkıyordu. Birkaç hafta denedikten sonra umutsuzluğa kapılıp kemençeyi tezgâhın üzerine bıraktı:
+— Dede, parmaklarım tellere bir türlü alışamıyor. Galiba ben bu işi hiç öğrenemeyeceğim, dedi.
 
-Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney ufkuna çevirdi. Merceğin ardından baktığında daha önce hiçbir gökyüzü haritasında görmediği, kuyruğundan mavimsi ışıklar saçan bir kuyruklu yıldızın süzüldüğünü gördü. Heyecanla soluğu kesildi; o dondurucu gecede elleri buz tutsa da yüreğinde sönmeyecek bir başarı ateşi yanmıştı.`
+Dursun Usta, elindeki zımparayı yavaşça masaya koydu ve duvarda asılı duran ilk kemençesini gösterdi:
+— Bak Tuna, şu yayladaki coşkun dereler bile yatağını bir günde açmadı; suyu damla damla akıtarak sert kayalara yol verdi. Sanat da tıpkı o dere gibidir; sabırla tekrar etmeden teller dile gelmez.
+
+Dedesinin bu sözleri Tuna’ya yeniden güç verdi. O günden sonra her akşam parmakları ağrıyana kadar bıkmadan çalıştı. Aylar sonra yayla şenliğinde kemençesinin yayını tellere dokundurduğunda, yaylanın rüzgârı kadar duru ve coşkulu bir ezgi bütün meydanı sardı.`
     },
     questions: [
       {
@@ -34,16 +38,16 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından yararlanarak tahmin ediniz. Tahminlerinizi ve sizi bu tahmine götüren metin içi gerekçeleri yazınız.',
         subQuestions: [
           {
-            label: 'a. sığınak',
-            text: 'Metindeki: "Köyün ucundaki taş evin çatı katı, on üç yaşındaki Murat için dünyanın en ilgi çekici sığınağıydı." cümlesindeki "sığınak" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: İnsanın kendini huzurlu, güvende ve rahatsız edilmeden çalışabilecek durumda hissettiği özel yer.\n• Metin İçi Gerekçe: Murat\'ın çatı katında tek başına merceklerle deney yapıp gökyüzünü incelemesi.',
+            label: 'a. cılız',
+            text: 'Metindeki: "Ancak yayı tellere her sürdüğünde kemençeden cılız ve uyumsuz sesler çıkıyordu." cümlesindeki "cılız" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Güçsüz, zayıf, gür olmayan, etkisi az.\n• Metin İçi Gerekçe: Tuna\'nın henüz kemençe çalmayı bilmediği için tellerden güçlü ve uyumlu bir ses çıkaramaması.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), metin içi somut gerekçe (3 Puan).'
           },
           {
-            label: 'b. parlatarak',
-            text: 'Metindeki: "...bu cam parçalarını saatlerce özenle parlatarak pürüzsüz hâle getirdi." cümlesindeki "parlatarak" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Bir nesnenin yüzeyini silip temizleyerek ışığı net geçirecek, parlak ve pürüzsüz duruma getirmek.\n• Metin İçi Gerekçe: Cümlenin devamındaki "pürüzsüz hâle getirdi" ifadesi ve mercek camı üzerinde çalışması.',
+            label: 'b. ezgi',
+            text: 'Metindeki: "...yaylanın rüzgârı kadar duru ve coşkulu bir ezgi bütün meydanı sardı." cümlesindeki "ezgi" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Belli bir kurala göre oluşturulan, kulağa hoş gelen ses dizisi, melodi, nağme.\n• Metin İçi Gerekçe: Tuna\'nın yayla şenliğinde kemençesinin yayını tellere dokundurmasıyla ortaya çıkan uyumlu müzik sesi.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), metin içi somut gerekçe (4 Puan).'
           }
@@ -62,7 +66,7 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         points: 10,
         linesNeeded: 3,
         prompt: 'Okuduğunuz metnin konusunu bir cümleyle yazınız.',
-        expectedAnswer: 'Metnin konusu, gök bilimine tutkuyla bağlı olan Murat\'ın imkânsızlıklara rağmen azimle kendi teleskobunu yapması ve gökyüzünü keşfetmesidir.',
+        expectedAnswer: 'Metnin konusu, kemençe çalmayı öğrenirken zorlanan Tuna\'nın dedesi Dursun Usta\'nın öğüdüyle pes etmeyip sabırla çalışarak kemençe çalmayı başarmasıdır.',
         rubric: [
           { criterion: 'Metnin konusunun ana fikre kaymadan, eksiksiz ve tek cümleyle ifade edilmesi', points: 10 }
         ]
@@ -74,10 +78,10 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         title: 'Metnin Yüzey Anlamı - Doğrudan Bilgi Tespiti',
         points: 10,
         linesNeeded: 4,
-        prompt: 'Metne göre Murat, el yapımı teleskobunu yapabilmek için hangi malzemeleri nerelerden temin etmiştir?',
-        expectedAnswer: 'Murat, dedesinden kalma kırık bir dürbün merceğini kullanmış; kasaba pazarındaki hurdalıklardan ise eski bir soba borusu, kırık bir fotoğraf makinesi merceği ve pirinç bir halka temin etmiştir.',
+        prompt: 'Metne göre Dursun Usta’nın atölyesinde hangi ağaçların kokusu vardır ve Tuna başlangıçta neden kemençeyi tezgâhın üzerine bırakmıştır?',
+        expectedAnswer: 'Dursun Usta\'nın atölyesinde ardıç, dut ve erik ağaçlarının kokusu vardır. Tuna, yayı tellere her sürdüğünde cılız ve uyumsuz sesler çıktığı ve parmakları tellere alışamadığı için umutsuzluğa kapılarak kemençeyi bırakmıştır.',
         rubric: [
-          { criterion: 'Kullanılan malzemelerin (soba borusu, mercek, pirinç halka) eksiksiz yazılması', points: 10 }
+          { criterion: 'Ağaç türlerinin (ardıç, dut, erik) ve Tuna\'nın umutsuzluğa kapılma sebebinin eksiksiz yazılması', points: 10 }
         ]
       },
       {
@@ -87,11 +91,11 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         title: 'Metnin Derin Anlamı (Metnin Ana Fikri / İletisi)',
         points: 15,
         linesNeeded: 5,
-        prompt: 'Metnin son cümlesinde geçen "elleri buz tutsa da yüreğinde sönmeyecek bir başarı ateşi yanmıştı" ifadesindeki tezatlıktan hareketle metnin derin anlamını (ana fikrini) açıklayınız.',
-        expectedAnswer: 'Fiziksel olarak dondurucu kasım gecesinde elleri buz tutsa bile, hedefine ulaşıp kuyruklu yıldızı keşfetmiş olmanın verdiği mutluluk, coşku ve başarma azmi onun içini ısıtmıştır. Metnin derin anlamı; azim ve inançla çalışıldığında en zorlu imkânsızlıkların bile başarıya engel olamayacağıdır.',
+        prompt: 'Dursun Usta’nın "Şu yayladaki coşkun dereler bile yatağını bir günde açmadı; suyu damla damla akıtarak sert kayalara yol verdi." sözünden hareketle metnin derin anlamını (ana fikrini) açıklayınız.',
+        expectedAnswer: 'Su damlaları nasıl sabırla ve süreklilikle akarak en sert kayaları bile aşındırıp kendine yatak açıyorsa, insan da bir sanatı veya beceriyi ancak sabırla ve düzenli tekrarlarla öğrenebilir. Metnin derin anlamı; vazgeçmeden ve sabırla çalışıldığında en zor görünen işlerin bile ustalıkla başarılabileceğidir.',
         rubric: [
-          { criterion: 'Buz tutan eller ile yürekteki ateş zıtlığının doğru tahlil edilmesi', points: 8 },
-          { criterion: 'Başarı ve öz güven duygusunun mantıksal olarak ifade edilmesi', points: 7 }
+          { criterion: 'Dere ve su damlası benzetmesinin sabır ve süreklilikle ilişkilendirilmesi', points: 8 },
+          { criterion: 'Azimle çalışmanın başarıya ulaştıracağı ana fikrinin açıkça ifade edilmesi', points: 7 }
         ]
       },
       {
@@ -101,8 +105,8 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         title: 'Söz Varlığını Çözümleme - Deyim ve Sebep-Sonuç',
         points: 15,
         linesNeeded: 5,
-        prompt: 'Metinde geçen "vakit öldürmek" deyiminin metne kattığı anlamı açıklayınız. Ayrıca metindeki olay akışından hareketle Murat’ın başarısını sağlayan temel "sebep" ve ortaya çıkan "sonuç" arasındaki mantıksal bağı yazınız.',
-        expectedAnswer: '• "Vakit öldürmek" deyimi: Zamanı yararsız, boş ve faydasız işlerle harcamak anlamındadır.\n• Sebep-Sonuç: Murat\'ın kütüphanede araştırma yapıp hurdalıklardan topladığı parçaları sabırla işlemesi (sebep), daha önce görülmemiş kuyruklu yıldızı keşfetmesini (sonuç) sağlamıştır.',
+        prompt: 'Metinde geçen "umutsuzluğa kapılmak" deyiminin metne kattığı anlamı açıklayınız. Ayrıca metindeki olay akışından hareketle Tuna’nın yayla şenliğinde coşkulu bir ezgi çalabilmesini sağlayan temel "sebep" ve ortaya çıkan "sonuç" arasındaki bağı yazınız.',
+        expectedAnswer: '• "Umutsuzluğa kapılmak" deyimi: Bir işin olacağına veya başarılacağına dair inancını yitirmek, karamsarlığa düşmek anlamındadır.\n• Sebep-Sonuç: Tuna\'nın dedesinin öğüdünü dinleyerek her akşam parmakları ağrıyana kadar bıkmadan çalışması (sebep), aylar sonra yayla şenliğinde kemençesiyle duru ve coşkulu bir ezgi çalarak herkesi etkilemesini (sonuç) sağlamıştır.',
         rubric: [
           { criterion: 'Deyimin bağlamsal anlamının eksiksiz açıklanması', points: 7 },
           { criterion: 'Sebep ve sonuç bağıntısının metne dayalı olarak kurulması', points: 8 }
@@ -115,8 +119,8 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         title: 'Yazısını Zenginleştirecek Söz Varlığı Kullanımı',
         points: 20,
         linesNeeded: 8,
-        prompt: 'Aşağıda verilen metin başlangıcını, Murat’ın kararlılığını ve çalışma disiplinini yansıtacak biçimde "öz güven, kararlılık, basamak, başarıya giden yol" kelimelerini ve en az bir "benzetme" ile bir "ikileme"yi kullanarak anlamlı bir şekilde tamamlayınız:\n\n"Teleskobun parçalarını masaya dizdiğinde etrafındakiler onun bu işi asla başaramayacağını söylüyorlardı..."',
-        expectedAnswer: 'Örnek Metin: "Teleskobun parçalarını masaya dizdiğinde etrafındakiler onun bu işi asla başaramayacağını söylüyorlardı. Oysa Murat, içinde taşıdığı sarsılmaz ÖZ GÜVEN sayesinde bu sözlerin hiçbirine kulak asmadı. Biliyordu ki BAŞARIYA GİDEN YOL, çiçekli düzlüklerden değil dik yokuşlardan geçerdi. Karşılaştığı her zorluğu onu durduran bir engel değil, göklere ulaştıracak sağlam birer BASAMAK olarak gördü. Gece gündüz demeden, tırnaklarıyla kaza kaza camları parlattı. Gözleri, karanlıkta parlayan bir kutup yıldızı gibi ışıldıyordu. Sonunda gösterdiği bu üstün KARARLILIK meyvesini verdi ve imkânsız denilen düşü gerçeğe dönüştürdü."',
+        prompt: 'Aşağıda verilen metin başlangıcını, Tuna’nın azmini ve çalışma disiplinini yansıtacak biçimde "sabır, gayret, ustalık, başarıya giden yol" ifadelerini ve en az bir "benzetme" ile bir "ikileme"yi kullanarak anlamlı bir şekilde tamamlayınız:\n\n"Ahşap atölyesinin kapısından içeri girdiğinde dedesinin elindeki kemençeyi hayranlıkla izledi..."',
+        expectedAnswer: 'Örnek Metin: "Ahşap atölyesinin kapısından içeri girdiğinde dedesinin elindeki kemençeyi hayranlıkla izledi. Biliyordu ki BAŞARIYA GİDEN YOL, aceleyle değil adım adım yürünerek aşılırdı. Gerçek USTALIK, karşılaşılan ilk zorlukta pes etmeyenlerin ödülüydü. Bu yüzden Tuna, büyük bir SABIR ile her akşam yayını tellere sürdü. Gösterdiği bu içten GAYRET sayesinde kemençenin sesi günden güne, yavaş yavaş berraklaştı ve sonunda yayladan akan coşkun bir şelale gibi yankılandı."',
         rubric: [
           { criterion: 'Verilen 4 anahtar ifadenin anlamlı kullanımı', points: 8 },
           { criterion: 'Metinde en az bir "benzetme" sanatına yer verilmesi', points: 4 },
@@ -135,15 +139,15 @@ Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney uf
         subQuestions: [
           {
             label: 'a. Üç Nokta (...) ve Kullanım Görevleri',
-            text: 'Aşağıdaki cümlelerde geçen üç noktanın (...) hangi görevle kullanıldığını altlarındaki boşluklara yazınız:\n1. "— Kapıyı çalan kimdi Murat?\n   — Ali Kuşçu Atölyesi\'nden bir usta..."\n   Kullanım Görevi: ........................................................................\n2. "Koca Yusuf!.. Çevir merceğini kutup yıldızına doğru!"\n   Kullanım Görevi: ........................................................................',
+            text: 'Aşağıdaki cümlelerde geçen üç noktanın (...) hangi görevle kullanıldığını altlarındaki boşluklara yazınız:\n1. "— Bu kemençenin gövdesini hangi ağaçtan yaptın Dursun Usta?\n   — Yayladaki yaşlı ardıçtan..."\n   Kullanım Görevi: ........................................................................\n2. "Tuna!.. Yayını tellere daha dengeli ve yumuşak bastır!"\n   Kullanım Görevi: ........................................................................',
             expectedAnswer: '1. Cümle: Karşılıklı konuşmalarda yeterli olmayan, eksik bırakılan cevaplarda kullanılır.\n2. Cümle: Ünlem ve seslenmelerde anlatımı pekiştirmek için kullanılır. (Ünlemden sonra iki nokta konulması yeterlidir.)',
             points: 7,
             guideline: '1. kullanım görevi (4 Puan), 2. kullanım görevi (3 Puan).'
           },
           {
             label: 'b. Noktalı Virgül (;) ve Noktalama Uygulaması',
-            text: 'Aşağıdaki parçada yay ayraçla ( ) gösterilen yerlere uygun noktalama işaretlerini getiriniz ve noktalı virgülün (;) buradaki kullanım gerekçesini yazınız:\n"Murat; mercekleri, pirinç boruları, cam aynaları özenle dizdi ( ) çekiç, zımpara ve tutkalları ise yan tezgâha koydu ( ) Gökyüzü geceleri ne kadar da büyüleyiciydi ( )"\n• Noktalı virgülün (;) kullanım gerekçesi: .....................................................................',
-            expectedAnswer: '• Yay ayraçlara sırasıyla: ( ; ) ( . ) ( ! ) işaretleri gelmelidir.\n• Noktalı Virgülün (;) Kullanım Gerekçesi: Cümle içinde virgüllerle ayrılmış tür veya takımları (optik parçalar ile el aletleri) birbirinden ayırmak için konmuştur.',
+            text: 'Aşağıdaki parçada yay ayraçla ( ) gösterilen yerlere uygun noktalama işaretlerini getiriniz ve noktalı virgülün (;) buradaki kullanım gerekçesini yazınız:\n"Dursun Usta; ardıç, dut, erik kütüklerini köşeye ayırdı ( ) keski, zımpara ve burguları ise tezgâha dizdi ( ) Kemençenin sesi ne kadar da etkileyiciydi ( )"\n• Noktalı virgülün (;) kullanım gerekçesi: .....................................................................',
+            expectedAnswer: '• Yay ayraçlara sırasıyla: ( ; ) ( . ) ( ! ) işaretleri gelmelidir.\n• Noktalı Virgülün (;) Kullanım Gerekçesi: Cümle içinde virgüllerle ayrılmış tür veya takımları (ağaç türleri ile marangozluk aletleri) birbirinden ayırmak için konmuştur.',
             points: 8,
             guideline: 'Ayraçların doğru doldurulması (4 Puan), noktalı virgül kuralının doğru açıklanması (4 Puan).'
           }

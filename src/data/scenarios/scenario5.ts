@@ -304,11 +304,11 @@ Teyzesi gülümsedi; parmağıyla kemerin tam tepe noktasındaki kama şeklindek
       title: 'Evliya Çelebi\'nin İzinde',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
       source: '7. Sınıf Türkçe Dersi - Seyahat Kültürü ve Edebiyat',
-      content: `Yağmurlu bir hafta sonu şehir kütüphanesinin tozlu rafları arasında dolaşan Can, deri ciltli kalın bir kitabın önünde durdu: "Evliya Çelebi Seyahatnamesi". Kitabın sararmış sayfalarını araladığında karşısına minyatürlerle süslü haritalar ve rüya gibi şehir tasvirleri çıktı. Evliya Çelebi’nin on yedinci yüzyılda at sırtında Balkanlar’dan Kafkaslar’a, Mısır çöllerinden Viyana surlarına kadar uzanan elli yıllık yolculuğu Can’ı büyülemişti.
+      content: `Yağmurlu bir hafta sonu şehir kütüphanesinin rafları arasında dolaşan Can, deri ciltli kalın bir kitabın önünde durdu: "Evliya Çelebi Seyahatnamesi". Kitabın sararmış sayfalarını araladığında karşısına minyatürlerle süslü haritalar ve etkileyici şehir betimlemeleri çıktı. Evliya Çelebi’nin on yedinci yüzyılda at sırtında Balkanlar’dan Kafkaslar’a, Mısır’dan Viyana’ya kadar uzanan elli yıllık yolculuğu Can’ı büyülemişti.
 
-Evliya Çelebi sadece sarayları, kaleleri anlatmıyordu; gittiği yörelerin halk türkülerini, pazar yerlerindeki esnafın şakalarını, lezzetli yemeklerini ve konuşulan şiveleri de sıcağı sıcağına not etmişti. Örneğin Trabzon’u anlatırken hamsinin kırk türlü yemeğinden bahseder, Bursa’yı anlatırken "Velhasıl Bursa sudan ibarettir." diyerek suyun zarafetini mısralara dökerdi.
+Evliya Çelebi sadece sarayları, kaleleri anlatmıyordu; gittiği yörelerin halk türkülerini, pazar yerlerindeki esnafın şakalarını, lezzetli yemeklerini ve konuşulan ağız özelliklerini de sıcağı sıcağına not etmişti. Örneğin Trabzon’u anlatırken hamsinin kırk türlü yemeğinden bahseder, Bursa’yı anlatırken "Kısacası Bursa sudan ibarettir." diyerek suyun güzelliğini satırlara dökerdi.
 
-Can o gün kütüphaneden çıktığında cebindeki not defterine ilk cümlesini yazdı: "Gezmek sadece yeni yerler görmek değil; yeni bakış açıları kazanmaktır." Artık o da yaşadığı şehri bir turist gözüyle değil, bir seyyah yüreğiyle keşfetmeye kararlıydı.`
+Can o gün kütüphaneden çıktığında cebindeki not defterine ilk cümlesini yazdı: "Gezmek sadece yeni yerler görmek değil; yeni bakış açıları kazanmaktır." Artık o da yaşadığı şehri sıradan bir ziyaretçi gözüyle değil, araştırmacı bir gezgin yüreğiyle keşfetmeye kararlıydı.`
     },
     questions: [
       {
@@ -321,21 +321,21 @@ Can o gün kütüphaneden çıktığında cebindeki not defterine ilk cümlesini
         prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından yararlanarak tahmin ediniz ve gerekçelerini yazınız.',
         subQuestions: [
           {
-            label: 'a. tasvir',
-            text: 'Metindeki: "...minyatürlerle süslü haritalar ve rüya gibi şehir tasvirleri çıktı." cümlesindeki "tasvir" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Bir şeyi, yeri veya olayı sözle veya yazıyla göz önünde canlandıracak biçimde anlatma, betimleme.\n• Metin İçi Gerekçe: Şehirlerin saraylarını, kalelerini ve sokaklarını ayrıntılı anlatması bağlamı.',
+            label: 'a. betimleme',
+            text: 'Metindeki: "...minyatürlerle süslü haritalar ve etkileyici şehir betimlemeleri çıktı." cümlesindeki "betimleme" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Bir yeri, varlığı veya olayı sözle ya da yazıyla göz önünde canlandıracak biçimde anlatma, tasvir etme.\n• Metin İçi Gerekçe: Şehirlerin saraylarını, kalelerini ve doğal güzelliklerini okuyucunun gözünde canlandıracak şekilde anlatması.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (3 Puan).'
           },
           {
-            label: 'b. seyyah',
-            text: 'Metindeki: "...yaşadığı şehri bir turist gözüyle değil, bir seyyah yüreğiyle keşfetmeye..." cümlesindeki "seyyah" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Gezip görmek, incelemek ve öğrenmek amacıyla çok gezen kimse, gezgin.\n• Metin İçi Gerekçe: Evliya Çelebi\'nin elli yıl boyunca at sırtında dünyayı gezmesi ve yazması.',
+            label: 'b. gezgin',
+            text: 'Metindeki: "...yaşadığı şehri sıradan bir ziyaretçi gözüyle değil, araştırmacı bir gezgin yüreğiyle keşfetmeye..." cümlesindeki "gezgin" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Gezip görmek, incelemek ve öğrenmek amacıyla çok gezen kimse, seyyah.\n• Metin İçi Gerekçe: Evliya Çelebi\'nin elli yıl boyunca at sırtında farklı ülkeleri gezmesi ve yazması.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (4 Puan).'
           }
         ],
-        expectedAnswer: 'Tasvir ve seyyah kelimelerinin bağlam tahmini ve gerekçesi.',
+        expectedAnswer: 'Betimleme ve gezgin kelimelerinin bağlam tahmini ve gerekçesi.',
         rubric: [
           { criterion: 'Her iki kelimenin anlamına dair isabetli tahmin', points: 8 },
           { criterion: 'Metin gerekçelerinin sunulması', points: 7 }

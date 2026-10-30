@@ -1,33 +1,38 @@
 <!doctype html>
-<html lang="tr" translate="no" class="notranslate">
+<html lang="tr">
   <head>
     <meta charset="UTF-8" />
-    <meta name="google" content="notranslate" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-    <meta name="theme-color" content="#4f46e5" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="Sınav Havuzu" />
-    <link rel="manifest" href="./manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Türkçe Ülküsü - 5, 6, 7 ve 8. Sınıf 1. Dönem 1. Yazılı Sınav Portalı</title>
     <meta name="description" content="Türkiye Yüzyılı Maarif Modeline ve MEB kazanımlarına tam uyumlu 5, 6, 7 ve 8. Sınıf Türkçe 1. Dönem 1. Yazılı örnek sınavları, açık uçlu sorular ve ayrıntılı çözüm anahtarları." />
     <meta property="og:title" content="Türkçe Ülküsü - 5, 6, 7 ve 8. Sınıf 1. Dönem 1. Yazılı Sınav Portalı" />
     <meta property="og:description" content="Türkiye Yüzyılı Maarif Modeline ve MEB kazanımlarına tam uyumlu 5, 6, 7 ve 8. Sınıf Türkçe 1. Dönem 1. Yazılı örnek sınavları, açık uçlu sorular ve ayrıntılı çözüm anahtarları." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://turkce-sinav-havuzu.vercel.app/" />
-    <link rel="canonical" href="https://turkce-sinav-havuzu.vercel.app/" />
     <meta name="twitter:card" content="summary_large_image" />
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+  <body style="margin:0;background-color:#f1f5f9;color:#0f172a;font-family:system-ui,-apple-system,sans-serif;">
+    <div id="root">
+      <div style="min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:24px;text-align:center;">
+        <div style="background:#ffffff;border:1px solid #e2e8f0;border-radius:16px;padding:28px 24px;max-width:420px;width:100%;box-shadow:0 4px 12px rgba(0,0,0,0.05);">
+          <div style="font-family:Georgia,serif;font-weight:900;font-size:20px;color:#0f172a;letter-spacing:0.5px;">TÜRKÇE ÜLKÜSÜ YAYINLARI</div>
+          <div style="font-size:13px;font-weight:700;color:#b91c1c;margin-top:6px;">5, 6, 7 ve 8. Sınıf Yazılı Sınav Havuzu</div>
+          <div id="boot-status" style="font-size:13px;color:#475569;margin-top:16px;">Sınav senaryoları yükleniyor, lütfen bekleyiniz...</div>
+        </div>
+      </div>
+    </div>
     <script>
       if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function () {
-          navigator.serviceWorker.register('./sw.js').catch(function () {});
-        });
+        navigator.serviceWorker.getRegistrations().then(function(regs) {
+          for (var i = 0; i < regs.length; i++) { regs[i].unregister(); }
+        }).catch(function(){});
       }
+      window.addEventListener('error', function(e) {
+        var el = document.getElementById('boot-status');
+        if (el) {
+          el.innerHTML = 'Bağlantı yenileniyor... <br><a href="https://turkce-ulkusu.vercel.app/sinav-havuzu/index.html" style="display:inline-block;margin-top:12px;padding:10px 16px;background:#b91c1c;color:#fff;border-radius:8px;text-decoration:none;font-weight:700;">Sınav Havuzunu Aç</a>';
+        }
+      }, true);
     </script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -17,12 +17,12 @@ export const SCENARIO_3_EXAMS: ExamScenario[] = [
       title: 'Gönül Köprüsü: Sandıktan Çıkan Mektuplar',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
       source: '7. Sınıf Türkçe Dersi - İletişim, Dil Sevgisi ve Nezaket',
-      content: `Yetmiş beş yaşındaki Tahsin Dede, apartman dairesinin balkonundan caddeye baktığında içini derin bir hüzün kaplardı. Sokaktan gelip geçen insanlar kulaklarında kulaklıklar, ellerinde telefon ekranlarıyla yürüyordu. Ne bir tebessüm ne bir selamlaşma vardı havada... Birbirlerinin yüzüne bakmadan, sanki birer gölge gibi teğet geçiyorlardı. Oysa onun çocukluğunda bir sokaktan geçerken rastlanan herkese "Hayırlı sabahlar, akıbetiniz hayrola!" denir; komşunun hâli hatırı sorulmadan kapı önünden geçilmezdi.
+      content: `Yetmiş beş yaşındaki Tahsin Dede, apartman dairesinin balkonundan caddeye baktığında içini derin bir hüzün kaplardı. Sokaktan gelip geçen insanlar kulaklarında kulaklıklar, ellerinde telefon ekranlarıyla yürüyordu. Ne bir gülümseme ne bir selamlaşma vardı sokakta... Birbirlerinin yüzüne bakmadan, sanki birer gölge gibi yan yana geçip gidiyorlardı. Oysa onun çocukluğunda bir sokaktan geçerken rastlanan herkese "Hayırlı sabahlar, işiniz rast gitsin!" denir; komşunun hâli hatırı sorulmadan kapı önünden geçilmezdi.
 
-O gün torunu Eren ziyarete gelmişti. Eren koltuğa gömülmüş, parmaklarını hızla telefon camında kaydırarak arkadaşlarıyla mesajlaşıyordu. Kullandığı kısaltmalar, yabancı kelimeler ve emojiler Tahsin Dede’nin dikkatini çekti. Dede usulca yerinden kalktı; odadaki ceviz sandığın kapağını açtı. Sararmış, kenarları dantel gibi yıpranmış bir tomar mektup çıkardı. 
+O gün torunu Eren ziyarete gelmişti. Eren koltuğa oturmuş, parmaklarını hızla telefon ekranında kaydırarak arkadaşlarıyla mesajlaşıyordu. Kullandığı kısaltmalar, yabancı kelimeler ve semboller Tahsin Dede’nin dikkatini çekti. Dede usulca yerinden kalktı; odadaki ceviz sandığın kapağını açtı. Sararmış, kenarları yıpranmış bir deste mektup çıkardı. 
 
-— Eren oğlum, bak bu mektupları bana elli yıl önce asker ocağındayken rahmetli babam yazmıştı, dedi.
-Eren merakla başını ekrandan kaldırdı. Mektupların her bir satırı "Gözümün nuru, hasretlim..." diye başlıyor; sevgiyle, incelikle dokunmuş kelimelerle devam ediyordu. Mektuplarda ne kırıcı bir sitem ne de kaba bir söz vardı; her cümle âdeta bir gönül nakışı gibi işlenmişti. Eren o sararmış kâğıtları kokladığında dedesinin neden bu kadar kederlendiğini gayriihtiyari anladı. O an elindeki telefonu usulca sehpaya bıraktı. Dedesiyle göz göze geldiğinde gözlerinde sımsıcak bir anlayış pırıltısı parıldıyordu.`
+— Eren oğlum, bak bu mektupları bana elli yıl önce askerdeyken rahmetli babam yazmıştı, dedi.
+Eren merakla başını ekrandan kaldırdı. Mektupların her bir satırı "Gözümün nuru, canım oğlum..." diye başlıyor; sevgiyle, incelikle seçilmiş kelimelerle devam ediyordu. Mektuplarda ne kırıcı bir sitem ne de kaba bir söz vardı; her cümle özenle yazılmıştı. Eren o sararmış kâğıtları kokladığında dedesinin neden bu kadar üzüldüğünü kendiliğinden anladı. O an elindeki telefonu usulca sehpaya bıraktı. Dedesiyle göz göze geldiğinde gözlerinde sımsıcak bir anlayış pırıltısı parıldıyordu.`
     },
     questions: [
       {
@@ -35,21 +35,21 @@ Eren merakla başını ekrandan kaldırdı. Mektupların her bir satırı "Göz�
         prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından hareketle tahmin ediniz ve gerekçelerini yazınız.',
         subQuestions: [
           {
-            label: 'a. teğet',
-            text: 'Metindeki: "...sanki birer gölge gibi teğet geçiyorlardı." cümlesindeki "teğet" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Birbirine dokunmadan, çok yakınından temas etmeksizin geçip gitmek; iletişim kurmadan uzaklaşmak.\n• Metin İçi Gerekçe: İnsanların birbirlerinin yüzüne bakmaması ve selamlaşmaması ifadesi.',
+            label: 'a. sitem',
+            text: 'Metindeki: "Mektuplarda ne kırıcı bir sitem ne de kaba bir söz vardı..." cümlesindeki "sitem" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Bir kimseye yaptığı bir hareketin veya söylediği sözün üzüntü, kırgınlık uyandırdığını öfkelenmeden belirtme.\n• Metin İçi Gerekçe: Cümlede "kırıcı" sıfatıyla birlikte kullanılması ve sevgi dolu sözlerin karşıtı olarak verilmesi.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (3 Puan).'
           },
           {
-            label: 'b. gayriihtiyari',
-            text: 'Metindeki: "...neden bu kadar kederlendiğini gayriihtiyari anladı." cümlesindeki "gayriihtiyari" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: İstem dışı olarak, elinde olmadan, kendiliğinden, birdenbire.\n• Metin İçi Gerekçe: Mektupları koklayıp okur okumaz o an birdenbire içine doğması durumu.',
+            label: 'b. kendiliğinden',
+            text: 'Metindeki: "...dedesinin neden bu kadar üzüldüğünü kendiliğinden anladı." cümlesindeki "kendiliğinden" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Başka birinin açıklamasına gerek kalmadan, doğal olarak, içinden gelerek.\n• Metin İçi Gerekçe: Eren\'in mektupları okuyup koklar koklamaz dedesinin duygusunu hemen fark etmesi.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (4 Puan).'
           }
         ],
-        expectedAnswer: 'Teğet ve gayriihtiyari sözcüklerinin bağlamsal tahmini ve gerekçesi.',
+        expectedAnswer: 'Sitem ve kendiliğinden sözcüklerinin bağlamsal tahmini ve gerekçesi.',
         rubric: [
           { criterion: 'Her iki kelimenin anlamına dair isabetli tahmin', points: 8 },
           { criterion: 'Tahmini destekleyen metin delillerinin gösterilmesi', points: 7 }
@@ -327,12 +327,12 @@ Usta, cebinden çıkardığı incecik kıl fırçayla çarkların arasına sık�
       title: 'Toroslar\'da Bir Hayrat Çeşmesi',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
       source: '7. Sınıf Türkçe Dersi - Yardımlaşma, Paylaşma ve İyilik',
-      content: `Toroslar’ın sarp kayalıkları arasından kıvrılarak geçen tozlu kervan yolu, yaz aylarında kavurucu güneşin altında cehenneme dönerdi. Yolcular saatlerce bir yudum soğuk su bulabilmek umuduyla dudakları çatlamış hâlde ilerlerdi. Bu geçitte yaşayan yaşlı taş ustası Hasan Dede, ömrünün son yıllarını dağın zirvesinden sızan billur gibi kaynak suyunu yol kıyısına indirmeye adamıştı. 
+      content: `Toroslar’ın dik kayalıkları arasından kıvrılarak geçen tozlu yol, yaz aylarında kavurucu güneşin altında çok sıcak olurdu. Yolcular saatlerce bir yudum soğuk su bulabilmek umuduyla dudakları çatlamış hâlde ilerlerdi. Bu geçitte yaşayan yaşlı taş ustası Hasan Dede, ömrünün son yıllarını dağın zirvesinden sızan berrak kaynak suyunu yol kıyısına indirmeye adamıştı. 
 
-Köydekiler ona "Boşuna zahmet çekiyorsun Hasan Dede, bu kayaları delmeye senin gücün yeter mi?" dediklerinde o sadece tebessüm eder:
-— Evlatlarım; bir insanın diktiği fidanın gölgesi, yaptığı çeşmenin suyu kendinden sonraki nesillere kalıyorsa o insan hiç ölmemiş demektir, derdi.
+Köydekiler ona "Boşuna zahmet çekiyorsun Hasan Dede, bu kayaları delmeye senin gücün yeter mi?" dediklerinde o sadece gülümser:
+— Evlatlarım; bir insanın diktiği fidanın gölgesi, yaptığı çeşmenin suyu kendinden sonraki nesillere kalıyorsa o insan unutulmaz, derdi.
 
-Hasan Dede tam iki yıl boyunca elinde murç ve çekiçle kayaları oydu; ardıç kütüklerinden su olukları yaptı. Nihayet o kızgın temmuz sıcağında buz gibi su taş yalağa "şırıl şırıl" döküldü. Yalağın yanına yolcuların içmesi için kalaylı bir bakır tas, kuşların ve kurtların su içmesi için de küçük bir taş oyuk yaptı. Gelip geçen yolcular atlarını sulayıp kana kana su içerken "Bu çeşmeyi yapandan Allah razı olsun." diye dua ederdi. Hasan Dede’nin nasırlı elleri yorulmuştu ama gönlü Toroslar kadar yüce bir huzurla dolmuştu.`
+Hasan Dede tam iki yıl boyunca elinde çelik kalem ve çekiçle kayaları oydu; çam kütüklerinden su olukları yaptı. Sonunda o sıcak temmuz gününde buz gibi su taş oluğa "şırıl şırıl" döküldü. Çeşmenin yanına yolcuların içmesi için kalaylı bir bakır tas, kuşların ve yaban hayvanlarının su içmesi için de küçük bir taş oyuk yaptı. Gelip geçen yolcular kana kana su içerken "Bu çeşmeyi yapandan Allah razı olsun." diye dua ederdi. Hasan Dede’nin nasırlı elleri yorulmuştu ama gönlü Toroslar kadar büyük bir huzurla dolmuştu.`
     },
     questions: [
       {
@@ -345,21 +345,21 @@ Hasan Dede tam iki yıl boyunca elinde murç ve çekiçle kayaları oydu; ardı�
         prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından yararlanarak tahmin ediniz ve gerekçelerini yazınız.',
         subQuestions: [
           {
-            label: 'a. billur',
-            text: 'Metindeki: "...billur gibi kaynak suyunu yol kıyısına indirmeye adamıştı." cümlesindeki "billur" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Çok duru, tertemiz, berrak, cam gibi saydam.\n• Metin İçi Gerekçe: Dağın zirvesinden çıkan saf ve içilebilir kaynak suyu bağlamı.',
+            label: 'a. berrak',
+            text: 'Metindeki: "...dağın zirvesinden sızan berrak kaynak suyunu yol kıyısına indirmeye adamıştı." cümlesindeki "berrak" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Bulanıklığı olmayan, çok duru, tertemiz, cam gibi saydam.\n• Metin İçi Gerekçe: Dağın zirvesinden çıkan temiz ve içilebilir kaynak suyu olması.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (3 Puan).'
           },
           {
-            label: 'b. murç',
-            text: 'Metindeki: "...elinde murç ve çekiçle kayaları oydu..." cümlesindeki "murç" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Taş ve kayaları yontmak veya delmek için çekiçle vurularak kullanılan sivri uçlu demir kalem/alet.\n• Metin İçi Gerekçe: Çekiçle birlikte kayaları oymak için kullanılması.',
+            label: 'b. oluk',
+            text: 'Metindeki: "...çam kütüklerinden su olukları yaptı." cümlesindeki "oluk" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Suyun bir yerden başka bir yere akmasını sağlamak için yapılan üstü açık boru veya kanal.\n• Metin İçi Gerekçe: Dağdaki kaynak suyunu yol kıyısındaki çeşmeye akıtmak için kullanılması.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (4 Puan).'
           }
         ],
-        expectedAnswer: 'Billur ve murç sözcüklerinin bağlamsal tahmini ve gerekçesi.',
+        expectedAnswer: 'Berrak ve oluk sözcüklerinin bağlamsal tahmini ve gerekçesi.',
         rubric: [
           { criterion: 'Her iki sözcüğün bağlama uygun tahmini', points: 8 },
           { criterion: 'Metin gerekçelerinin açıkça yazılması', points: 7 }

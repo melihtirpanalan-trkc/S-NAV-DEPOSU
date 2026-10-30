@@ -17,11 +17,11 @@ export const SCENARIO_4_EXAMS: ExamScenario[] = [
       title: 'Yıldızlara Dokunan Eller',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
       source: '7. Sınıf Türkçe Dersi - Bilim ve Araştırma Ruhu',
-      content: `Köyün ucundaki taş evin çatı katı, on üç yaşındaki Murat için dünyanın en gizemli sığınağıydı. Akranları meydanda top koştururken ya da derenin kıyısında vakit öldürürken o, dedesinden kalma kırık bir dürbün merceğini güneşe tutar, ışığın kırılışını hayranlıkla incelerdi. Babası ise köyün marangozuydu; oğlunun da eline keseri alıp tahtadan yontulmuş masalar yapmasını arzuluyordu. Fakat Murat’ın aklı fikri, gece olunca gökyüzünü kaplayan o parıltılı noktalardaydı.
+      content: `Köyün ucundaki taş evin çatı katı, on üç yaşındaki Murat için dünyanın en ilgi çekici sığınağıydı. Yaşıtları meydanda top koştururken ya da derenin kıyısında vakit öldürürken o, dedesinden kalma kırık bir dürbün merceğini güneşe tutar, ışığın kırılışını hayranlıkla incelerdi. Babası ise köyün marangozuydu; oğlunun da eline keseri alıp ahşaptan sağlam masalar yapmasını istiyordu. Fakat Murat’ın aklı fikri, gece olunca gökyüzünü kaplayan o parıltılı yıldızlardaydı.
 
-Murat, ortaokulun kütüphanesine âdeta dadandı. Fizik ve gök bilimine dair eline geçen her sayfayı bir solukta okuyor, anlamadığı terimleri öğretmeniyle paylaşıyordu. Ancak çıplak gözle ya da eski bir dürbünle göğün derinliklerine ulaşmak imkânsızdı; bir teleskoba ihtiyacı vardı. Köy şartlarında böyle bir aleti satın alabilmek hayalden bile uzaktı. Murat pes etmedi. Kasaba pazarındaki hurdalıkları günlerce dolaşarak eski bir soba borusu, kırık bir fotoğraf makinesi merceği ve pirinç bir halka buldu. Geceleri gaz lambasının titrek alevinde bu cam parçalarını saatlerce perdahlayarak pürüzsüz hâle getirdi. Uykusuzluktan göz kapakları ağırlaşıyor, yorgunluktan bitap düşüyordu ama gökyüzü tutkusu onu dimdik ayakta tutuyordu. 
+Murat, ortaokulun kütüphanesine her gün uğramayı alışkanlık edindi. Fizik ve gök bilimine dair eline geçen her sayfayı bir solukta okuyor, anlamadığı kavramları öğretmeniyle paylaşıyordu. Ancak çıplak gözle ya da eski bir dürbünle göğün derinliklerini incelemek imkânsızdı; bir teleskoba ihtiyacı vardı. Köy şartlarında böyle bir aracı satın alabilmek çok zordu. Murat vazgeçmedi. Kasaba pazarındaki ikinci el tezgâhlarını günlerce dolaşarak eski bir soba borusu, kırık bir fotoğraf makinesi merceği ve metal bir halka buldu. Geceleri masa lambasının ışığında bu cam parçalarını saatlerce özenle parlatarak pürüzsüz hâle getirdi. Uykusuzluktan göz kapakları ağırlaşıyor, yorgunluktan hâlsiz düşüyordu ama gökyüzü tutkusu onu dimdik ayakta tutuyordu. 
 
-Soğuk bir kasım gecesi, teneke çatının üstünde el yapımı teleskobunu güney ufkuna çevirdi. Merceğin ardından baktığında daha önce hiçbir atlas üzerinde görmediği, kuyruğundan mavimsi ışıklar saçan bir yıldızın süzüldüğünü gördü. Heyecanla soluğu kesildi; o dondurucu gecede elleri buz tutsa da yüreğinde sönmeyecek bir başarı ateşi yanmıştı.`
+Soğuk bir kasım gecesi, çatının üstünde el yapımı teleskobunu güney ufkuna çevirdi. Merceğin ardından baktığında daha önce hiçbir gökyüzü haritasında görmediği, kuyruğundan mavimsi ışıklar saçan bir kuyruklu yıldızın süzüldüğünü gördü. Heyecanla soluğu kesildi; o dondurucu gecede elleri buz tutsa da yüreğinde sönmeyecek bir başarı ateşi yanmıştı.`
     },
     questions: [
       {
@@ -34,16 +34,16 @@ Soğuk bir kasım gecesi, teneke çatının üstünde el yapımı teleskobunu g�
         prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından yararlanarak tahmin ediniz. Tahminlerinizi ve sizi bu tahmine götüren metin içi gerekçeleri yazınız.',
         subQuestions: [
           {
-            label: 'a. dadandı',
-            text: 'Metindeki: "Murat, ortaokulun kütüphanesine âdeta dadandı." cümlesindeki "dadandı" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Bir yere çok sık gitmeyi alışkanlık hâline getirmek, oradan ayrılamamak.\n• Metin İçi Gerekçe: Murat\'ın kütüphanedeki kaynakları durmaksızın incelemesi ve araştırması.',
+            label: 'a. sığınak',
+            text: 'Metindeki: "Köyün ucundaki taş evin çatı katı, on üç yaşındaki Murat için dünyanın en ilgi çekici sığınağıydı." cümlesindeki "sığınak" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: İnsanın kendini huzurlu, güvende ve rahatsız edilmeden çalışabilecek durumda hissettiği özel yer.\n• Metin İçi Gerekçe: Murat\'ın çatı katında tek başına merceklerle deney yapıp gökyüzünü incelemesi.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), metin içi somut gerekçe (3 Puan).'
           },
           {
-            label: 'b. perdahlayarak',
-            text: 'Metindeki: "...bu cam parçalarını saatlerce perdahlayarak pürüzsüz hâle getirdi." cümlesindeki "perdahlayarak" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Bir nesnenin yüzeyini överek düzeltmek, cilalayarak parlatmak ve pürüzsüz duruma getirmek.\n• Metin İçi Gerekçe: Cümlenin devamındaki "pürüzsüz hâle getirdi" ifadesi.',
+            label: 'b. parlatarak',
+            text: 'Metindeki: "...bu cam parçalarını saatlerce özenle parlatarak pürüzsüz hâle getirdi." cümlesindeki "parlatarak" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Bir nesnenin yüzeyini silip temizleyerek ışığı net geçirecek, parlak ve pürüzsüz duruma getirmek.\n• Metin İçi Gerekçe: Cümlenin devamındaki "pürüzsüz hâle getirdi" ifadesi ve mercek camı üzerinde çalışması.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), metin içi somut gerekçe (4 Puan).'
           }
@@ -172,15 +172,15 @@ Soğuk bir kasım gecesi, teneke çatının üstünde el yapımı teleskobunu g�
       title: 'Karanlığı Delen Kağnı Sesleri',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
       source: '7. Sınıf Türkçe Dersi - Millî Mücadele ve Vatan Sevgisi',
-      content: `Ilgaz Dağları’nın geçit vermez yamaçlarında kasım ayazı bıçak gibi kesiyordu. İnebolu kıyılarından cepheye cephane taşıyan kağnı kollarının tekerleklerinden yükselen "gacır gucur" sesler, dağların uğultusuna karışıyordu. Bu çetin kafilede on beş yaşındaki Mehmet ile yaşlı anası da vardı. Kağnıya koşulu Sarıkız ile Kocabaş, dik yokuşlarda nefes nefese kalmış; çamurlu dik yollarda zorlukla adım atıyordu. 
+      content: `Ilgaz Dağları’nın dik yamaçlarında kasım soğuğu bıçak gibi kesiyordu. İnebolu kıyılarından cepheye cephane taşıyan kağnı kollarının tekerleklerinden yükselen sesler, dağların uğultusuna karışıyordu. Bu zorlu yolculukta on beş yaşındaki Mehmet ile yaşlı annesi de vardı. Kağnıya koşulu öküzler, dik yokuşlarda nefes nefese kalmış; çamurlu yollarda zorlukla adım atıyordu. 
 
-Hava karardıkça kar serpiştirmeye, tipi şiddetini artırmaya başladı. Mehmet’in sırtındaki yırtık yelek ayazı önlemeye yetmiyor, dudakları soğuktan morarıyordu. Bir ara kağnı derin bir çamur çukuruna saplandı, öküzler ne kadar zorlasa da tekerlek bir santim dahi ilerlemedi. Mehmet hiç tereddüt etmeden omuzunu çamurlu tekerleğe dayadı, var gücüyle yüklendi. İşte tam o anda sırtındaki kalın keçe abayı çıkarıp ıslanmasınlar diye kağnıdaki sandıkların ve mermilerin üzerine örttü. Anası titreyen elleriyle oğlunun kolunu tuttu:
-— Oğul, donacaksın! Üstünü niye açtın?
+Hava karardıkça kar serpiştirmeye, tipi şiddetini artırmaya başladı. Mehmet’in sırtındaki ince yelek soğuğu önlemeye yetmiyor, dudakları soğuktan titriyordu. Bir ara kağnı derin bir çamur çukuruna saplandı, öküzler ne kadar zorlasa da tekerlek bir santim bile ilerlemedi. Mehmet hiç düşünmeden omzunu çamurlu tekerleğe dayadı, var gücüyle yüklendi. İşte tam o anda sırtındaki kalın yün paltosunu çıkarıp ıslanmasınlar diye kağnıdaki cephane sandıklarının üzerine örttü. Annesi titreyen elleriyle oğlunun kolunu tuttu:
+— Oğlum, üşüyeceksin! Üstünü niye çıkardın?
 
-Mehmet, gözlerinde alevlenen sarsılmaz bir inançla başını kaldırdı:
-— Ana; biz üşürüz, biz ıslanırız ama cephedeki askerimizin cephanesi ıslanırsa vatan söner! 
+Mehmet, gözlerinde parlayan sarsılmaz bir inançla başını kaldırdı:
+— Anne; biz üşürüz, biz ıslanırız ama cephedeki askerimizin cephanesi ıslanırsa vatanımız tehlikeye girer! 
 
-Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağnılardan yetişen köylüler de koşup geldiler. Omuz omuza verip kağnıyı çamurdan çıkardılar. O gece Ilgaz’ın zirvesinde yalnızca bir kağnı değil; bütün bir milletin hürriyet ve bağımsızlık aşkı yürüyordu.`
+Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağnılardan yetişen köylüler de koşup geldiler. Omuz omuza verip kağnıyı çamurdan çıkardılar. O gece Ilgaz’ın zirvesinde yalnızca bir kağnı değil; bütün bir milletin özgürlük ve bağımsızlık sevgisi yürüyordu.`
     },
     questions: [
       {
@@ -193,23 +193,23 @@ Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağ
         prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından hareketle tahmin ediniz. Tahminlerinizi ve sizi bu tahmine ulaştıran metin içi gerekçeleri yazınız.',
         subQuestions: [
           {
-            label: 'a. çetin',
-            text: 'Metindeki: "Bu çetin kafilede on beş yaşındaki Mehmet ile yaşlı anası da vardı." cümlesindeki "çetin" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Çok zor, güç, aşılması büyük çaba ve dayanıklılık gerektiren, meşakkatli.\n• Metin İçi Gerekçe: Ilgaz Dağları’nın ayazı, kar ve tipinin şiddeti ile yolların çamurlu olması.',
+            label: 'a. cephane',
+            text: 'Metindeki: "İnebolu kıyılarından cepheye cephane taşıyan kağnı kollarının..." cümlesindeki "cephane" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Savaşta ordunun kullandığı mermi, fişek ve patlayıcı maddelerin tümü, mühimmat.\n• Metin İçi Gerekçe: Cephedeki askerlere kağnılarla sandıklar içinde taşınması ve ıslanmaması için korunması.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), metin içi gerekçe (3 Puan).'
           },
           {
-            label: 'b. aba',
-            text: 'Metindeki: "İşte tam o anda sırtındaki kalın keçe abayı çıkarıp ıslanmasınlar diye kağnıdaki sandıkların... üzerine örttü." cümlesindeki "aba" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Yünden veya keçeden yapılan, soğuktan korunmak için giyilen kaba ve kalın üst giysisi.\n• Metin İçi Gerekçe: Mehmet’in sırtından çıkarıp mermilerin üzerine örtmesi ve anasının "donacaksın" demesi.',
+            label: 'b. sarsılmaz',
+            text: 'Metindeki: "Mehmet, gözlerinde parlayan sarsılmaz bir inançla başını kaldırdı..." cümlesindeki "sarsılmaz" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Hiçbir güçlük karşısında zayıflamayan, bozulmayan, çok sağlam ve güçlü.\n• Metin İçi Gerekçe: Mehmet\'in dondurucu soğuğa rağmen kendi paltosunu çıkarıp cephaneyi korumaktan vazgeçmemesi.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), metin içi gerekçe (4 Puan).'
           }
         ],
-        expectedAnswer: 'Çetin ve aba kelimelerinin bağlam anlamı ve gerekçeleri.',
+        expectedAnswer: 'Cephane ve sarsılmaz kelimelerinin bağlam anlamı ve gerekçeleri.',
         rubric: [
-          { criterion: 'Çetin ve aba sözcüklerinin isabetle tahmin edilmesi', points: 8 },
+          { criterion: 'Cephane ve sarsılmaz sözcüklerinin isabetle tahmin edilmesi', points: 8 },
           { criterion: 'Her tahmin için metinden delil ve gerekçe gösterilmesi', points: 7 }
         ]
       },
@@ -246,8 +246,8 @@ Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağ
         title: 'Metnin Derin Anlamı (Metnin Ana Fikri / İletisi)',
         points: 15,
         linesNeeded: 5,
-        prompt: 'Mehmet’in "Biz üşürüz, biz ıslanırız ama cephedeki askerimizin cephanesi ıslanırsa vatan söner!" sözünden hareketle metnin derin anlamını (ana fikrini) açıklayınız.',
-        expectedAnswer: 'Türk milleti için vatanın bağımsızlığı ve bekası, bireyin kendi canından ve rahatından çok daha üstündür. Metnin derin anlamı; vatan sevgisinin ve milletçe gösterilen fedakârlığın her türlü zorluğu aşacak en yüce güç olmasıdır.',
+        prompt: 'Mehmet’in "Biz üşürüz, biz ıslanırız ama cephedeki askerimizin cephanesi ıslanırsa vatanımız tehlikeye girer!" sözünden hareketle metnin derin anlamını (ana fikrini) açıklayınız.',
+        expectedAnswer: 'Türk milleti için vatanın bağımsızlığı ve güvenliği, bireyin kendi canından ve rahatından çok daha üstündür. Metnin derin anlamı; vatan sevgisinin ve milletçe gösterilen fedakârlığın her türlü zorluğu aşacak en yüce güç olmasıdır.',
         rubric: [
           { criterion: 'Vatan bağımsızlığının bireysel canın önüne konulması çıkarımı', points: 8 },
           { criterion: 'Metindeki söz ile desteklenmiş çıkarım', points: 7 }
@@ -261,7 +261,7 @@ Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağ
         points: 15,
         linesNeeded: 5,
         prompt: 'Metinde geçen "omuz omuza vermek" deyiminin anlamını açıklayınız. Köylülerin bu deyimle ifade edilen davranışı sergilemelerinin arkasındaki temel "sebep" ve ortaya çıkan "sonuç" ilişkisini yazınız.',
-        expectedAnswer: '• "Omuz omuza vermek" deyimi: Bir amaç uğruna dayanışma içinde olmak, güçlerini birleştirmek, yardımlaşmak demektir.\n• Sebep-Sonuç: Mehmet\'in mermileri korumak için abasını feda edip tekerleğe asılması ve vatan sözleri (sebep), köylülerin gayrete gelip güç birliği yaparak kağnıyı çamurdan çıkarmalarını (sonuç) sağlamıştır.',
+        expectedAnswer: '• "Omuz omuza vermek" deyimi: Bir amaç uğruna dayanışma içinde olmak, güçlerini birleştirmek, yardımlaşmak demektir.\n• Sebep-Sonuç: Mehmet\'in cephaneyi korumak için paltosunu çıkarıp tekerleğe yüklenmesi ve vatan sevgisi dolu sözleri (sebep), köylülerin gayrete gelip güç birliği yaparak kağnıyı çamurdan çıkarmalarını (sonuç) sağlamıştır.',
         rubric: [
           { criterion: 'Deyimin doğru açıklaması', points: 7 },
           { criterion: 'Sebep ve sonuç bağıntısının metinle kurulması', points: 8 }
@@ -331,12 +331,12 @@ Bu sözler gecenin karanlığını bir şimşek gibi aydınlattı. Gerideki kağ
       title: 'Gönül Köprüsü: Sandıktan Çıkan Mektuplar',
       author: 'Türkçe Ülküsü Yayınları (Özgün Edebi Metin)',
       source: '7. Sınıf Türkçe Dersi - İletişim, Dil Sevgisi ve Nezaket',
-      content: `Yetmiş beş yaşındaki Tahsin Dede, apartman dairesinin balkonundan caddeye baktığında içini derin bir hüzün kaplardı. Sokaktan gelip geçen insanlar kulaklarında kulaklıklar, ellerinde telefon ekranlarıyla yürüyordu. Ne bir tebessüm ne bir selamlaşma vardı havada... Birbirlerinin yüzüne bakmadan, sanki birer gölge gibi teğet geçiyorlardı. Oysa onun çocukluğunda bir sokaktan geçerken rastlanan herkese "Hayırlı sabahlar, akıbetiniz hayrola!" denir; komşunun hâli hatırı sorulmadan kapı önünden geçilmezdi.
+      content: `Yetmiş beş yaşındaki Tahsin Dede, apartman dairesinin balkonundan caddeye baktığında içini derin bir hüzün kaplardı. Sokaktan gelip geçen insanlar kulaklarında kulaklıklar, ellerinde telefon ekranlarıyla yürüyordu. Ne bir gülümseme ne bir selamlaşma vardı sokakta... Birbirlerinin yüzüne bakmadan, sanki birer gölge gibi yan yana geçip gidiyorlardı. Oysa onun çocukluğunda bir sokaktan geçerken rastlanan herkese "Hayırlı sabahlar, işiniz rast gitsin!" denir; komşunun hâli hatırı sorulmadan kapı önünden geçilmezdi.
 
-O gün torunu Eren ziyarete gelmişti. Eren koltuğa gömülmüş, parmaklarını hızla telefon camında kaydırarak arkadaşlarıyla mesajlaşıyordu. Kullandığı kısaltmalar, yabancı kelimeler ve emojiler Tahsin Dede’nin dikkatini çekti. Dede usulca yerinden kalktı; odadaki ceviz sandığın kapağını açtı. Sararmış, kenarları dantel gibi yıpranmış bir tomar mektup çıkardı. 
+O gün torunu Eren ziyarete gelmişti. Eren koltuğa oturmuş, parmaklarını hızla telefon ekranında kaydırarak arkadaşlarıyla mesajlaşıyordu. Kullandığı kısaltmalar, yabancı kelimeler ve semboller Tahsin Dede’nin dikkatini çekti. Dede usulca yerinden kalktı; odadaki ceviz sandığın kapağını açtı. Sararmış, kenarları yıpranmış bir deste mektup çıkardı. 
 
-— Eren oğlum, bak bu mektupları bana elli yıl önce asker ocağındayken rahmetli babam yazmıştı, dedi.
-Eren merakla başını ekrandan kaldırdı. Mektupların her bir satırı "Gözümün nuru, hasretlim..." diye başlıyor; sevgiyle, incelikle dokunmuş kelimelerle devam ediyordu. Mektuplarda ne kırıcı bir sitem ne de kaba bir söz vardı; her cümle âdeta bir gönül nakışı gibi işlenmişti. Eren o sararmış kâğıtları kokladığında dedesinin neden bu kadar kederlendiğini gayriihtiyari anladı. O an elindeki telefonu usulca sehpaya bıraktı. Dedesiyle göz göze geldiğinde gözlerinde sımsıcak bir anlayış pırıltısı parıldıyordu.`
+— Eren oğlum, bak bu mektupları bana elli yıl önce askerdeyken rahmetli babam yazmıştı, dedi.
+Eren merakla başını ekrandan kaldırdı. Mektupların her bir satırı "Gözümün nuru, canım oğlum..." diye başlıyor; sevgiyle, incelikle seçilmiş kelimelerle devam ediyordu. Mektuplarda ne kırıcı bir sitem ne de kaba bir söz vardı; her cümle özenle yazılmıştı. Eren o sararmış kâğıtları kokladığında dedesinin neden bu kadar üzüldüğünü kendiliğinden anladı. O an elindeki telefonu usulca sehpaya bıraktı. Dedesiyle göz göze geldiğinde gözlerinde sımsıcak bir anlayış pırıltısı parıldıyordu.`
     },
     questions: [
       {
@@ -349,21 +349,21 @@ Eren merakla başını ekrandan kaldırdı. Mektupların her bir satırı "Göz�
         prompt: 'Metinde geçen altı çizili kelimelerin anlamlarını metnin bağlamından hareketle tahmin ediniz ve gerekçelerini yazınız.',
         subQuestions: [
           {
-            label: 'a. teğet',
-            text: 'Metindeki: "...sanki birer gölge gibi teğet geçiyorlardı." cümlesindeki "teğet" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: Birbirine dokunmadan, çok yakınından temas etmeksizin geçip gitmek; iletişim kurmadan uzaklaşmak.\n• Metin İçi Gerekçe: İnsanların birbirlerinin yüzüne bakmaması ve selamlaşmaması ifadesi.',
+            label: 'a. sitem',
+            text: 'Metindeki: "Mektuplarda ne kırıcı bir sitem ne de kaba bir söz vardı..." cümlesindeki "sitem" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Bir kimseye yaptığı bir hareketin veya söylediği sözün üzüntü, kırgınlık uyandırdığını öfkelenmeden belirtme.\n• Metin İçi Gerekçe: Cümlede "kırıcı" sıfatıyla birlikte kullanılması ve sevgi dolu sözlerin karşıtı olarak verilmesi.',
             points: 7,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (3 Puan).'
           },
           {
-            label: 'b. gayriihtiyari',
-            text: 'Metindeki: "...neden bu kadar kederlendiğini gayriihtiyari anladı." cümlesindeki "gayriihtiyari" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
-            expectedAnswer: '• Anlam Tahmini: İstem dışı olarak, elinde olmadan, kendiliğinden, birdenbire.\n• Metin İçi Gerekçe: Mektupları koklayıp okur okumaz o an birdenbire içine doğması durumu.',
+            label: 'b. kendiliğinden',
+            text: 'Metindeki: "...dedesinin neden bu kadar üzüldüğünü kendiliğinden anladı." cümlesindeki "kendiliğinden" kelimesi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Başka birinin açıklamasına gerek kalmadan, doğal olarak, içinden gelerek.\n• Metin İçi Gerekçe: Eren\'in mektupları okuyup koklar koklamaz dedesinin duygusunu hemen fark etmesi.',
             points: 8,
             guideline: 'Anlam tahmini (4 Puan), gerekçe (4 Puan).'
           }
         ],
-        expectedAnswer: 'Teğet ve gayriihtiyari sözcüklerinin bağlamsal tahmini ve gerekçesi.',
+        expectedAnswer: 'Sitem ve kendiliğinden sözcüklerinin bağlamsal tahmini ve gerekçesi.',
         rubric: [
           { criterion: 'Her iki kelimenin anlamına dair isabetli tahmin', points: 8 },
           { criterion: 'Tahmini destekleyen metin delillerinin gösterilmesi', points: 7 }
@@ -390,7 +390,7 @@ Eren merakla başını ekrandan kaldırdı. Mektupların her bir satırı "Göz�
         points: 10,
         linesNeeded: 4,
         prompt: 'Metne göre Tahsin Dede’nin çocukluğunda komşuluk ve sokak iletişimi nasıldı? Metinden örnek veriniz.',
-        expectedAnswer: 'Tahsin Dede\'nin çocukluğunda sokaktan geçerken rastlanan herkese "Hayırlı sabahlar, akıbetiniz hayrola!" denir; komşunun hâli hatırı sorulmadan kapı önünden geçilmezdi.',
+        expectedAnswer: 'Tahsin Dede\'nin çocukluğunda sokaktan geçerken rastlanan herkese "Hayırlı sabahlar, işiniz rast gitsin!" denir; komşunun hâli hatırı sorulmadan kapı önünden geçilmezdi.',
         rubric: [
           { criterion: 'Geçmişteki sokak ve komşuluk iletişiminin doğru aktarılması', points: 10 }
         ]

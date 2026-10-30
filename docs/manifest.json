@@ -1,0 +1,10 @@
+{
+  "name": "Türkçe Ülküsü - Yazılı Sınav Havuzu",
+  "short_name": "Sınav Havuzu",
+  "description": "5, 6, 7 ve 8. Sınıf Türkçe 1. Dönem 1. Yazılı Sınav Havuzu",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5"
+}

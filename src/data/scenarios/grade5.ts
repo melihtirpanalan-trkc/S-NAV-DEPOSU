@@ -107,17 +107,19 @@ Kuyruk yapımı için eski kumaş parçalarını eşit aralıklarla ipe dizdiler
         outcomeCode: 'T.Y.5.16',
         title: 'Yazım ve Noktalama Kuralları',
         points: 20,
-        prompt: `Aşağıdaki cümlelerde yay ayraçla ( ) gösterilen yerlere gelmesi gereken noktalama işaretlerini (nokta veya kısa çizgi) yazınız:
-a) Uçurtma şenliği saat 14( )30'da köy meydanında başladı.
-b) Zeynep elindeki renk( )li kâğıtları masanın üstüne serdi.
-c) Yarışmada Kerem ve Zeynep 1( ) oldu.
-ç) Gökyüzündeki uçurtmalar rüzgârın sesine eşlik etti( )`,
-        expectedAnswer: 'a) Nokta (.) [Saat ve dakika arasına]\nb) Kısa çizgi (-) [Satır sonuna sığmayan kelimeyi heceden bölme]\nc) Nokta (.) [Sıra sayısı bildirme]\nç) Nokta (.) [Tamamlanmış cümlenin sonu]',
+        prompt: `Aşağıdaki noktalama ve yazım görevlerini kurallara uygun olarak cevaplayınız:
+a) "Uçurtma şenliği saat 14( )30'da köy meydanında başladı." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+b) "Şenlik alanına ulaşmak için köy( )kasaba arasındaki yolu yürüdük." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+c) "Yarışmada Kerem ve Zeynep 1( ) oldu." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+ç) Aşağıdaki örnekte satır sonuna sığmayan kelimenin bölünüşünde yapılan yanlışı nedeni ile birlikte düzeltiniz:
+   "Kerem ve Zeynep rüzgârlı tepede rengârenk bir u-
+    çurtma uçurdular."`,
+        expectedAnswer: 'a) Nokta (.) [Saat ve dakika arasına konur.]\nb) Kısa çizgi (-) [Kelimeler arasında "-den ...-e, ile, arasında" anlamı vermek için konur.]\nc) Nokta (.) [Sayıdan sonra sıra bildirmek için konur.]\nç) Türkçede satır sonunda tek ünlü harf (u-) tek başına bırakılmaz. Kelime satır sonunda "uçurt- / ma" biçiminde bölünmelidir.',
         rubric: [
-          { criterion: '4 boşluğun tamamını doğru işaretle doldurma', points: 20 },
-          { criterion: '3 boşluğu doğru yapma', points: 15 },
-          { criterion: '2 boşluğu doğru yapma', points: 10 },
-          { criterion: '1 boşluğu doğru yapma', points: 5 },
+          { criterion: '4 maddenin tamamını kurallara uygun ve doğru cevaplama', points: 20 },
+          { criterion: '3 maddeyi doğru cevaplama', points: 15 },
+          { criterion: '2 maddeyi doğru cevaplama', points: 10 },
+          { criterion: '1 maddeyi doğru cevaplama', points: 5 },
           { criterion: 'Hiçbirini doğru yapamama', points: 0 }
         ],
         linesNeeded: 5
@@ -230,17 +232,19 @@ Koşarak mahalledeki marangoz Hasan Amca’nın dükkânına gitti. Hasan Amca k
         outcomeCode: 'T.Y.5.16',
         title: 'Yazım ve Noktalama Kuralları',
         points: 20,
-        prompt: `Aşağıdaki cümlelerde yay ayraçla ( ) gösterilen yerlere uygun noktalama işaretlerini (nokta veya kısa çizgi) koyunuz:
-a) Serçenin tedavisi sabah 09( )15'te tamamlandı.
-b) Ali bahçedeki kuru yap( )rakları bir köşeye topladı.
-c) Yarışmada serçeyi ilk gören Ali 1( ) sırayı aldı.
-ç) Doğa tüm canlıların ortak yaşam alanıdır( )`,
-        expectedAnswer: 'a) Nokta (.) [Saat ve dakika arasına]\nb) Kısa çizgi (-) [Satır sonuna sığmayan kelime hecesi]\nc) Nokta (.) [Sıra sayısı bildirme]\nç) Nokta (.) [Cümle sonu]',
+        prompt: `Aşağıdaki noktalama ve yazım görevlerini kurallara uygun olarak cevaplayınız:
+a) "Serçenin tedavisi sabah 09( )15'te tamamlandı." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+b) "Ali, kuşu beslemek için 10( )14 Kasım günleri arasında her sabah dükkâna gitti." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+c) "Vet( ) Hekim Mehmet Bey serçenin kanadında kırık olmadığını söyledi." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+ç) Aşağıdaki örnekte satır sonuna sığmayan kelimenin bölünüşünde yapılan yanlışı nedeni ile birlikte düzeltiniz:
+   "Sonbaharın son günlerinde parktaki ıhlamur a-
+    ğaçları yapraklarını dökmüştü."`,
+        expectedAnswer: 'a) Nokta (.) [Saat ve dakika arasına konur.]\nb) Kısa çizgi (-) [Sayılar arasında "-den ...-e, arasında" anlamı vermek için konur.]\nc) Nokta (.) [Bazı kısaltmaların sonuna konur.]\nç) Türkçede satır sonunda tek ünlü harf (a-) tek başına bırakılmaz. Kelime satır sonunda "ağaç- / ları" (veya "ağaçla- / rı") biçiminde bölünmelidir.',
         rubric: [
-          { criterion: '4 boşluğun tamamı doğru', points: 20 },
-          { criterion: '3 boşluk doğru', points: 15 },
-          { criterion: '2 boşluk doğru', points: 10 },
-          { criterion: '1 boşluk doğru', points: 5 },
+          { criterion: '4 maddenin tamamını kurallara uygun ve doğru cevaplama', points: 20 },
+          { criterion: '3 maddeyi doğru cevaplama', points: 15 },
+          { criterion: '2 maddeyi doğru cevaplama', points: 10 },
+          { criterion: '1 maddeyi doğru cevaplama', points: 5 },
           { criterion: 'Hatalı', points: 0 }
         ],
         linesNeeded: 5
@@ -355,14 +359,20 @@ b) Bu kelimenin anlamını metnin bağlamından hareketle tahmin ederek yazını
         outcomeCode: 'T.Y.5.16',
         title: 'Yazım ve Noktalama Kuralları',
         points: 20,
-        prompt: `Aşağıdaki kelimeler satır sonuna sığmadığında hecelerinden nasıl bölüneceğini gösteriniz. Kısa çizgi (-) kullanarak birer doğru bölünme biçimi yazınız:
-a) geleneksel: .......................................
-b) motiflerinden: .......................................`,
-        expectedAnswer: 'a) ge-leneksel veya gelenek-sel veya gele-neksel\nb) mo-tiflerinden veya motif-lerinden veya motiflerin-den',
+        prompt: `Aşağıdaki soruları kısa çizgi (-) ve satır sonu bölme kurallarına göre cevaplayınız:
+1. Aşağıdaki cümlelerde kullanılan kısa çizginin (-) kullanım görevlerini yazınız:
+   a) "Geleneksel el sanatları sergimiz 09.00-16.00 saatleri arasında açıktır."
+   b) "Türkçe dersinde 'dokuma-cı' kelimesinin kök ve ekini inceledik."
+2. Aşağıda satır sonuna sığmadığı için bölünen örneklerden hangisinin yazımı YANLIŞTIR? Yanlış olanı nedeni ile birlikte düzeltiniz:
+   • I. Örnek:  "...Fatma Nine yün ipleri ahşap tezgâha özen-
+                 le gerdi."
+   • II. Örnek: "...Selim, halı sergisini gezmek için Isparta'-
+                 da bulunan müzeye gitti."`,
+        expectedAnswer: '1-a) Saatler/sayılar arasında "...-den ...-e, arasında" anlamı vermek için kullanılmıştır.\n1-b) Kelimenin kök ve ekini ayırmak için kullanılmıştır.\n2) II. örnek yanlıştır. Özel adlara gelen ekler satır sonunda ayrılırken kesme işaretinden (\') sonra ayrıca kısa çizgi (-) konulmaz; "Isparta\' / da" şeklinde yazılmalıdır.',
         rubric: [
-          { criterion: 'İki kelimeyi de hece kurallarına uygun olarak doğru bölme', points: 20 },
-          { criterion: 'Bir kelimeyi doğru bölme', points: 10 },
-          { criterion: 'Yanlış heceleme yapma', points: 0 }
+          { criterion: 'Kısa çizginin 2 görevini ve satır sonu yazım yanlışını eksiksiz açıklama', points: 20 },
+          { criterion: 'Yalnızca kısa çizgi görevlerini veya yalnızca satır sonu kuralını doğru yapma', points: 10 },
+          { criterion: 'Hatalı cevap', points: 0 }
         ],
         linesNeeded: 4
       }
@@ -473,16 +483,24 @@ b) Kelimenin anlamını metinden hareketle tahmin ediniz.`,
         id: 'g5-s2-e2-q6',
         number: 6,
         outcomeCode: 'T.Y.5.16',
-        title: 'Yazım Kuralları (Satır Sonu Bölünmesi)',
+        title: 'Yazım ve Noktalama Kuralları',
         points: 20,
-        prompt: `Aşağıdaki kelimeler satır sonuna sığmadığında kısa çizgi (-) ile nasıl bölünebilir? Birer örnek gösteriniz:
-a) değirmenin: .......................................
-b) sabırla: .......................................`,
-        expectedAnswer: 'a) de-ğirmenin veya değir-menin veya değirme-nin\nb) sa-bırla veya sabır-la',
+        prompt: `Aşağıdaki noktalama ve satır sonu yazım görevlerini cevaplayınız:
+1. Aşağıdaki cümlelerde yay ayraçla ( ) gösterilen yerlere uygun noktalama işaretini (nokta veya kısa çizgi) yazınız:
+   a) Ahmet Usta sabah 06( )30'da su değirmeninin kapısını açtı.
+   b) Köylüler buğday çuvallarını köy( )değirmen yolunda kağnılarla taşıdı.
+2. Aşağıda satır sonuna sığmadığı için kısa çizgiyle bölünen örneklerden YANLIŞ olanları bularak doğru bölünüşlerini yazınız:
+   • I. Örnek:   "...Ahmet Usta un çuvallarını o-
+                  daya özenle dizdi."
+   • II. Örnek:  "...Değirmenin çarkı suyun gücüy-
+                  le dönmeye başladı."
+   • III. Örnek: "...Köyün çocukları her sabah ilk-
+                  okulun bahçesinde toplanırdı."`,
+        expectedAnswer: '1-a) Nokta (.) [Saat ve dakika arasına]\n1-b) Kısa çizgi (-) [Kelimeler arasında "-den ...-e, arasında" anlamı vermek için]\n2) I. ve III. örnekler yanlıştır. I. örnekte satır sonunda tek ünlü bırakılmaz ("oda- / ya" olmalı). III. örnekte birleşik kelime hece kuralına göre "il- / kokulun" (veya "ilko- / kulun") şeklinde bölünmelidir. II. örnek doğrudur.',
         rubric: [
-          { criterion: 'Her iki kelimeyi de heceleme kurallarına göre doğru bölme', points: 20 },
-          { criterion: 'Bir kelimeyi doğru bölme', points: 10 },
-          { criterion: 'Yanlış bölme', points: 0 }
+          { criterion: '1. ve 2. bölümdeki tüm kuralları eksiksiz ve doğru cevaplama', points: 20 },
+          { criterion: 'Bölümlerden birini tam, diğerini kısmen doğru yapma', points: 10 },
+          { criterion: 'Yanlış cevap', points: 0 }
         ],
         linesNeeded: 4
       }
@@ -607,17 +625,19 @@ Bir gün kasabadan kütüphaneye iki büyük koli yeni kitap bağışı geldi. K
         id: 'g5-s3-e1-q7',
         number: 7,
         outcomeCode: 'T.Y.5.16',
-        title: 'Yazım ve Noktalama',
+        title: 'Yazım ve Noktalama Kuralları',
         points: 15,
-        prompt: `Aşağıdaki cümlelerde yay ayraç ( ) içine gelmesi gereken noktalama işaretlerini (nokta veya kısa çizgi) yazınız:
-a) Kütüphane haftası kutlamaları 10( )45'te başladı.
-b) Ayşe kütüphanedeki ki( )tapları türlerine göre ayırdı.
-c) Okuma yarışmasında okulumuz ilçe 2( )si oldu.`,
-        expectedAnswer: 'a) Nokta (.) [Saat ve dakika arasına]\nb) Kısa çizgi (-) [Satır sonu hece bölme]\nc) Nokta (.) [Sıra sayısı bildirme]',
+        prompt: `Aşağıdaki noktalama ve yazım görevlerini kurallara uygun olarak cevaplayınız:
+a) "Kütüphane Haftası kutlamaları saat 10( )45'te başladı." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+b) "Kütüphaneye yeni alınan Türkçe( )İngilizce sözlükler raflara dizildi." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+c) Aşağıdaki cümlede satır sonuna sığmayan kelimenin bölünüşündeki hatayı açıklayarak doğrusunu yazınız:
+   "Ayşe ve Tarık kütüphaneye gelen yeni kitapları o-
+    kul çıkışı raflara yerleştirdiler."`,
+        expectedAnswer: 'a) Nokta (.) [Saat ve dakika arasına konur.]\nb) Kısa çizgi (-) [Kelimeler arasında "ve, ile, arasında" anlamı vermek için konur.]\nc) Türkçede satır sonunda tek ünlü harf (o-) tek başına bırakılmaz; "okul" kelimesinin ilk hecesi tek sesli harften oluştuğu için bu kelime satır sonunda bölünmez, tamamı alt satıra yazılmalıdır.',
         rubric: [
-          { criterion: '3 boşluğu da doğru tamamlama', points: 15 },
-          { criterion: '2 boşluğu doğru tamamlama', points: 10 },
-          { criterion: '1 boşluğu doğru tamamlama', points: 5 },
+          { criterion: '3 maddenin tamamını doğru tamamlama', points: 15 },
+          { criterion: '2 maddeyi doğru tamamlama', points: 10 },
+          { criterion: '1 maddeyi doğru tamamlama', points: 5 },
           { criterion: 'Hatalı', points: 0 }
         ],
         linesNeeded: 4
@@ -742,17 +762,19 @@ Kemal Bey, "Fidanın kök boğazı toprak hizasında olmalı, çukuru ne çok de
         id: 'g5-s3-e2-q7',
         number: 7,
         outcomeCode: 'T.Y.5.16',
-        title: 'Yazım ve Noktalama',
+        title: 'Yazım ve Noktalama Kuralları',
         points: 15,
-        prompt: `Aşağıdaki cümlelerde yay ayraç ( ) içine nokta (.) veya kısa çizgi (-) koyunuz:
-a) Fidan dikme etkinliği saat 11( )00'de başladı.
-b) Öğrenciler meşe fidan( )larını sırayla diktiler.
-c) Okulumuz çevre yarışmasında 1( ) oldu.`,
-        expectedAnswer: 'a) Nokta (.)\nb) Kısa çizgi (-)\nc) Nokta (.)',
+        prompt: `Aşağıdaki noktalama ve yazım görevlerini kurallara uygun olarak cevaplayınız:
+a) "Fidan dikme etkinliği 21( )03( )2026 tarihinde gerçekleştirildi." cümlesinde yay ayraçlara hangi noktalama işareti gelmelidir?
+b) "Etkinliğe okulumuzun 5/A( )5/B şubelerindeki öğrenciler birlikte katıldı." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+c) Aşağıdaki cümlede satır sonuna sığmayan kelimenin bölünüşündeki hatayı açıklayarak doğrusunu yazınız:
+   "Öğrenciler diktikleri çam ve meşe fidanlarının e-
+    trafına bolca can suyu verdiler."`,
+        expectedAnswer: 'a) Nokta (.) [Tarihlerin yazılışında gün, ay ve yılı gösteren sayıları birbirinden ayırmak için konur.]\nb) Kısa çizgi (-) [Unsurlar arasında "ve, ile" anlamı vermek için konur.]\nc) Satır sonunda tek ünlü harf (e-) tek başına bırakılmaz; kelime "et- / rafına" veya "etra- / fına" şeklinde bölünmelidir.',
         rubric: [
-          { criterion: '3 boşluğu da doğru yapma', points: 15 },
-          { criterion: '2 boşluğu doğru yapma', points: 10 },
-          { criterion: '1 boşluğu doğru yapma', points: 5 },
+          { criterion: '3 maddenin tamamını doğru yapma', points: 15 },
+          { criterion: '2 maddeyi doğru yapma', points: 10 },
+          { criterion: '1 maddeyi doğru yapma', points: 5 },
           { criterion: 'Hatalı', points: 0 }
         ],
         linesNeeded: 4
@@ -880,11 +902,13 @@ Grup sözcüsü Eren, "Arkadaşlar, böyle devam edersek gösteriyi yetiştireme
         outcomeCode: 'T.Y.5.16',
         title: 'Yazım ve Noktalama Kuralları',
         points: 15,
-        prompt: `Aşağıdaki kelimelerin satır sonuna sığmadığında kısa çizgi (-) ile nasıl bölüneceğini yazınız:
-a) kuklaların: .......................................
-b) gösterisini: .......................................
-c) kütüphanede saat 13( )15'te toplandık cümlesindeki yay ayraç içine hangi işaret gelmelidir?`,
-        expectedAnswer: 'a) kuk-laların veya kukla-ların veya kuklala-rın\nb) gös-terisini veya gösteri-sini veya gösterisi-ni\nc) Nokta (.)',
+        prompt: `Aşağıdaki noktalama ve yazım görevlerini kurallara uygun olarak cevaplayınız:
+a) "Tiyatro kulübü öğrencileri saat 13( )15'te kütüphanede toplandı." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+b) "Gösteri için Bursa( )İstanbul kara yolu üzerindeki okullardan da davetli geldi." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+c) Aşağıdaki cümlede satır sonuna sığmayan kelimenin bölünüşünde yapılan yanlışı düzelterek doğrusunu yazınız:
+   "Çocuklar kuklaların gövdelerini çoraptan, sahneyi ise eski bir a-
+    yakkabı kutusundan yaptılar."`,
+        expectedAnswer: 'a) Nokta (.) [Saat ve dakika arasına konur.]\nb) Kısa çizgi (-) [Yer adları arasında "-den ...-e, ile, arasında" anlamı vermek için konur.]\nc) Satır sonunda tek ünlü harf (a-) tek başına bırakılmaz; kelime "ayak- / kabı" (veya "ayakka- / bı") şeklinde bölünmelidir.',
         rubric: [
           { criterion: '3 bölümün tamamını doğru yapma', points: 15 },
           { criterion: '2 bölümü doğru yapma', points: 10 },
@@ -1013,13 +1037,15 @@ Diğer çocuklar bahçedeki kamelyaların arkasına, spor salonunun köşesine v
         id: 'g5-s4-e2-q7',
         number: 7,
         outcomeCode: 'T.Y.5.16',
-        title: 'Yazım ve Noktalama',
+        title: 'Yazım ve Noktalama Kuralları',
         points: 15,
-        prompt: `Aşağıdaki kelimelerin satır sonuna sığmadığında kısa çizgi (-) ile doğru bölünüşünü yazınız:
-a) saklambaç: .......................................
-b) tekerleme: .......................................
-c) Teneffüs saat 10( )15'te bitti cümlesindeki boşluğa hangi işaret gelmelidir?`,
-        expectedAnswer: 'a) sak-lambaç veya saklam-baç\nb) te-kerleme veya teker-leme veya tekerle-me\nc) Nokta (.)',
+        prompt: `Aşağıdaki noktalama ve yazım görevlerini kurallara uygun olarak cevaplayınız:
+a) "Okul bahçesindeki saklambaç oyunu saat 10( )15'te sona erdi." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+b) "Çocuklar çınar ağacını( )bahçenin en yaşlı ağacını( )ebe yeri seçtiler." cümlesinde yay ayraçlara hangi noktalama işareti gelmelidir?
+c) Aşağıdaki cümlede satır sonuna sığmayan birleşik kelimenin bölünüşündeki hatayı açıklayarak doğrusunu yazınız:
+   "Kardeşim bu yıl mahallemizdeki Cumhuriyet İlk-
+    okulunda birinci sınıfa başladı."`,
+        expectedAnswer: 'a) Nokta (.) [Saat ve dakika arasına konur.]\nb) Kısa çizgi (-) [Cümle içinde ara sözleri ayırmak için ara sözün başına ve sonuna konur.]\nc) Birleşik kelimeler satır sonunda tek bir kelime gibi heceleme (ulama) kuralına göre bölünür; "İlk- / okulunda" değil, "İl- / kokulunda" (veya "İlko- / kulunda") şeklinde bölünmelidir.',
         rubric: [
           { criterion: '3 bölümün tamamı doğru', points: 15 },
           { criterion: '2 bölüm doğru', points: 10 },
@@ -1441,15 +1467,17 @@ Amacınız masalın olay akışını hiç bilmeyen birine öğretmek olduğuna g
         outcomeCode: 'T.Y.5.16',
         title: 'Yazım ve Noktalama Kuralları',
         points: 15,
-        prompt: `Aşağıdaki cümlelerde yay ayraç ( ) içine nokta (.) veya kısa çizgi (-) koyunuz:
-a) Masal dinletisi saat 19( )30'da başladı.
-b) Dedem dürüstlük hakkında güzel bir ma( )sal anlattı.
-c) Keloğlan padişahın 1( ) veziri oldu.`,
-        expectedAnswer: 'a) Nokta (.)\nb) Kısa çizgi (-)\nc) Nokta (.)',
+        prompt: `Aşağıdaki noktalama ve yazım görevlerini kurallara uygun olarak cevaplayınız:
+a) "Köy odasındaki masal dinletisi saat 19( )30'da başladı." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+b) "Dedem bize Doğu( )Batı masallarından güzel örnekler anlattı." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+c) Aşağıdaki cümlede satır sonuna sığmayan kelimenin bölünüşündeki yazım yanlışını açıklayarak doğrusunu yazınız:
+   "Dedemin anlattığı masallardaki konuşan kuşlar ve u-
+    çan halılar hayal dünyamızı zenginleştirirdi."`,
+        expectedAnswer: 'a) Nokta (.) [Saat ve dakika arasına konur.]\nb) Kısa çizgi (-) [Kavramlar arasında "ve, ile, arasında" anlamı vermek için konur.]\nc) Türkçede satır sonunda tek ünlü harf (u-) tek başına bırakılmaz; "uçan" kelimesinin ilk hecesi tek ünlüden oluştuğu için satır sonunda bölünemez, kelimenin tamamı alt satıra yazılmalıdır.',
         rubric: [
-          { criterion: '3 boşluğun tamamı doğru', points: 15 },
-          { criterion: '2 boşluk doğru', points: 10 },
-          { criterion: '1 boşluk doğru', points: 5 },
+          { criterion: '3 maddenin tamamı doğru', points: 15 },
+          { criterion: '2 madde doğru', points: 10 },
+          { criterion: '1 madde doğru', points: 5 },
           { criterion: 'Hatalı', points: 0 }
         ],
         linesNeeded: 3
@@ -1592,15 +1620,17 @@ Hakem yüksek sesle "Üç!" diye bağırdığında her iki takımdan üç numara
         outcomeCode: 'T.Y.5.16',
         title: 'Yazım ve Noktalama Kuralları',
         points: 15,
-        prompt: `Aşağıdaki cümlelerde yay ayraç ( ) içine nokta (.) veya kısa çizgi (-) koyunuz:
-a) Oyun turnuvası saat 13( )45'te başladı.
-b) Hakem elindeki beyaz men( )dili havaya kaldırdı.
-c) Turnuvada 5-A sınıfı 1( ) oldu.`,
-        expectedAnswer: 'a) Nokta (.)\nb) Kısa çizgi (-)\nc) Nokta (.)',
+        prompt: `Aşağıdaki noktalama ve yazım görevlerini kurallara uygun olarak cevaplayınız:
+a) "Geleneksel oyunlar turnuvasında 5/A sınıfı 1( ) oldu." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+b) "Turnuva karşılaşmaları 13.00( )15.00 saatleri arasında okul bahçesinde yapıldı." cümlesinde yay ayraca hangi noktalama işareti gelmelidir?
+c) Aşağıdaki cümlede satır sonuna sığmayan özel ismin yazılışındaki noktalama yanlışını açıklayarak doğrusunu yazınız:
+   "Okulumuzun mendil kapmaca takımı bu yıl Ankara'-
+    da düzenlenen şenliğe katıldı."`,
+        expectedAnswer: 'a) Nokta (.) [Sayıdan sonra sıra bildirmek için konur.]\nb) Kısa çizgi (-) [Saatler arasında "...-den ...-e, arasında" anlamı vermek için konur.]\nc) Özel adlara gelen ekler satır sonunda ayrılırken kesme işaretinden (\') sonra ayrıca kısa çizgi (-) kullanılmaz; satır sonu "Ankara\' / da" biçiminde yazılmalıdır.',
         rubric: [
-          { criterion: '3 boşluğu da doğru yapma', points: 15 },
-          { criterion: '2 boşluğu doğru yapma', points: 10 },
-          { criterion: '1 boşluğu doğru yapma', points: 5 },
+          { criterion: '3 maddenin tamamını doğru yapma', points: 15 },
+          { criterion: '2 maddeyi doğru yapma', points: 10 },
+          { criterion: '1 maddeyi doğru yapma', points: 5 },
           { criterion: 'Hatalı', points: 0 }
         ],
         linesNeeded: 3

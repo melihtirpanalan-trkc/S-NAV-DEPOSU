@@ -323,7 +323,8 @@ b) Yönü belirlemek, istikameti bulmak: .......................................
     ]
   },
 
-    // Senaryo 1 - Sınav 3 (Kuş Evleri ve Merhamet Medeniyeti)
+
+  // Senaryo 1 - Sınav 3 (Kuş Evleri ve Merhamet Medeniyeti)
   {
     id: 'g8-s1-e3',
     gradeLevel: 8,
@@ -372,8 +373,8 @@ a) "duvarların en korunaklı köşelerine nakış gibi işlenmiş zarif odacık
 Söz Sanatı ve Açıklaması: ............................................................................................
 b) "Taş duvarlar, kanat çırpan misafirlerine şefkatli bir anne kucağı gibi kucak açar."
 Söz Sanatı ve Açıklaması: ............................................................................................`,
-        expectedAnswer: 'a) Benzetme (Teşbih): Kuş evlerinin incelik ve ustalık yönüyle nakışa benzetilmesi.
-b) Kişileştirme (Teşhis) ve Benzetme: Taş duvarların canlı gibi kucak açması (kişileştirme) ve şefkatli bir anne kucağına benzetilmesi.',
+        expectedAnswer: `a) Benzetme (Teşbih): Kuş evlerinin incelik ve ustalık yönüyle nakışa benzetilmesi.
+b) Kişileştirme (Teşhis) ve Benzetme: Taş duvarların canlı gibi kucak açması (kişileştirme) ve şefkatli bir anne kucağına benzetilmesi.`,
         rubric: [
           { criterion: 'İki ifadedeki söz sanatlarını ve gerekçelerini tam yazma', points: 10 },
           { criterion: 'Bir ifadedeki söz sanatını doğru yazma', points: 5 },
@@ -392,9 +393,9 @@ Yukarıdaki cümlede altı çizili/koyu yazılmış fiilimsilerin türlerini (is
 • inceleyen: Türü: ................................... Cümledeki İşlevi: ...................................................................
 • seyrederek: Türü: ................................... Cümledeki İşlevi: ...................................................................
 • yaşatmak: Türü: ................................... Cümledeki İşlevi: ...................................................................`,
-        expectedAnswer: '• inceleyen: Sıfat-fiil (-en eki; araştırmacılar ismini niteleyen sıfat görevinde)
+        expectedAnswer: `• inceleyen: Sıfat-fiil (-en eki; araştırmacılar ismini niteleyen sıfat görevinde)
 • seyrederek: Zarf-fiil (-erek eki; eylemin nasıl yapıldığını bildiren durum zarfı görevinde)
-• yaşatmak: İsim-fiil (-mak eki; eylemin adıdır, nesne görevinde)',
+• yaşatmak: İsim-fiil (-mak eki; eylemin adıdır, nesne görevinde)`,
         rubric: [
           { criterion: '3 fiilimsi türünü ve cümledeki işlevini eksiksiz yazma', points: 15 },
           { criterion: '2 fiilimsi türünü ve işlevini doğru yazma', points: 10 },
@@ -410,8 +411,8 @@ Yukarıdaki cümlede altı çizili/koyu yazılmış fiilimsilerin türlerini (is
         title: 'Metinle İlgili Soruları Cevaplama',
         points: 15,
         prompt: 'Metne göre tarihî yapılarda kuş evleri inşa edilirken konumlandırma konusunda hangi iki güvenlik ve iklim önlemine dikkat edilmiştir? Açıklayınız.',
-        expectedAnswer: '1. Rüzgâr almayan güney cephelerine yapılması (kuşları fırtına ve soğuktan korumak için).
-2. Kedilerin ve insanların ulaşamayacağı sarp yüksekliklere yapılması (can güvenliklerini sağlamak için).',
+        expectedAnswer: `1. Rüzgâr almayan güney cephelerine yapılması (kuşları fırtına ve soğuktan korumak için).
+2. Kedilerin ve insanların ulaşamayacağı sarp yüksekliklere yapılması (can güvenliklerini sağlamak için).`,
         rubric: [
           { criterion: 'İki somut önlemi de eksiksiz ve gerekçesiyle açıklama', points: 15 },
           { criterion: 'Tek önlemi açıklama', points: 8 },
@@ -444,8 +445,8 @@ Yukarıdaki cümlede altı çizili/koyu yazılmış fiilimsilerin türlerini (is
 Bu metinde kullanılan iki farklı düşünceyi geliştirme yolunu belirleyerek metinden birer örnekle açıklayınız:
 1. Düşünceyi Geliştirme Yolu: ............................................ Metinden Örnek: ....................................................................................
 2. Düşünceyi Geliştirme Yolu: ............................................ Metinden Örnek: ....................................................................................`,
-        expectedAnswer: '1. Karşılaştırma: Türk mimarisi ile Batı mimarisinin hayvanlara yaklaşımı kıyaslanmıştır.
-2. Tanık Gösterme: Yazar düşüncesini desteklemek için Ahmet Haşim'in sözünü doğrudan alıntılamıştır.',
+        expectedAnswer: `1. Karşılaştırma: Türk mimarisi ile Batı mimarisinin hayvanlara yaklaşımı kıyaslanmıştır.
+2. Tanık Gösterme: Yazar düşüncesini desteklemek için Ahmet Haşim'in sözünü doğrudan alıntılamıştır.`,
         rubric: [
           { criterion: 'İki düşünceyi geliştirme yolunu ve metinden örneklerini tam yazma', points: 15 },
           { criterion: 'Bir düşünceyi geliştirme yolunu ve örneğini doğru yazma', points: 8 },
@@ -460,12 +461,12 @@ Bu metinde kullanılan iki farklı düşünceyi geliştirme yolunu belirleyerek 
         title: 'Şiir Yazma',
         points: 15,
         prompt: '"Merhamet, Canlılara Sevgi ve İyilik" konularından birini seçerek dize sonlarında ses benzerliklerine (kafiye ve redif) yer vereceğiniz anlamlı bir dörtlük (4 dize) yazınız. Şiirinize uygun bir başlık koyunuz.',
-        expectedAnswer: 'Örnek Şiir:
+        expectedAnswer: `Örnek Şiir:
 ŞEFKAT YUVASI
 Taş duvarda minik bir saray kurduk,
 Kuşların sesinde huzuru bulduk.
 Her kanat çırpışta bir dua saklı,
-Merhamet yolunda bir ömür durduk.',
+Merhamet yolunda bir ömür durduk.`,
         rubric: [
           { criterion: 'Temaya uygunluk, kafiye-redif uyumu, başlık ve dörtlük düzeni eksiksiz', points: 15 },
           { criterion: 'Kısmen başarılı dörtlük', points: 8 },
@@ -540,8 +541,8 @@ Ne yazık ki günümüzde seri üretimin ve fabrikasyon eşyaların yaygınlaşm
         prompt: `Metinde geçen aşağıdaki ifadelerde yer alan söz sanatlarını belirleyerek açıklayınız:
 a) "Bu sesler, yüzyıllardır süregelen bir alın teri senfonisidir." -> Söz Sanatı: .......................................
 b) "yaşlı ustalar, bir nakış gibi işledikleri bakır kazanlara ruhlarını katar." -> Söz Sanatı: .......................................`,
-        expectedAnswer: 'a) Benzetme (Teşbih): Çekiç seslerinin bir müzik eseri olan senfoniye benzetilmesi.
-b) Kişileştirme (Teşhis) ve Benzetme: Bakır kazanlara ruh katılması (kişileştirme) ve nakış gibi işlenmesi (benzetme).',
+        expectedAnswer: `a) Benzetme (Teşbih): Çekiç seslerinin bir müzik eseri olan senfoniye benzetilmesi.
+b) Kişileştirme (Teşhis) ve Benzetme: Bakır kazanlara ruh katılması (kişileştirme) ve nakış gibi işlenmesi (benzetme).`,
         rubric: [
           { criterion: 'İki ifadedeki söz sanatını ve gerekçesini tam tespit', points: 10 },
           { criterion: 'Bir ifadedeki söz sanatını doğru tespit', points: 5 },
@@ -560,9 +561,9 @@ Yukarıdaki cümlede altı çizili/koyu yazılmış fiilimsilerin türlerini (is
 • çalışan: Türü: ................................... Cümledeki İşlevi: ...................................................................
 • dinleyerek: Türü: ................................... Cümledeki İşlevi: ...................................................................
 • yaşatmaya: Türü: ................................... Cümledeki İşlevi: ...................................................................`,
-        expectedAnswer: '• çalışan: Sıfat-fiil (-an eki; çıraklar ismini niteleyen sıfat görevinde)
+        expectedAnswer: `• çalışan: Sıfat-fiil (-an eki; çıraklar ismini niteleyen sıfat görevinde)
 • dinleyerek: Zarf-fiil (-erek eki; eylemin nasıl yapıldığını bildiren durum zarfı görevinde)
-• yaşatmaya: İsim-fiil (-ma eki; yönelme hali almış eylemin adıdır, isim/dolaylı tümleç görevinde)',
+• yaşatmaya: İsim-fiil (-ma eki; yönelme hali almış eylemin adıdır, isim/dolaylı tümleç görevinde)`,
         rubric: [
           { criterion: '3 fiilimsi türünü ve işlevini doğru yazma', points: 15 },
           { criterion: '2 fiilimsi türünü doğru yazma', points: 10 },
@@ -611,8 +612,8 @@ Yukarıdaki cümlede altı çizili/koyu yazılmış fiilimsilerin türlerini (is
 Bu parçada kullanılan iki farklı düşünceyi geliştirme yolunu belirleyerek metinden birer örnekle yazınız:
 1. Düşünceyi Geliştirme Yolu: ............................................ Metinden Örnek: ....................................................................................
 2. Düşünceyi Geliştirme Yolu: ............................................ Metinden Örnek: ....................................................................................`,
-        expectedAnswer: '1. Karşılaştırma: Sanat ile zanaatın üretim amaçları ve estetik yönleri bakımından kıyaslanması.
-2. Tanık Gösterme: Yahya Kemal'in "Kökü mazide olan atiyiz." sözünün doğrudan aktarılması.',
+        expectedAnswer: `1. Karşılaştırma: Sanat ile zanaatın üretim amaçları ve estetik yönleri bakımından kıyaslanması.
+2. Tanık Gösterme: Yahya Kemal'in "Kökü mazide olan atiyiz." sözünün doğrudan aktarılması.`,
         rubric: [
           { criterion: 'İki düşünceyi geliştirme yolunu ve örneklerini tam tespit etme', points: 15 },
           { criterion: 'Bir düşünceyi geliştirme yolunu ve örneğini tespit etme', points: 8 },
@@ -627,12 +628,12 @@ Bu parçada kullanılan iki farklı düşünceyi geliştirme yolunu belirleyerek
         title: 'Şiir Yazma',
         points: 15,
         prompt: '"Emek, Alın Teri ve Geleneksel Sanatlarımız" konularından birini seçerek dize sonlarında ses benzerliklerine (kafiye ve redif) yer vereceğiniz 4 dizelik (bir dörtlük) özgün bir şiir yazınız. Şiirinize uygun bir başlık koyunuz.',
-        expectedAnswer: 'Örnek Şiir:
+        expectedAnswer: `Örnek Şiir:
 ÇEKİÇ SESLERİ
 Örsün üstünde parlar kor ateşler,
 Çekiç sesine karışır gülüşler.
 Alın teriyle işlenen her kapta,
-Geçmişin sabrı yarını müjdeler.',
+Geçmişin sabrı yarını müjdeler.`,
         rubric: [
           { criterion: 'Temaya uygunluk, kafiye-redif uyumu, başlık ve dörtlük düzeni eksiksiz', points: 15 },
           { criterion: 'Kısmen başarılı dörtlük', points: 8 },
@@ -660,7 +661,7 @@ Geçmişin sabrı yarını müjdeler.',
     ]
   },
 
-// ==================== SENARYO 2 ====================
+  // ==================== SENARYO 2 ====================
   // Senaryo 2 - Sınav 1
   {
     id: 'g8-s2-e1',

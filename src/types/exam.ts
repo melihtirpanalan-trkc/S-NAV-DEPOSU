@@ -55,7 +55,7 @@ export interface ExamScenario {
   scenarioGroup: ScenarioGroup;
   scenarioGroupTitle: string;
   scenarioName: string;
-  examNumber: 1 | 2 | 3;
+  examNumber: number;
   title: string;
   theme: string;
   targetClass: string;

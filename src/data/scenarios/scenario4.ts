@@ -474,5 +474,202 @@ Eren merakla başını ekrandan kaldırdı. Mektupların her bir satırı "Göz�
         ]
       }
     ]
+  }  ,
+  {
+    id: 's4-e4',
+    scenarioGroup: 'senaryo-4',
+    scenarioGroupTitle: 'MEB Senaryo 4',
+    scenarioName: '4. Sınav (Ahşabın Kalbi)',
+    examNumber: 4,
+    title: 'Gönül Köprüsü: Ahşabın Kalbi',
+    theme: '4. Tema: Millî Kültür, Sanat ve Zanaat',
+    targetClass: '7. Sınıf',
+    termInfo: '1. Dönem 1. Yazılı Sınavı',
+    durationMinutes: 40,
+    totalPoints: 100,
+    readingPassage: {
+      title: 'Gönül Köprüsü: Ahşabın Kalbi',
+      author: 'Türkçe Ülküsü Yayınları (Özgün Edebî Metin)',
+      source: '7. Sınıf Türkçe Dersi - Geleneksel Sanatlar, Sabır ve Usta-Çırak Kültürü',
+      content: `On iki yaşındaki Selim, ara tatilde dedesi Salih Usta’nın ahşap oymacılığı yaptığı tarihî çarşıdaki atölyesine gitmişti. Günümüz çocukları gibi onun da aklı fikri telefon ekranlarında ve hızlıca tükettiği videolardaydı. Bir şeylerin sabırla, saatlerce emek verilerek üretilebileceğine pek inanmıyordu. Atölye, buram buram sedir ve çam kokuyordu.
+
+Salih Usta, ceviz ağacından bir rahlenin üzerindeki lale motifini ince uçlu keskisiyle santim santim oyuyordu. Selim tabureye oturup dedesini izlemeye koyuldu. Usta, tahtanın damarlarını okşarcasına özenle çalışıyordu. Selim sabırsızca: "Dede, bir deseni çıkarmak için niye saatlerce uğraşıyorsun? Fabrikalardaki makineler bunu bir dakikada kesip çıkarır." dedi.
+
+Salih Usta elindeki keskini usulca bıraktı, tebessüm etti: "Oğlum, makine ağacı sadece biçer ama ona ruh veremez. Biz bu tezgâhta yıllardır göz nuru döküyoruz. Sabretmeyen, ağacın dilini anlayamaz. Usta olmak istiyorsan iki şeyi aklından çıkarmayacaksın: Ağacın doğasına hürmet edeceksin ve ustanın öğütlerini can kulağıyla dinleyeceksin."
+
+Selim, dedesinin ellerindeki derin çizgilere ve ahşabın yaydığı o sıcacık reçine kokusuna baktı. O an sabrın ve emeğin değerini yüreğinde hissetti. Telefonunu usulca cebine koyup tezgâhın başına geçti.`
+    },
+    questions: [
+      {
+        id: 's4-e4-q1',
+        number: 1,
+        outcomeCode: 'T.O.7.4',
+        title: 'Bağlamdan Söz Varlığını Tahmin Etme ve Gerekçelendirme',
+        points: 15,
+        linesNeeded: 7,
+        prompt: 'Metinde geçen altı çizili deyimlerin anlamlarını metnin bağlamından yararlanarak tahmin ediniz. Tahminlerinizi ve sizi bu tahmine götüren metin içi gerekçeleri yazınız.',
+        subQuestions: [
+          {
+            label: 'a. göz nuru dökmek',
+            text: 'Metindeki: "...Biz bu tezgâhta yıllardır göz nuru döküyoruz." cümlesindeki "göz nuru dökmek" deyimi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Büyük bir dikkat, özen ve sabırla emek vermek; gözü yoracak derecede zahmetli iş yapmak.\n• Metin İçi Gerekçe: Ustanın lale motifini acele etmeden, saatlerce santim santim işlemesi ve sabrın önemini vurgulaması.',
+            points: 7,
+            guideline: 'Anlam tahmini (4 Puan), metin içi somut gerekçe (3 Puan).'
+          },
+          {
+            label: 'b. can kulağıyla dinlemek',
+            text: 'Metindeki: "...ve ustanın öğütlerini can kulağıyla dinleyeceksin." cümlesindeki "can kulağıyla dinlemek" deyimi:\n• Anlam Tahmini: ........................................................................\n• Metin İçi Gerekçe: ....................................................................',
+            expectedAnswer: '• Anlam Tahmini: Bütün dikkatini vererek, büyük bir istek ve ilgiyle dinlemek.\n• Metin İçi Gerekçe: Ustanın iyi bir sanatkâr olmak için tecrübeli kişinin öğütlerini can kulağıyla dinlemeyi şart koşması.',
+            points: 8,
+            guideline: 'Anlam tahmini (4 Puan), metin içi somut gerekçe (4 Puan).'
+          }
+        ],
+        expectedAnswer: 'Deyimlerin metindeki bağlama uygun tahmini ve metin içi gerekçelerle desteklenmesi.',
+        rubric: [
+          { criterion: 'Her iki deyimin anlamına dair isabetli tahmin yapılması', points: 8 },
+          { criterion: 'Tahmini destekleyen metin içi somut gerekçelerin sunulması', points: 7 }
+        ]
+      },
+      {
+        id: 's4-e4-q2',
+        number: 2,
+        outcomeCode: 'T.O.7.5',
+        title: 'Metnin Yüzey Anlamı - Metnin Konusu',
+        points: 10,
+        linesNeeded: 3,
+        prompt: 'Okuduğunuz metnin konusunu bir cümleyle yazınız.',
+        expectedAnswer: 'Metnin konusu; hızlı tüketime alışkın olan bir çocuğun, dedesinin ahşap atölyesinde geleneksel el emeğinin, sabrın ve ustalığın kıymetini fark etmesidir.',
+        rubric: [
+          { criterion: 'Metnin konusunun ana fikre kaymadan, eksiksiz ve tek cümleyle ifade edilmesi', points: 10 }
+        ]
+      },
+      {
+        id: 's4-e4-q3',
+        number: 3,
+        outcomeCode: 'T.O.7.5',
+        title: 'Metnin Yüzey Anlamı - Doğrudan Bilgi Tespiti',
+        points: 10,
+        linesNeeded: 4,
+        prompt: 'Metne göre Salih Usta’nın iyi bir usta olabilmek için Selim’e öğütlediği iki temel unsuru metinden bularak yazınız.',
+        expectedAnswer: '1. Unsur: Ağacın doğasına hürmet etmek (malzemeye/doğaya saygı duymak).\n2. Unsur: Ustanın öğütlerini can kulağıyla dinlemek (ustanın tecrübesine kulak vermek).',
+        rubric: [
+          { criterion: 'Her iki unsurun eksiksiz ve doğru tespit edilmesi (Her unsur 5 Puan)', points: 10 }
+        ]
+      },
+      {
+        id: 's4-e4-q4',
+        number: 4,
+        outcomeCode: 'T.O.7.7',
+        title: 'Metnin Derin Anlamı - Karakter ve Kişilik Çıkarımı',
+        points: 15,
+        linesNeeded: 5,
+        prompt: 'Metinde Salih Usta’nın mesleğine ve torununa karşı sergilediği tutumdan hareketle onun bir kişilik özelliğini belirleyiniz ve bu özelliği metinden gerekçelendirerek açıklayınız.',
+        expectedAnswer: 'Kişilik Özelliği: Sabırlı, mesleğine tutkuyla ve saygıyla bağlı, idealist ve hoşgörülü bir insandır.\nGerekçe: Torununun "Neden makineler gibi hızlı yapmıyorsun?" şeklindeki sabırsız sorusuna kızmayıp ona tebessümle rehberlik etmesi; fabrikasyon kolaycılığı yerine tahtaya ruh katacak sabrı ve emeği savunması bu özelliğini kanıtlar.',
+        rubric: [
+          { criterion: 'Kişilik özelliğinin isabetli belirlenmesi', points: 8 },
+          { criterion: 'Metindeki tutum ve sözlerle gerekçelendirilmesi', points: 7 }
+        ]
+      },
+      {
+        id: 's4-e4-q5',
+        number: 5,
+        outcomeCode: 'T.O.7.21',
+        title: 'Söz Varlığını Çözümleme - Deyimlerin Yerine Alternatif İfadeler',
+        points: 15,
+        linesNeeded: 5,
+        contextText: 'Genç yazar, ilk kitabının imza gününde okurlarının oluşturduğu uzun kuyruğu görünce sevinçten içi içine sığmıyordu. Yanındaki emektar yayıncı ise gencin bu başarısını takdirle izliyor; heyecan dolu gözlerine bakarak göğsü kabarıyordu.',
+        prompt: 'Yukarıdaki metinde geçen altı çizili deyimlerin yerine, metnin anlamını bozmayacak hangi ifadelerin (sözcük veya söz öbeklerinin) kullanılabileceğini altlarındaki boşluklara yazınız.',
+        subQuestions: [
+          {
+            label: 'a. içi içine sığmamak',
+            text: '• "içi içine sığmamak" deyimi yerine kullanılabilecek ifade: .................................................',
+            expectedAnswer: 'Çok sevinmek / sevinçten yerinde duramamak / coşku ve heyecan duymak / aşırı mutlu olmak.',
+            points: 7,
+            guideline: 'Anlamı tam karşılayan ifade tespiti (7 Puan).'
+          },
+          {
+            label: 'b. göğsü kabarmak',
+            text: '• "göğsü kabarmak" deyimi yerine kullanılabilecek ifade: .....................................................',
+            expectedAnswer: 'Gururlanmak / kıvanç duymak / övünç hissetmek / iftihar etmek.',
+            points: 8,
+            guideline: 'Anlamı tam karşılayan ifade tespiti (8 Puan).'
+          }
+        ],
+        expectedAnswer: 'Deyimlerin anlamına uygun eş ve yakın anlamlı sözcük veya söz öbeklerinin belirlenmesi.',
+        rubric: [
+          { criterion: 'Her iki deyim yerine anlamı bozmayacak doğru alternatif ifadelerin yazılması', points: 15 }
+        ]
+      },
+      {
+        id: 's4-e4-q6',
+        number: 6,
+        outcomeCode: 'T.Y.7.18',
+        title: 'Yazısını Zenginleştirecek Söz Varlığı Kullanımı - Deyim Tespiti ve Yeni Cümle',
+        points: 20,
+        linesNeeded: 8,
+        contextText: 'Köyün eski ahşap köprüsü kış fırtınasında yıkılınca mahalle muhtarı vakit kaybetmeden kolları sıvadı. Gençler ve yaşlılar hiçbir karşılık beklemeden omuz omuza verip iki gün içinde köprüyü imece usulüyle yeniden inşa etti.',
+        prompt: 'Yukarıdaki metinde geçen iki deyimi bularak yazınız ve bu deyimleri metindeki anlamlarından farklı durumları ifade edecek biçimde birer cümle içinde kullanınız.',
+        subQuestions: [
+          {
+            label: '1. Deyim ve Cümle',
+            text: '• 1. Deyim: ....................................................................\n  Yeni Cümlem: .......................................................................................................................',
+            expectedAnswer: '• 1. Deyim: kolları sıvamak (5 Puan)\n• Yeni Cümlem: Sınav haftası yaklaştığı için bütün sınıf ders çalışmak üzere kolları sıvadı. (5 Puan)',
+            points: 10,
+            guideline: 'Deyim tespiti (5 Puan), özgün ve doğru cümle kullanımı (5 Puan).'
+          },
+          {
+            label: '2. Deyim ve Cümle',
+            text: '• 2. Deyim: ....................................................................\n  Yeni Cümlem: .......................................................................................................................',
+            expectedAnswer: '• 2. Deyim: omuz omuza vermek (5 Puan)\n• Yeni Cümlem: Şampiyonluk maçında taraftarlar takımlarına destek olmak için omuz omuza verdi. (5 Puan)',
+            points: 10,
+            guideline: 'Deyim tespiti (5 Puan), özgün ve doğru cümle kullanımı (5 Puan).'
+          }
+        ],
+        expectedAnswer: 'Metindeki iki deyimin (kolları sıvamak, omuz omuza vermek) doğru tespit edilmesi ve her birinin anlamına uygun yeni birer cümle içinde kullanılması.',
+        rubric: [
+          { criterion: 'İki deyimin doğru tespiti', points: 10 },
+          { criterion: 'Her deyimle ilgili kurallı ve özgün yeni cümle yazılması', points: 10 }
+        ]
+      },
+      {
+        id: 's4-e4-q7',
+        number: 7,
+        outcomeCode: 'T.Y.7.21',
+        title: 'Noktalama İşaretleri - Noktalı Virgülün (;) Üç Temel Görevi',
+        points: 15,
+        linesNeeded: 6,
+        prompt: 'Aşağıdaki cümlelerde noktalı virgülün (;) üç temel kullanım özelliği örneklendirilmiştir. Cümleleri inceleyerek noktalı virgülün hangi görevle kullanıldığını altlarındaki boşluklara yazınız.',
+        subQuestions: [
+          {
+            label: '1. Cümle',
+            text: '1. "Pazardan elma, armut, mandalina; ıspanak, pırasa, lahana aldık."\n   Kullanım Görevi: .................................................................................................................',
+            expectedAnswer: 'Cümle içinde virgüllerle ayrılmış tür veya takımları birbirinden ayırmak için konur. (Meyveler ile sebzeler gruplandırılmıştır.)',
+            points: 5,
+            guideline: 'Görevin tam ve doğru yazılması (5 Puan).'
+          },
+          {
+            label: '2. Cümle',
+            text: '2. "Yağmur dindi, fırtına duruldu; vadideki sessizlik, yerini tatlı bir rüzgâra bıraktı."\n   Kullanım Görevi: .................................................................................................................',
+            expectedAnswer: 'Ögeleri arasında virgül bulunan sıralı cümleleri birbirinden ayırmak için konur.',
+            points: 5,
+            guideline: 'Görevin tam ve doğru yazılması (5 Puan).'
+          },
+          {
+            label: '3. Cümle',
+            text: '3. "Ahşap oymacılığı; sabır, dikkat, özen isteyen kadim bir gelenektir."\n   Kullanım Görevi: .................................................................................................................',
+            expectedAnswer: 'İkiden fazla eş değer ögesi arasında virgül bulunan cümlede özneden sonra kullanılır.',
+            points: 5,
+            guideline: 'Görevin tam ve doğru yazılması (5 Puan).'
+          }
+        ],
+        expectedAnswer: 'Noktalı virgülün tür veya takımları ayırma, ögeleri arasında virgül bulunan sıralı cümleleri ayırma ve özneden sonra kullanım görevlerinin eksiksiz açıklanması.',
+        rubric: [
+          { criterion: 'Noktalı virgülün 1. görevini (tür/takım) doğru yazma', points: 5 },
+          { criterion: 'Noktalı virgülün 2. görevini (sıralı cümle) doğru yazma', points: 5 },
+          { criterion: 'Noktalı virgülün 3. görevini (özne sonrası) doğru yazma', points: 5 }
+        ]
+      }
+    ]
   }
+
 ];

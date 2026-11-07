@@ -30,7 +30,7 @@ interface CustomExamBuilderProps {
 const GRADES_CONFIG: { grade: GradeLevel; label: string; countInfo: string; badge: string }[] = [
   { grade: 5, label: '5. Sınıf', countInfo: '6 Senaryo • 12 Sınav', badge: 'Maarif Modeli' },
   { grade: 6, label: '6. Sınıf', countInfo: '6 Senaryo • 12 Sınav', badge: 'Maarif Modeli' },
-  { grade: 7, label: '7. Sınıf', countInfo: '6 Senaryo • 18 Sınav', badge: 'Maarif Modeli' },
+  { grade: 7, label: '7. Sınıf', countInfo: '6 Senaryo • 19 Sınav', badge: 'Maarif Modeli' },
   { grade: 8, label: '8. Sınıf', countInfo: '7 Senaryo • 14 Sınav', badge: 'MEB & LGS' },
 ];
 

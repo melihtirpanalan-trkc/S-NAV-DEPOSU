@@ -323,7 +323,344 @@ b) Yönü belirlemek, istikameti bulmak: .......................................
     ]
   },
 
-  // ==================== SENARYO 2 ====================
+    // Senaryo 1 - Sınav 3 (Kuş Evleri ve Merhamet Medeniyeti)
+  {
+    id: 'g8-s1-e3',
+    gradeLevel: 8,
+    scenarioGroup: 'senaryo-1',
+    scenarioGroupTitle: 'MEB Senaryo 1',
+    scenarioName: '3. Sınav (Göklerin Misafirleri ve Kuş Evleri)',
+    examNumber: 3,
+    title: 'Göklerin Misafirleri ve Kuş Evleri',
+    theme: 'Millî Kültürümüz & Erdemler (Merhamet Medeniyeti)',
+    targetClass: '8. Sınıf',
+    termInfo: '1. Dönem 1. Yazılı Sınavı',
+    durationMinutes: 40,
+    totalPoints: 100,
+    readingPassage: {
+      title: 'Göklerin Misafirleri ve Kuş Evleri',
+      author: 'Türkçe Ülküsü Yayınları (Özgün Anlatı)',
+      source: '8. Sınıf Türkçe Dersi - Mimari ve Merhamet',
+      content: `Tarihî camilerin, köprülerin ve medreselerin taş duvarlarına hayranlıkla baktığınızda, yapının rüzgâr almayan en korunaklı köşelerine nakış gibi işlenmiş zarif odacıklar görürsünüz. Bu minyatür yapılar; serçelerin, kırlangıçların ve güvercinlerin kışın dondurucu ayazından, yazın kavurucu sıcağından sığınabileceği birer kuş köşküdür. Ecdadımız, binaları sadece insanların ihtiyacı için yükseltmemiş; gökyüzünün masum kanatlılarını da hayatın merkezine alarak adeta bir merhamet medeniyeti inşa etmiştir.
+
+Kuş evleri rüzgâr almayan güney cephelerine, kedilerin ve insanların ulaşamayacağı sarp yüksekliklere yapılmıştır. Taş duvarlar, kanat çırpan misafirlerine şefkatli bir anne kucağı gibi kucak açar. Ne var ki modern şehirlerin yükselen beton blokları arasında bu ince zarafet giderek unutulmaktadır.`
+    },
+    questions: [
+      {
+        id: 'g8-s1-e3-q1',
+        number: 1,
+        outcomeCode: 'T.8.3.5',
+        title: 'Bağlamdan Kelime Anlamı Bulma',
+        points: 10,
+        prompt: 'Metinde altı çizili/koyu yazılmış "merhamet medeniyeti" söz grubunun metne kattığı anlamı bağlamdan hareketle kendi cümlelerinizle açıklayınız.',
+        expectedAnswer: 'Yalnızca insanları değil tüm canlıları, sokak hayvanlarını ve doğayı koruma, gözetme ve onlara şefkatle yaklaşma anlayışını temel bir hayat tarzı haline getirmiş toplum ve medeniyet yapısı.',
+        rubric: [
+          { criterion: 'Söz grubunun bağlamdaki derin ve kapsayıcı anlamını tam açıklama', points: 10 },
+          { criterion: 'Yalnızca hayvan sevgisi deyip eksik bırakma', points: 5 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 3
+      },
+      {
+        id: 'g8-s1-e3-q2',
+        number: 2,
+        outcomeCode: 'T.8.3.7',
+        title: 'Söz Sanatlarını Tespit Etme',
+        points: 10,
+        prompt: `Metinde geçen aşağıdaki ifadelerde yer alan söz sanatlarını (benzetme, kişileştirme vb.) belirleyerek açıklayınız:
+a) "duvarların en korunaklı köşelerine nakış gibi işlenmiş zarif odacıklar"
+Söz Sanatı ve Açıklaması: ............................................................................................
+b) "Taş duvarlar, kanat çırpan misafirlerine şefkatli bir anne kucağı gibi kucak açar."
+Söz Sanatı ve Açıklaması: ............................................................................................`,
+        expectedAnswer: 'a) Benzetme (Teşbih): Kuş evlerinin incelik ve ustalık yönüyle nakışa benzetilmesi.
+b) Kişileştirme (Teşhis) ve Benzetme: Taş duvarların canlı gibi kucak açması (kişileştirme) ve şefkatli bir anne kucağına benzetilmesi.',
+        rubric: [
+          { criterion: 'İki ifadedeki söz sanatlarını ve gerekçelerini tam yazma', points: 10 },
+          { criterion: 'Bir ifadedeki söz sanatını doğru yazma', points: 5 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 4
+      },
+      {
+        id: 'g8-s1-e3-q3',
+        number: 3,
+        outcomeCode: 'T.8.3.9',
+        title: 'Fiilimsilerin Cümledeki İşlevlerini Kavrama',
+        points: 15,
+        prompt: `"Tarihî binaları inceleyen araştırmacılar, kuş evlerini hayranlıkla seyrederek bu mirası yaşatmak istiyorlardı."
+Yukarıdaki cümlede altı çizili/koyu yazılmış fiilimsilerin türlerini (isim-fiil, sıfat-fiil, zarf-fiil) ve cümledeki görevlerini/işlevlerini yazınız:
+• inceleyen: Türü: ................................... Cümledeki İşlevi: ...................................................................
+• seyrederek: Türü: ................................... Cümledeki İşlevi: ...................................................................
+• yaşatmak: Türü: ................................... Cümledeki İşlevi: ...................................................................`,
+        expectedAnswer: '• inceleyen: Sıfat-fiil (-en eki; araştırmacılar ismini niteleyen sıfat görevinde)
+• seyrederek: Zarf-fiil (-erek eki; eylemin nasıl yapıldığını bildiren durum zarfı görevinde)
+• yaşatmak: İsim-fiil (-mak eki; eylemin adıdır, nesne görevinde)',
+        rubric: [
+          { criterion: '3 fiilimsi türünü ve cümledeki işlevini eksiksiz yazma', points: 15 },
+          { criterion: '2 fiilimsi türünü ve işlevini doğru yazma', points: 10 },
+          { criterion: '1 fiilimsi türünü doğru yazma', points: 5 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 4
+      },
+      {
+        id: 'g8-s1-e3-q4',
+        number: 4,
+        outcomeCode: 'T.8.3.14',
+        title: 'Metinle İlgili Soruları Cevaplama',
+        points: 15,
+        prompt: 'Metne göre tarihî yapılarda kuş evleri inşa edilirken konumlandırma konusunda hangi iki güvenlik ve iklim önlemine dikkat edilmiştir? Açıklayınız.',
+        expectedAnswer: '1. Rüzgâr almayan güney cephelerine yapılması (kuşları fırtına ve soğuktan korumak için).
+2. Kedilerin ve insanların ulaşamayacağı sarp yüksekliklere yapılması (can güvenliklerini sağlamak için).',
+        rubric: [
+          { criterion: 'İki somut önlemi de eksiksiz ve gerekçesiyle açıklama', points: 15 },
+          { criterion: 'Tek önlemi açıklama', points: 8 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 3
+      },
+      {
+        id: 'g8-s1-e3-q5',
+        number: 5,
+        outcomeCode: 'T.8.3.16',
+        title: 'Metnin Konusunu Belirleme',
+        points: 10,
+        prompt: 'Okuduğunuz metnin konusunu (yüzey anlamını) belirleyerek tek bir cümleyle yazınız.',
+        expectedAnswer: 'Geleneksel Türk mimarisindeki kuş evlerinin yapılış amacı, estetik zarafeti ve ecdadımızın tüm canlılara gösterdiği merhamet ve sevgi anlayışı.',
+        rubric: [
+          { criterion: 'Metnin konusunu eksiksiz ve özlü ifade etme', points: 10 },
+          { criterion: 'Kısmen doğru ifade etme', points: 5 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 2
+      },
+      {
+        id: 'g8-s1-e3-q6',
+        number: 6,
+        outcomeCode: 'T.8.3.34',
+        title: 'Düşünceyi Geliştirme Yollarını Belirleme',
+        points: 15,
+        prompt: `"Kuş evleri geleneksel mimarimizde sevginin taşa yansımasıdır. Batı mimarisinde hayvanlar yalnızca heykellerle anılırken bizim mimarimizde doğrudan kuşların barınması için saray yavrusu gibi yapılar tasarlanmıştır. Nitekim ünlü yazar Ahmet Haşim, 'Bize göre kuşlar, göklerin neşesi ve evlerin bereketidir.' diyerek bu köklü sevginin hayatımızdaki yerini vurgulamıştır."
+Bu metinde kullanılan iki farklı düşünceyi geliştirme yolunu belirleyerek metinden birer örnekle açıklayınız:
+1. Düşünceyi Geliştirme Yolu: ............................................ Metinden Örnek: ....................................................................................
+2. Düşünceyi Geliştirme Yolu: ............................................ Metinden Örnek: ....................................................................................`,
+        expectedAnswer: '1. Karşılaştırma: Türk mimarisi ile Batı mimarisinin hayvanlara yaklaşımı kıyaslanmıştır.
+2. Tanık Gösterme: Yazar düşüncesini desteklemek için Ahmet Haşim'in sözünü doğrudan alıntılamıştır.',
+        rubric: [
+          { criterion: 'İki düşünceyi geliştirme yolunu ve metinden örneklerini tam yazma', points: 15 },
+          { criterion: 'Bir düşünceyi geliştirme yolunu ve örneğini doğru yazma', points: 8 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 3
+      },
+      {
+        id: 'g8-s1-e3-q7',
+        number: 7,
+        outcomeCode: 'T.8.4.1',
+        title: 'Şiir Yazma',
+        points: 15,
+        prompt: '"Merhamet, Canlılara Sevgi ve İyilik" konularından birini seçerek dize sonlarında ses benzerliklerine (kafiye ve redif) yer vereceğiniz anlamlı bir dörtlük (4 dize) yazınız. Şiirinize uygun bir başlık koyunuz.',
+        expectedAnswer: 'Örnek Şiir:
+ŞEFKAT YUVASI
+Taş duvarda minik bir saray kurduk,
+Kuşların sesinde huzuru bulduk.
+Her kanat çırpışta bir dua saklı,
+Merhamet yolunda bir ömür durduk.',
+        rubric: [
+          { criterion: 'Temaya uygunluk, kafiye-redif uyumu, başlık ve dörtlük düzeni eksiksiz', points: 15 },
+          { criterion: 'Kısmen başarılı dörtlük', points: 8 },
+          { criterion: 'Düzyazı veya ilgisiz metin', points: 0 }
+        ],
+        linesNeeded: 5
+      },
+      {
+        id: 'g8-s1-e3-q8',
+        number: 8,
+        outcomeCode: 'T.8.4.15',
+        title: 'Geçiş ve Bağlantı İfadelerini Kullanma',
+        points: 10,
+        prompt: `Aşağıda verilen iki cümleyi, aralarındaki karşıtlık ilişkisini kuracak şekilde düşüncenin yönünü değiştiren uygun bir geçiş ve bağlantı ifadesi (oysa, ancak, ne var ki, buna rağmen) kullanarak anlamlı tek bir cümle halinde yazınız:
+• 1. Cümle: Kuş sarayları geçmişte şehirlerin her köşesinde zarafetle inşa edilirdi.
+• 2. Cümle: Günümüzün modern binalarında kuşların sığınabileceği hiçbir alan bırakılmamaktadır.`,
+        expectedAnswer: 'Kuş sarayları geçmişte şehirlerin her köşesinde zarafetle inşa edilirdi oysa (ancak / ne var ki / buna rağmen) günümüzün modern binalarında kuşların sığınabileceği hiçbir alan bırakılmamaktadır.',
+        rubric: [
+          { criterion: 'Cümleleri anlam bütünlüğü içinde uygun geçiş ifadesiyle birleştirme', points: 10 },
+          { criterion: 'Kısmen doğru birleştirme', points: 5 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 3
+      }
+    ]
+  },
+
+  // Senaryo 1 - Sınav 4 (Bakırcılık ve Alın Teri)
+  {
+    id: 'g8-s1-e4',
+    gradeLevel: 8,
+    scenarioGroup: 'senaryo-1',
+    scenarioGroupTitle: 'MEB Senaryo 1',
+    scenarioName: '4. Sınav (Zamana Direnen Kadim Zanaat: Bakırcılık)',
+    examNumber: 4,
+    title: 'Zamana Direnen Kadim Zanaat: Bakırcılık',
+    theme: 'Millî Kültürümüz & Alın Teri ve Emek',
+    targetClass: '8. Sınıf',
+    termInfo: '1. Dönem 1. Yazılı Sınavı',
+    durationMinutes: 40,
+    totalPoints: 100,
+    readingPassage: {
+      title: 'Zamana Direnen Kadim Zanaat: Bakırcılık',
+      author: 'Türkçe Ülküsü Yayınları (Özgün Anlatı)',
+      source: '8. Sınıf Türkçe Dersi - Geleneksel El Sanatları',
+      content: `Tarihî çarşının daracık taş sokaklarına adım attığınızda, çekiçlerin bakır tavalara vurduğu ahenkli sesler sizi karşılar. Bu sesler, yüzyıllardır süregelen bir alın teri senfonisidir. Ateşte tavlanan kızıl bakır levhalar, ustanın nasırlı ellerinde ve örsün üzerinde dövüle dövüle şekil alır. Genç çıraklar usta bakışlarla ocağın alevini harlarken yaşlı ustalar, bir nakış gibi işledikleri bakır kazanlara ruhlarını katar.
+
+Ne yazık ki günümüzde seri üretimin ve fabrikasyon eşyaların yaygınlaşması, bu kadim zanaatı tükenme noktasına getirmiştir. Oysa bakır bir kapta pişen yemeğin lezzeti veya elde dövülmüş bir ibriğin zarafeti, hiçbir makinenin sunamayacağı bir samimiyet barındırır. Bakırcılık; yalnızca bir metal işleme sanatı değil, geçmişin sabrını geleceğe taşıyan eşsiz bir kültür köprüsüdür.`
+    },
+    questions: [
+      {
+        id: 'g8-s1-e4-q1',
+        number: 1,
+        outcomeCode: 'T.8.3.5',
+        title: 'Bağlamdan Kelime Anlamı Bulma',
+        points: 10,
+        prompt: 'Metinde geçen "tükenme noktasına getirmek" söz grubunun metne kattığı anlamı bağlamdan hareketle kendi cümlelerinizle açıklayınız.',
+        expectedAnswer: 'Yok olma, kaybolma, bitme veya sürdürülemez duruma gelme aşamasına getirmek; varlığını sürdürmesini imkânsız hale sokmak.',
+        rubric: [
+          { criterion: 'Söz grubunun bağlamdaki anlamını eksiksiz ve doğru açıklama', points: 10 },
+          { criterion: 'Yalnızca azalmak deyip eksik bırakma', points: 5 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 3
+      },
+      {
+        id: 'g8-s1-e4-q2',
+        number: 2,
+        outcomeCode: 'T.8.3.7',
+        title: 'Söz Sanatlarını Tespit Etme',
+        points: 10,
+        prompt: `Metinde geçen aşağıdaki ifadelerde yer alan söz sanatlarını belirleyerek açıklayınız:
+a) "Bu sesler, yüzyıllardır süregelen bir alın teri senfonisidir." -> Söz Sanatı: .......................................
+b) "yaşlı ustalar, bir nakış gibi işledikleri bakır kazanlara ruhlarını katar." -> Söz Sanatı: .......................................`,
+        expectedAnswer: 'a) Benzetme (Teşbih): Çekiç seslerinin bir müzik eseri olan senfoniye benzetilmesi.
+b) Kişileştirme (Teşhis) ve Benzetme: Bakır kazanlara ruh katılması (kişileştirme) ve nakış gibi işlenmesi (benzetme).',
+        rubric: [
+          { criterion: 'İki ifadedeki söz sanatını ve gerekçesini tam tespit', points: 10 },
+          { criterion: 'Bir ifadedeki söz sanatını doğru tespit', points: 5 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 4
+      },
+      {
+        id: 'g8-s1-e4-q3',
+        number: 3,
+        outcomeCode: 'T.8.3.9',
+        title: 'Fiilimsilerin Cümledeki İşlevlerini Kavrama',
+        points: 15,
+        prompt: `"Tarihî çarşıda çalışan çıraklar, ustalarının öğütlerini dinleyerek sanatı yaşatmaya gayret ediyordu."
+Yukarıdaki cümlede altı çizili/koyu yazılmış fiilimsilerin türlerini (isim-fiil, sıfat-fiil, zarf-fiil) ve cümledeki görevlerini/işlevlerini yazınız:
+• çalışan: Türü: ................................... Cümledeki İşlevi: ...................................................................
+• dinleyerek: Türü: ................................... Cümledeki İşlevi: ...................................................................
+• yaşatmaya: Türü: ................................... Cümledeki İşlevi: ...................................................................`,
+        expectedAnswer: '• çalışan: Sıfat-fiil (-an eki; çıraklar ismini niteleyen sıfat görevinde)
+• dinleyerek: Zarf-fiil (-erek eki; eylemin nasıl yapıldığını bildiren durum zarfı görevinde)
+• yaşatmaya: İsim-fiil (-ma eki; yönelme hali almış eylemin adıdır, isim/dolaylı tümleç görevinde)',
+        rubric: [
+          { criterion: '3 fiilimsi türünü ve işlevini doğru yazma', points: 15 },
+          { criterion: '2 fiilimsi türünü doğru yazma', points: 10 },
+          { criterion: '1 fiilimsi türünü doğru yazma', points: 5 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 4
+      },
+      {
+        id: 'g8-s1-e4-q4',
+        number: 4,
+        outcomeCode: 'T.8.3.14',
+        title: 'Metinle İlgili Soruları Cevaplama',
+        points: 15,
+        prompt: 'Metne göre bakırcılık zanaatını günümüzde yok olma tehlikesiyle karşı karşıya bırakan temel etken nedir? Metinden hareketle açıklayınız.',
+        expectedAnswer: 'Seri üretimin ve makinelerle üretilen fabrikasyon eşyaların yaygınlaşması, insanların el emeği göz nuru ürünler yerine fabrikasyon ürünleri tercih etmesidir.',
+        rubric: [
+          { criterion: 'Temel etkeni metne dayanarak eksiksiz açıklama', points: 15 },
+          { criterion: 'Kısmen açıklama', points: 8 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 3
+      },
+      {
+        id: 'g8-s1-e4-q5',
+        number: 5,
+        outcomeCode: 'T.8.3.16',
+        title: 'Metnin Konusunu Belirleme',
+        points: 10,
+        prompt: 'Okuduğunuz metnin konusunu (yüzey anlamını) belirleyerek tek bir cümleyle yazınız.',
+        expectedAnswer: 'Geleneksel bakırcılık zanaatının yapılışı, kültürel değeri ve fabrikasyon ürünlerin yaygınlaşması sebebiyle karşılaştığı yok olma tehlikesi.',
+        rubric: [
+          { criterion: 'Konuyu eksiksiz ve özlü ifade etme', points: 10 },
+          { criterion: 'Kısmen doğru ifade etme', points: 5 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 2
+      },
+      {
+        id: 'g8-s1-e4-q6',
+        number: 6,
+        outcomeCode: 'T.8.3.34',
+        title: 'Düşünceyi Geliştirme Yollarını Belirleme',
+        points: 15,
+        prompt: `"Sanat ile zanaat arasında belirgin bir ayrım vardır. Zanaatkâr, gündelik hayatın somut ihtiyaçlarına cevap veren kullanışlı eşyalar üretir. Sanatçı ise özgün estetik duygularını ve hayal dünyasını tuvale aktarır. Nitekim ünlü şair Yahya Kemal, 'Kökü mazide olan atiyiz.' diyerek geleneksel sanat ve zanaatlarımızın geçmişle gelecek arasındaki sarsılmaz bağını ifade etmiştir."
+Bu parçada kullanılan iki farklı düşünceyi geliştirme yolunu belirleyerek metinden birer örnekle yazınız:
+1. Düşünceyi Geliştirme Yolu: ............................................ Metinden Örnek: ....................................................................................
+2. Düşünceyi Geliştirme Yolu: ............................................ Metinden Örnek: ....................................................................................`,
+        expectedAnswer: '1. Karşılaştırma: Sanat ile zanaatın üretim amaçları ve estetik yönleri bakımından kıyaslanması.
+2. Tanık Gösterme: Yahya Kemal'in "Kökü mazide olan atiyiz." sözünün doğrudan aktarılması.',
+        rubric: [
+          { criterion: 'İki düşünceyi geliştirme yolunu ve örneklerini tam tespit etme', points: 15 },
+          { criterion: 'Bir düşünceyi geliştirme yolunu ve örneğini tespit etme', points: 8 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 3
+      },
+      {
+        id: 'g8-s1-e4-q7',
+        number: 7,
+        outcomeCode: 'T.8.4.1',
+        title: 'Şiir Yazma',
+        points: 15,
+        prompt: '"Emek, Alın Teri ve Geleneksel Sanatlarımız" konularından birini seçerek dize sonlarında ses benzerliklerine (kafiye ve redif) yer vereceğiniz 4 dizelik (bir dörtlük) özgün bir şiir yazınız. Şiirinize uygun bir başlık koyunuz.',
+        expectedAnswer: 'Örnek Şiir:
+ÇEKİÇ SESLERİ
+Örsün üstünde parlar kor ateşler,
+Çekiç sesine karışır gülüşler.
+Alın teriyle işlenen her kapta,
+Geçmişin sabrı yarını müjdeler.',
+        rubric: [
+          { criterion: 'Temaya uygunluk, kafiye-redif uyumu, başlık ve dörtlük düzeni eksiksiz', points: 15 },
+          { criterion: 'Kısmen başarılı dörtlük', points: 8 },
+          { criterion: 'Düzyazı veya ilgisiz metin', points: 0 }
+        ],
+        linesNeeded: 5
+      },
+      {
+        id: 'g8-s1-e4-q8',
+        number: 8,
+        outcomeCode: 'T.8.4.15',
+        title: 'Geçiş ve Bağlantı İfadelerini Kullanma',
+        points: 10,
+        prompt: `Aşağıda verilen iki cümleyi, aralarındaki karşıtlık ilişkisini kuracak şekilde düşüncenin yönünü değiştiren uygun bir geçiş ve bağlantı ifadesi (oysa, ancak, ne var ki, buna rağmen) kullanarak tek bir cümle halinde birleştiriniz:
+• 1. Cümle: Usta bakırcılar yeni nesilden çırak bulmakta büyük güçlük çekiyordu.
+• 2. Cümle: Mesleklerini yaşatmak için tezgâhlarının başından bir an olsun ayrılmadılar.`,
+        expectedAnswer: 'Usta bakırcılar yeni nesilden çırak bulmakta büyük güçlük çekiyordu buna rağmen (ne var ki / ancak / oysa) mesleklerini yaşatmak için tezgâhlarının başından bir an olsun ayrılmadılar.',
+        rubric: [
+          { criterion: 'Cümleleri doğru geçiş ifadesiyle mantıklı tek cümle yapma', points: 10 },
+          { criterion: 'Kısmen doğru', points: 5 },
+          { criterion: 'Hatalı', points: 0 }
+        ],
+        linesNeeded: 3
+      }
+    ]
+  },
+
+// ==================== SENARYO 2 ====================
   // Senaryo 2 - Sınav 1
   {
     id: 'g8-s2-e1',

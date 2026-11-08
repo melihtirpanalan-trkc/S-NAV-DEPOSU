@@ -496,15 +496,254 @@ b) "Ünlü seyyah, Türk lokumu damaklarda unutulmaz bir iz bırakır, der." cü
     ]
   },
 
-  // ==================== SENARYO 3 ====================
-  // Senaryo 3 - Sınav 1
+  // ==================== SENARYO 3 (TÜRKİYE YÜZYILI MAARİF MODELİ) ====================
+  // Senaryo 3 - 1. Sınav (Bakırcılar Çarşısı)
   {
     id: 'g6-s3-e1',
     gradeLevel: 6,
     scenarioGroup: 'senaryo-3',
     scenarioGroupTitle: 'MEB Senaryo 3',
-    scenarioName: '1. Sınav (Yunus Emre ve Gönül Dili)',
+    scenarioName: '1. Sınav (Çekiç Seslerinin Yankısı: Bakırcılar Çarşısı)',
     examNumber: 1,
+    title: 'Çekiç Seslerinin Yankısı: Bakırcılar Çarşısı',
+    theme: 'Kültürel Miras & Zanaat Geleneği',
+    targetClass: '6. Sınıf',
+    termInfo: '1. Dönem 2. Yazılı Sınavı',
+    durationMinutes: 40,
+    totalPoints: 100,
+    pdfUrl: '/downloads/6_Sinif_Turkce_Senaryo_3_Sinav_1_Bakircilar_Carsisi.pdf',
+    docxUrl: '/downloads/6_Sinif_Turkce_Senaryo_3_Sinav_1_Bakircilar_Carsisi.docx',
+    answerKeyPdfUrl: '/downloads/6_Sinif_Turkce_Senaryo_3_Sinav_1_Cevap_Anahtari.pdf',
+    readingPassage: {
+      title: 'Çekiç Seslerinin Yankısı: Bakırcılar Çarşısı',
+      author: 'Türkçe Ülküsü Yayınları (Özgün Bilgilendirici Metin)',
+      source: '6. Sınıf Türkçe Dersi - Kültürel Değerlerimiz',
+      content: `Tarihî kentin dar sokaklarında yürürken kulağınıza önce ritmik bir tıkırtı çalınır. Bu ses, yüzyıllardır kuşaktan kuşağa aktarılan bir zanaatın, bakırcılığın kalp atışıdır. Dükkânların önünden geçerken akkor hâlindeki közlerin üzerinde şekillenen kızıl madeni, nasırlı ellerin büyük bir maharet ile vurduğu çekiç darbelerini görürsünüz. Burada her bir bakır ibrik ya da sahan, sıradan bir eşya değil; sabrın, terin ve estetiğin harmanlandığı yaşayan birer kültür belgesidir.
+
+Bakırcılar Çarşısı'nda usta-çırak ilişkisi yalnızca meslek öğretmez; aynı zamanda ahlak, sabır ve paylaşma terbiyesi verir. Bir usta, ocağına adım atan çırağına madeni dövmeden önce "göz nuru dökmeyi" ve "sır saklamayı" tembihler. Çünkü bakır, sert ve inatçı bir maddedir; ona hükmetmek için öfkeyle değil, sevgi ve sükûnetle yaklaşmak gerekir. Günümüzde fabrikasyon ürünlerin yaygınlaşması geleneksel bakırcılığı zorlasa da çarşıdaki ustalar, mesleklerine dört elle sarılarak kadim mirasımızı geleceğe taşımaya devam etmektedir.`
+    },
+    questions: [
+      {
+        id: 'g6-s3-e1-q1',
+        number: 1,
+        outcomeCode: 'T.O.6.5',
+        title: 'Söz Varlığı Unsurlarını Tahmin Edebilme',
+        points: 15,
+        prompt: 'Metinde geçen "maharet" sözcüğünün anlamını metnin bağlamından hareketle tahmin ediniz. Tahmininizi metindeki hangi durum veya ifadelerden yola çıkarak yaptığınızı açıklayınız.',
+        expectedAnswer: 'Maharet sözcüğü "ustalık, el becerisi, hüner, bir işi kusursuz yapabilme yeteneği" anlamına gelir. Metinde nasırlı ellerin akkor madene çekiç darbeleriyle sabırla şekil verip ibrik veya sahana dönüştürmesi bağlamından çıkarılmıştır.',
+        rubric: [
+          { criterion: 'Doğru tahmin (ustalık/hüner) ve metindeki çekiç darbeleri/şekil verme gerekçesini eksiksiz yazma', points: 15 },
+          { criterion: 'Yalnızca doğru anlamı verip gerekçeyi eksik bırakma', points: 8 },
+          { criterion: 'Hatalı cevap', points: 0 }
+        ],
+        linesNeeded: 3
+      },
+      {
+        id: 'g6-s3-e1-q2',
+        number: 2,
+        outcomeCode: 'T.O.6.6',
+        title: 'Metnin Yüzey Anlamını Belirleyebilme',
+        points: 15,
+        prompt: 'Metne göre, bakır ustalarının ocağa yeni gelen çıraklarına madeni dövmeden önce öğrettikleri ilk şeyler nelerdir ve bu eğitimin temel amacı nedir? Metinden hareketle açıklayınız.',
+        expectedAnswer: 'Öğretilenler: Usta çırağına madeni dövmeden önce "göz nuru dökmeyi", "sır saklamayı", sabır, ahlak ve paylaşma terbiyesini öğretir. Temel Amacı: Bakır sert ve inatçı bir maden olduğu için ona öfkeyle değil; sevgi, sükûnet ve sabırla yaklaşılması gerektiğini kavratmaktır.',
+        rubric: [
+          { criterion: 'Öğretilen ilkeleri ve sükûnet/sabır amacını eksiksiz yazma', points: 15 },
+          { criterion: 'Yalnızca ilkeleri yazıp amacı belirtmeme', points: 8 },
+          { criterion: 'Hatalı cevap', points: 0 }
+        ],
+        linesNeeded: 3
+      },
+      {
+        id: 'g6-s3-e1-q3',
+        number: 3,
+        outcomeCode: 'T.O.6.16',
+        title: 'Bilgilendirici Metinde Anahtar Kelimeleri Belirleme',
+        points: 20,
+        prompt: 'Okuduğunuz bilgilendirici metnin ana konusunu ve iletisini yansıtan 3 adet anahtar kelime belirleyiniz. Bu kelimeleri seçme gerekçelerinizi metinle ilişkilendirerek birer cümleyle yazınız.',
+        expectedAnswer: '1. Bakırcılık/Zanaat: Metinde yaşatılan geleneksel el sanatını temsil ettiği için.\n2. Usta-Çırak/Kültürel Miras: Ahlak ve mesleğin kuşaktan kuşağa aktarılmasını ifade ettiği için.\n3. Sabır/Alın Teri: Bakırı işlemenin ancak büyük bir sükûnet ve emekle mümkün olduğunu anlattığı için.',
+        rubric: [
+          { criterion: '3 anahtar kelimeyi ve metinle tutarlı gerekçeleri eksiksiz yazma', points: 20 },
+          { criterion: '2 anahtar kelime veya gerekçeleri kısmen yazma', points: 12 },
+          { criterion: 'Hatalı cevap', points: 0 }
+        ],
+        linesNeeded: 4
+      },
+      {
+        id: 'g6-s3-e1-q4',
+        number: 4,
+        outcomeCode: 'T.O.6.21',
+        title: 'Metinden Hareketle Söz Varlığını Çözümleme (Deyimler)',
+        points: 15,
+        prompt: 'Metinde geçen "göz nuru dökmek" ve "dört elle sarılmak" deyimlerinin anlamlarını açıklayarak, bu deyimlerin çarşıdaki zanaatkârların tutumlarıyla nasıl örtüştüğünü yazınız.',
+        expectedAnswer: 'Göz nuru dökmek: Büyük dikkat, özen ve el emeği vererek titizlikle çalışmaktır; ustaların her motife ruhunu katarak özenle işlemesiyle örtüşür.\nDört elle sarılmak: Bir işi büyük şevk, sadakat ve azimle sahiplenmektir; ustaların fabrikasyona rağmen mesleği yaşatma kararlılığıyla örtüşür.',
+        rubric: [
+          { criterion: 'İki deyimin anlamını ve tutumlarla bağını eksiksiz açıklama', points: 15 },
+          { criterion: 'Tek deyimi açıklama veya metin bağını kuramama', points: 8 },
+          { criterion: 'Hatalı cevap', points: 0 }
+        ],
+        linesNeeded: 4
+      },
+      {
+        id: 'g6-s3-e1-q5',
+        number: 5,
+        outcomeCode: 'T.Y.6.18',
+        title: 'Yazısını Zenginleştirecek Söz Varlığı Kullanımı (Paragraf)',
+        points: 20,
+        prompt: '"Alın teri" (deyim), "kuşaktan kuşağa" (ikileme) ve "yadigâr" (sözcük) unsurlarını anlamına uygun biçimde kullanarak "Geleneksel Sanatlarımız ve Emek" konulu 3-4 cümlelik özgün ve zengin bir paragraf yazınız.',
+        expectedAnswer: 'Dedelerimizden bizlere kalan her el emeği eser, geçmişin kutlu bir yadigârıdır. Ustalarımız gece gündüz döktükleri alın teri ile cansız madenlere hayat verirler. Bizlere düşen görev ise bu paha biçilmez zenginliği koruyarak kuşaktan kuşağa aktarmaktır.',
+        rubric: [
+          { criterion: '3 unsuru da bağlama uygun kullanarak 3-4 cümlelik akıcı paragraf yazma', points: 20 },
+          { criterion: '1 unsuru eksik kullanma veya cümle bütünlüğünün zayıf olması', points: 12 },
+          { criterion: 'Konu dışı yazı', points: 0 }
+        ],
+        linesNeeded: 5
+      },
+      {
+        id: 'g6-s3-e1-q6',
+        number: 6,
+        outcomeCode: 'T.Y.6.21',
+        title: 'Yazım Kuralları ve Noktalama İşaretlerini Uygulama',
+        points: 15,
+        prompt: 'Aşağıdaki metinde yer alan yazım ve noktalama hatalarını tespit ederek doğrularını ve dayandıkları kuralları yazınız:\n"Gaziantep\'de ki tarihi Bakırcılar Çarşısı, 18. yüzyıldan beri varlığını koruyor. Çırak heyecanla sordu; Usta bunu kime yapıyoruz?"',
+        expectedAnswer: '1. "Gaziantep\'de ki" -> "Gaziantep\'teki" (Sıfat türeten -ki ait olduğu söze bitişik yazılır, ünsüz benzeşmesi uygulanır).\n2. "tarihi" -> "tarihî" (Nispet i\'si ayrımı için düzeltme işareti kullanılır).\n3. "...sordu; Usta..." -> "sordu: — Usta..." (Konuşma cümlesinden önce iki nokta konur; noktalı virgül gelmez).',
+        rubric: [
+          { criterion: '3 hatayı ve kurallarını eksiksiz tespit edip düzeltme', points: 15 },
+          { criterion: '1 veya 2 hatayı doğru tespit etme', points: 8 },
+          { criterion: 'Hatalı cevap', points: 0 }
+        ],
+        linesNeeded: 4
+      }
+    ]
+  },
+
+  // Senaryo 3 - 2. Sınav (Anıt Ağaçlar)
+  {
+    id: 'g6-s3-e2',
+    gradeLevel: 6,
+    scenarioGroup: 'senaryo-3',
+    scenarioGroupTitle: 'MEB Senaryo 3',
+    scenarioName: '2. Sınav (Ormanın Kadim Hafızası: Anıt Ağaçlar)',
+    examNumber: 2,
+    title: 'Ormanın Kadim Hafızası: Anıt Ağaçlar',
+    theme: 'Doğa Sevgisi & Biyolojik Miras',
+    targetClass: '6. Sınıf',
+    termInfo: '1. Dönem 2. Yazılı Sınavı',
+    durationMinutes: 40,
+    totalPoints: 100,
+    pdfUrl: '/downloads/6_Sinif_Turkce_Senaryo_3_Sinav_2_Anit_Agaclar.pdf',
+    docxUrl: '/downloads/6_Sinif_Turkce_Senaryo_3_Sinav_2_Anit_Agaclar.docx',
+    answerKeyPdfUrl: '/downloads/6_Sinif_Turkce_Senaryo_3_Sinav_2_Cevap_Anahtari.pdf',
+    readingPassage: {
+      title: 'Ormanın Kadim Hafızası: Anıt Ağaçlar',
+      author: 'Türkçe Ülküsü Yayınları (Özgün Bilgilendirici Metin)',
+      source: '6. Sınıf Türkçe Dersi - Doğa ve Evren',
+      content: `Doğanın sessiz devleri olan anıt ağaçlar, bin yılı aşan ömürleriyle geçmiş ile gelecek arasında canlı bir köprü vazifesi görür. Zonguldak'ın Gümeli Ormanı'nda gökyüzüne uzanan dört bin yüz yıllık porsuk ağacı ya da köylerde gölgesinde sohbet edilen asırlık çınarlar... Bu ağaçlar yalnızca heybetli gövdeleriyle değil, taşıdıkları ekolojik ve kültürel mirasla da büyüler insanı.
+
+Bilim insanları için bir anıt ağaç, yeryüzünün hafıza kaydıdır. Gövdedeki her bir yaş halkası; geçmişteki kuraklıkları, sert kışları, yangınları ve volkanik patlamaları müşahede etmemizi sağlayan birer iklim günlüğüdür. Kökleriyle toprağa sımsıkı tutunarak erozyona set çeken bu ulu ağaçlar, zamana karşı gösterdikleri mukavemet ile sabrın simgesidir. Onları gözümüz gibi korumak yarınlarımıza borcumuzdur.`
+    },
+    questions: [
+      {
+        id: 'g6-s3-e2-q1',
+        number: 1,
+        outcomeCode: 'T.O.6.5',
+        title: 'Söz Varlığı Unsurlarını Tahmin Edebilme',
+        points: 15,
+        prompt: 'Metinde geçen "mukavemet" sözcüğünün anlamını metnin bağlamından hareketle tahmin ediniz. Tahmininizi metindeki hangi durum veya ipuçlarından yola çıkarak yaptığınızı açıklayınız.',
+        expectedAnswer: 'Mukavemet: "Direnç, dayanıklılık, zorluklara ve dış etkenlere karşı koyma gücü" anlamına gelir. Metinde anıt ağaçların binlerce yıl boyunca sert kışlara, yangınlara ve kuraklıklara rağmen zamana meydan okuyup ayakta kalması durumundan bu tahmine varılır.',
+        rubric: [
+          { criterion: 'Doğru tahmin (direnç/dayanıklılık) ve metindeki doğa koşullarına dayanma gerekçesini eksiksiz yazma', points: 15 },
+          { criterion: 'Yalnızca doğru anlamı verip gerekçeyi eksik bırakma', points: 8 },
+          { criterion: 'Hatalı cevap', points: 0 }
+        ],
+        linesNeeded: 3
+      },
+      {
+        id: 'g6-s3-e2-q2',
+        number: 2,
+        outcomeCode: 'T.O.6.6',
+        title: 'Metnin Yüzey Anlamını Belirleyebilme',
+        points: 15,
+        prompt: 'Metne göre bilim insanları, anıt ağaçların yaş halkalarını inceleyerek yeryüzünün geçmişine dair hangi somut bilgilere ulaşabilmektedir? Metinden hareketle maddeler halinde yazınız.',
+        expectedAnswer: 'Bilim insanları yaş halkalarından şu bilgilere ulaşır: 1. Geçmişteki kuraklık dönemleri, 2. Geçmişteki sert kış mevsimleri ve iklim döngüleri, 3. Büyük orman yangınları, 4. Volkanik patlamaların izleri (iklim günlüğü kaydı).',
+        rubric: [
+          { criterion: 'Metinde sıralanan 4 olaydan en az 3 tanesini eksiksiz yazma', points: 15 },
+          { criterion: 'Yalnızca 1 veya 2 bilgi yazma', points: 8 },
+          { criterion: 'Hatalı cevap', points: 0 }
+        ],
+        linesNeeded: 3
+      },
+      {
+        id: 'g6-s3-e2-q3',
+        number: 3,
+        outcomeCode: 'T.O.6.16',
+        title: 'Bilgilendirici Metinde Anahtar Kelimeleri Belirleme',
+        points: 20,
+        prompt: 'Okuduğunuz bilgilendirici metnin ana konusunu ve iletilen mesajı doğrudan yansıtan 3 adet anahtar kelime belirleyiniz. Her bir anahtar kelimeyi seçme gerekçenizi metinle ilişkilendirerek yazınız.',
+        expectedAnswer: '1. Anıt Ağaç: Metnin ana konusunu ve korunan kadim canlıyı temsil ettiği için.\n2. İklim Günlüğü/Hafıza: Ağacın doğa olaylarını halkalarında kaydedip geleceğe aktarmasını vurguladığı için.\n3. Koruma/Emanet: Metnin ana iletisi olan bu mirasın gelecek kuşaklara korunarak bırakılması gerektiğini anlattığı için.',
+        rubric: [
+          { criterion: '3 anahtar kelimeyi ve metinle tutarlı gerekçeleri eksiksiz yazma', points: 20 },
+          { criterion: '2 anahtar kelime veya gerekçeleri kısmen yazma', points: 12 },
+          { criterion: 'Hatalı cevap', points: 0 }
+        ],
+        linesNeeded: 4
+      },
+      {
+        id: 'g6-s3-e2-q4',
+        number: 4,
+        outcomeCode: 'T.O.6.21',
+        title: 'Metinden Hareketle Söz Varlığını Çözümleme (Kalıp İfadeler)',
+        points: 15,
+        prompt: 'Metinde geçen "sımsıkı tutunmak" ve "gözü gibi korumak" söz varlığı unsurlarını (deyim/ifade) çözümleyiniz. Bu unsurların doğa ile insan arasındaki sorumluluk bağına nasıl bir anlam kattığını açıklayınız.',
+        expectedAnswer: 'Sımsıkı tutunmak: Köklerin toprağı kavraması, erozyonu engellemesi ve hayata direnme kararlılığıdır.\nGözü gibi korumak: Bir şeye derin sevgi, özen ve titizlikle sahip çıkmak; ona hiçbir zarar gelmemesi için çaba göstermektir. İnsanın doğaya karşı koruma sorumluluğunu anlatır.',
+        rubric: [
+          { criterion: 'İki ifadenin anlamını ve doğa-insan sorumluluk bağıyla ilişkisini tam açıklama', points: 15 },
+          { criterion: 'Tek ifadenin anlamını verme veya metin bağını kuramama', points: 8 },
+          { criterion: 'Hatalı cevap', points: 0 }
+        ],
+        linesNeeded: 4
+      },
+      {
+        id: 'g6-s3-e2-q5',
+        number: 5,
+        outcomeCode: 'T.Y.6.18',
+        title: 'Yazısını Zenginleştirecek Söz Varlığı Kullanımı (Paragraf)',
+        points: 20,
+        prompt: '"Kök salmak" (deyim), "emanet" (kavram) ve "yeşil vatan" (kalıp söz) unsurlarını anlamına uygun biçimde kullanarak "Doğa Sevgisi ve Gelecek Kuşaklar" konulu 3-4 cümlelik özgün ve zengin bir metin oluşturunuz.',
+        expectedAnswer: 'Topraklarımızda asırlardır kök salmış her anıt ağaç, bize geçmişin paha biçilmez bir emanetidir. Bizler doğamıza sımsıkı sahip çıkarak yeşil vatanımızı yarınlara taşımalıyız. Ancak bu bilinçle hareket edersek gelecek kuşaklara temiz ve nefes alınabilir bir dünya bırakabiliriz.',
+        rubric: [
+          { criterion: '3 unsuru da bağlama uygun kullanarak 3-4 cümlelik akıcı metin oluşturma', points: 20 },
+          { criterion: '1 unsuru eksik kullanma veya cümle bağlantılarının kopuk olması', points: 12 },
+          { criterion: 'Konu dışı yazı', points: 0 }
+        ],
+        linesNeeded: 5
+      },
+      {
+        id: 'g6-s3-e2-q6',
+        number: 6,
+        outcomeCode: 'T.Y.6.21',
+        title: 'Yazım Kuralları ve Noktalama İşaretlerini Uygulama',
+        points: 15,
+        prompt: 'Aşağıdaki metindeki yazım ve noktalama hatalarını tespit ederek doğrularını ve dayandıkları kuralları yazınız:\n"Türkiye\'nin en yaşlı ağacı Zonguldak\'ta ki Gümeli tabiat anıtında bulunuyor. Mühendis Ahmet bey şöyle dedi; Bu ağaç dörtbin yıldır yaşıyor."',
+        expectedAnswer: '1. "Zonguldak\'ta ki" -> "Zonguldak\'taki" (Sıfat türeten -ki ait olduğu söze bitişik yazılır).\n2. "Gümeli tabiat anıtı" -> "Gümeli Tabiat Anıtı" (Yer, tabiat anıtı adları büyük harfle başlar).\n3. "Ahmet bey" -> "Ahmet Bey" (Özel ada bağlı saygı/unvan sözleri büyük harfle başlar).\n4. "dörtbin" -> "dört bin" (Sayılar metin içinde ayrı yazılır).\n5. "...dedi; Bu..." -> "dedi: \"Bu...\"" (Alıntı ve açıklama sözlerinden önce iki nokta konur).',
+        rubric: [
+          { criterion: 'En az 3 adet kuralı doğru açıklayıp düzeltme', points: 15 },
+          { criterion: '1 veya 2 hatayı doğru tespit etme', points: 8 },
+          { criterion: 'Hatalı cevap', points: 0 }
+        ],
+        linesNeeded: 4
+      }
+    ]
+  },
+  
+  // ==================== SENARYO 3 ====================
+  // Senaryo 3 - Sınav 1
+  {
+    id: 'g6-s3-e3',
+    gradeLevel: 6,
+    scenarioGroup: 'senaryo-3',
+    scenarioGroupTitle: 'MEB Senaryo 3',
+    scenarioName: '3. Sınav (Yunus Emre ve Gönül Dili)',
+    examNumber: 3,
     title: 'Yunus Emre ve Gönül Dili',
     theme: '3. Tema: Erdemler & Sevgi ve Hoşgörü',
     targetClass: '6. Sınıf',
@@ -623,12 +862,12 @@ b) "Evet (1) bizler de onun öğütlerine kulak vermeliyiz. Sözlerimizi tartara
 
   // Senaryo 3 - Sınav 2
   {
-    id: 'g6-s3-e2',
+    id: 'g6-s3-e4',
     gradeLevel: 6,
     scenarioGroup: 'senaryo-3',
     scenarioGroupTitle: 'MEB Senaryo 3',
-    scenarioName: '2. Sınav (Komşuluk ve Paylaşma Kültürü)',
-    examNumber: 2,
+    scenarioName: '4. Sınav (Komşuluk ve Paylaşma Kültürü)',
+    examNumber: 4,
     title: 'Komşuluk ve Paylaşma Kültürü',
     theme: '3. Tema: Millî Kültür & Komşuluk İlişkileri',
     targetClass: '6. Sınıf',
@@ -736,240 +975,6 @@ b) "Komşular bir araya geldi mi içimizi büyük bir neşe kaplar." cümlesinde
           { criterion: 'Hatalı cevap', points: 0 }
         ],
         linesNeeded: 5
-      }
-    ]
-  },
-
-  
-  // ==================== SENARYO 3 (YENİ MEB MAARİF MODELİ SERİSİ) ====================
-  // Senaryo 3 - 1. Sınav (Bakırcılar Çarşısı)
-  {
-    id: 'g6-s3-e3',
-    gradeLevel: 6,
-    scenarioGroup: 'senaryo-3',
-    scenarioGroupTitle: 'MEB Senaryo 3',
-    scenarioName: '3. Sınav (Çekiç Seslerinin Yankısı: Bakırcılar Çarşısı)',
-    examNumber: 3,
-    title: 'Çekiç Seslerinin Yankısı: Bakırcılar Çarşısı',
-    theme: 'Kültürel Miras & Zanaat Geleneği',
-    targetClass: '6. Sınıf',
-    termInfo: '1. Dönem 2. Yazılı Sınavı',
-    durationMinutes: 40,
-    totalPoints: 100,
-    readingPassage: {
-      title: 'Çekiç Seslerinin Yankısı: Bakırcılar Çarşısı',
-      author: 'Türkçe Ülküsü Yayınları (Özgün Bilgilendirici Metin)',
-      source: '6. Sınıf Türkçe Dersi - Kültürel Değerlerimiz',
-      content: `Tarihî kentin dar sokaklarında yürürken kulağınıza önce ritmik bir tıkırtı çalınır. Bu ses, yüzyıllardır kuşaktan kuşağa aktarılan bir zanaatın, bakırcılığın kalp atışıdır. Dükkânların önünden geçerken akkor hâlindeki közlerin üzerinde şekillenen kızıl madeni, nasırlı ellerin büyük bir maharet ile vurduğu çekiç darbelerini görürsünüz. Burada her bir bakır ibrik ya da sahan, sıradan bir eşya değil; sabrın, terin ve estetiğin harmanlandığı yaşayan birer kültür belgesidir.
-
-Bakırcılar Çarşısı'nda usta-çırak ilişkisi yalnızca meslek öğretmez; aynı zamanda ahlak, sabır ve paylaşma terbiyesi verir. Bir usta, ocağına adım atan çırağına madeni dövmeden önce "göz nuru dökmeyi" ve "sır saklamayı" tembihler. Çünkü bakır, sert ve inatçı bir maddedir; ona hükmetmek için öfkeyle değil, sevgi ve sükûnetle yaklaşmak gerekir. Günümüzde fabrikasyon ürünlerin yaygınlaşması geleneksel bakırcılığı zorlasa da çarşıdaki ustalar, mesleklerine dört elle sarılarak kadim mirasımızı geleceğe taşımaya devam etmektedir.`
-    },
-    questions: [
-      {
-        id: 'g6-s3-e3-q1',
-        number: 1,
-        outcomeCode: 'T.O.6.5',
-        title: 'Söz Varlığı Unsurlarını Tahmin Edebilme',
-        points: 15,
-        prompt: 'Metinde geçen "maharet" sözcüğünün anlamını metnin bağlamından hareketle tahmin ediniz. Tahmininizi metindeki hangi durum veya ifadelerden yola çıkarak yaptığınızı açıklayınız.',
-        expectedAnswer: 'Maharet sözcüğü "ustalık, el becerisi, hüner, bir işi kusursuz yapabilme yeteneği" anlamına gelir. Metinde nasırlı ellerin akkor madene çekiç darbeleriyle sabırla şekil verip ibrik veya sahana dönüştürmesi bağlamından çıkarılmıştır.',
-        rubric: [
-          { criterion: 'Doğru tahmin (ustalık/hüner) ve metindeki çekiç darbeleri/şekil verme gerekçesini eksiksiz yazma', points: 15 },
-          { criterion: 'Yalnızca doğru anlamı verip gerekçeyi eksik bırakma', points: 8 },
-          { criterion: 'Hatalı cevap', points: 0 }
-        ],
-        linesNeeded: 3
-      },
-      {
-        id: 'g6-s3-e3-q2',
-        number: 2,
-        outcomeCode: 'T.O.6.6',
-        title: 'Metnin Yüzey Anlamını Belirleyebilme',
-        points: 15,
-        prompt: 'Metne göre, bakır ustalarının ocağa yeni gelen çıraklarına madeni dövmeden önce öğrettikleri ilk şeyler nelerdir ve bu eğitimin temel amacı nedir? Metinden hareketle açıklayınız.',
-        expectedAnswer: 'Öğretilenler: Usta çırağına madeni dövmeden önce "göz nuru dökmeyi", "sır saklamayı", sabır, ahlak ve paylaşma terbiyesini öğretir. Temel Amacı: Bakır sert ve inatçı bir maden olduğu için ona öfkeyle değil; sevgi, sükûnet ve sabırla yaklaşılması gerektiğini kavratmaktır.',
-        rubric: [
-          { criterion: 'Öğretilen ilkeleri ve sükûnet/sabır amacını eksiksiz yazma', points: 15 },
-          { criterion: 'Yalnızca ilkeleri yazıp amacı belirtmeme', points: 8 },
-          { criterion: 'Hatalı cevap', points: 0 }
-        ],
-        linesNeeded: 3
-      },
-      {
-        id: 'g6-s3-e3-q3',
-        number: 3,
-        outcomeCode: 'T.O.6.16',
-        title: 'Bilgilendirici Metinde Anahtar Kelimeleri Belirleme',
-        points: 20,
-        prompt: 'Okuduğunuz bilgilendirici metnin ana konusunu ve iletisini yansıtan 3 adet anahtar kelime belirleyiniz. Bu kelimeleri seçme gerekçelerinizi metinle ilişkilendirerek birer cümleyle yazınız.',
-        expectedAnswer: '1. Bakırcılık/Zanaat: Metinde yaşatılan geleneksel el sanatını temsil ettiği için.\n2. Usta-Çırak/Kültürel Miras: Ahlak ve mesleğin kuşaktan kuşağa aktarılmasını ifade ettiği için.\n3. Sabır/Alın Teri: Bakırı işlemenin ancak büyük bir sükûnet ve emekle mümkün olduğunu anlattığı için.',
-        rubric: [
-          { criterion: '3 anahtar kelimeyi ve metinle tutarlı gerekçeleri eksiksiz yazma', points: 20 },
-          { criterion: '2 anahtar kelime veya gerekçeleri kısmen yazma', points: 12 },
-          { criterion: 'Hatalı cevap', points: 0 }
-        ],
-        linesNeeded: 4
-      },
-      {
-        id: 'g6-s3-e3-q4',
-        number: 4,
-        outcomeCode: 'T.O.6.21',
-        title: 'Metinden Hareketle Söz Varlığını Çözümleme (Deyimler)',
-        points: 15,
-        prompt: 'Metinde geçen "göz nuru dökmek" ve "dört elle sarılmak" deyimlerinin anlamlarını açıklayarak, bu deyimlerin çarşıdaki zanaatkârların tutumlarıyla nasıl örtüştüğünü yazınız.',
-        expectedAnswer: 'Göz nuru dökmek: Büyük dikkat, özen ve el emeği vererek titizlikle çalışmaktır; ustaların her motife ruhunu katarak özenle işlemesiyle örtüşür.\nDört elle sarılmak: Bir işi büyük şevk, sadakat ve azimle sahiplenmektir; ustaların fabrikasyona rağmen mesleği yaşatma kararlılığıyla örtüşür.',
-        rubric: [
-          { criterion: 'İki deyimin anlamını ve tutumlarla bağını eksiksiz açıklama', points: 15 },
-          { criterion: 'Tek deyimi açıklama veya metin bağını kuramama', points: 8 },
-          { criterion: 'Hatalı cevap', points: 0 }
-        ],
-        linesNeeded: 4
-      },
-      {
-        id: 'g6-s3-e3-q5',
-        number: 5,
-        outcomeCode: 'T.Y.6.18',
-        title: 'Yazısını Zenginleştirecek Söz Varlığı Kullanımı (Paragraf)',
-        points: 20,
-        prompt: '"Alın teri" (deyim), "kuşaktan kuşağa" (ikileme) ve "yadigâr" (sözcük) unsurlarını anlamına uygun biçimde kullanarak "Geleneksel Sanatlarımız ve Emek" konulu 3-4 cümlelik özgün ve zengin bir paragraf yazınız.',
-        expectedAnswer: 'Dedelerimizden bizlere kalan her el emeği eser, geçmişin kutlu bir yadigârıdır. Ustalarımız gece gündüz döktükleri alın teri ile cansız madenlere hayat verirler. Bizlere düşen görev ise bu paha biçilmez zenginliği koruyarak kuşaktan kuşağa aktarmaktır.',
-        rubric: [
-          { criterion: '3 unsuru da bağlama uygun kullanarak 3-4 cümlelik akıcı paragraf yazma', points: 20 },
-          { criterion: '1 unsuru eksik kullanma veya cümle bütünlüğünün zayıf olması', points: 12 },
-          { criterion: 'Konu dışı yazı', points: 0 }
-        ],
-        linesNeeded: 5
-      },
-      {
-        id: 'g6-s3-e3-q6',
-        number: 6,
-        outcomeCode: 'T.Y.6.21',
-        title: 'Yazım Kuralları ve Noktalama İşaretlerini Uygulama',
-        points: 15,
-        prompt: 'Aşağıdaki metinde yer alan yazım ve noktalama hatalarını tespit ederek doğrularını ve dayandıkları kuralları yazınız:\n"Gaziantep\'de ki tarihi Bakırcılar Çarşısı, 18. yüzyıldan beri varlığını koruyor. Çırak heyecanla sordu; Usta bunu kime yapıyoruz?"',
-        expectedAnswer: '1. "Gaziantep\'de ki" -> "Gaziantep\'teki" (Sıfat türeten -ki ait olduğu söze bitişik yazılır, ünsüz benzeşmesi uygulanır).\n2. "tarihi" -> "tarihî" (Nispet i\'si ayrımı için düzeltme işareti kullanılır).\n3. "...sordu; Usta..." -> "sordu: — Usta..." (Konuşma cümlesinden önce iki nokta konur; noktalı virgül gelmez).',
-        rubric: [
-          { criterion: '3 hatayı ve kurallarını eksiksiz tespit edip düzeltme', points: 15 },
-          { criterion: '1 veya 2 hatayı doğru tespit etme', points: 8 },
-          { criterion: 'Hatalı cevap', points: 0 }
-        ],
-        linesNeeded: 4
-      }
-    ]
-  },
-
-  // Senaryo 3 - 2. Sınav (Anıt Ağaçlar)
-  {
-    id: 'g6-s3-e4',
-    gradeLevel: 6,
-    scenarioGroup: 'senaryo-3',
-    scenarioGroupTitle: 'MEB Senaryo 3',
-    scenarioName: '4. Sınav (Ormanın Kadim Hafızası: Anıt Ağaçlar)',
-    examNumber: 4,
-    title: 'Ormanın Kadim Hafızası: Anıt Ağaçlar',
-    theme: 'Doğa Sevgisi & Biyolojik Miras',
-    targetClass: '6. Sınıf',
-    termInfo: '1. Dönem 2. Yazılı Sınavı',
-    durationMinutes: 40,
-    totalPoints: 100,
-    readingPassage: {
-      title: 'Ormanın Kadim Hafızası: Anıt Ağaçlar',
-      author: 'Türkçe Ülküsü Yayınları (Özgün Bilgilendirici Metin)',
-      source: '6. Sınıf Türkçe Dersi - Doğa ve Evren',
-      content: `Doğanın sessiz devleri olan anıt ağaçlar, bin yılı aşan ömürleriyle geçmiş ile gelecek arasında canlı bir köprü vazifesi görür. Zonguldak'ın Gümeli Ormanı'nda gökyüzüne uzanan dört bin yüz yıllık porsuk ağacı ya da köylerde gölgesinde sohbet edilen asırlık çınarlar... Bu ağaçlar yalnızca heybetli gövdeleriyle değil, taşıdıkları ekolojik ve kültürel mirasla da büyüler insanı.
-
-Bilim insanları için bir anıt ağaç, yeryüzünün hafıza kaydıdır. Gövdedeki her bir yaş halkası; geçmişteki kuraklıkları, sert kışları, yangınları ve volkanik patlamaları müşahede etmemizi sağlayan birer iklim günlüğüdür. Kökleriyle toprağa sımsıkı tutunarak erozyona set çeken bu ulu ağaçlar, zamana karşı gösterdikleri mukavemet ile sabrın simgesidir. Onları gözümüz gibi korumak yarınlarımıza borcumuzdur.`
-    },
-    questions: [
-      {
-        id: 'g6-s3-e4-q1',
-        number: 1,
-        outcomeCode: 'T.O.6.5',
-        title: 'Söz Varlığı Unsurlarını Tahmin Edebilme',
-        points: 15,
-        prompt: 'Metinde geçen "mukavemet" sözcüğünün anlamını metnin bağlamından hareketle tahmin ediniz. Tahmininizi metindeki hangi durum veya ipuçlarından yola çıkarak yaptığınızı açıklayınız.',
-        expectedAnswer: 'Mukavemet: "Direnç, dayanıklılık, zorluklara ve dış etkenlere karşı koyma gücü" anlamına gelir. Metinde anıt ağaçların binlerce yıl boyunca sert kışlara, yangınlara ve kuraklıklara rağmen zamana meydan okuyup ayakta kalması durumundan bu tahmine varılır.',
-        rubric: [
-          { criterion: 'Doğru tahmin (direnç/dayanıklılık) ve metindeki doğa koşullarına dayanma gerekçesini eksiksiz yazma', points: 15 },
-          { criterion: 'Yalnızca doğru anlamı verip gerekçeyi eksik bırakma', points: 8 },
-          { criterion: 'Hatalı cevap', points: 0 }
-        ],
-        linesNeeded: 3
-      },
-      {
-        id: 'g6-s3-e4-q2',
-        number: 2,
-        outcomeCode: 'T.O.6.6',
-        title: 'Metnin Yüzey Anlamını Belirleyebilme',
-        points: 15,
-        prompt: 'Metne göre bilim insanları, anıt ağaçların yaş halkalarını inceleyerek yeryüzünün geçmişine dair hangi somut bilgilere ulaşabilmektedir? Metinden hareketle maddeler halinde yazınız.',
-        expectedAnswer: 'Bilim insanları yaş halkalarından şu bilgilere ulaşır: 1. Geçmişteki kuraklık dönemleri, 2. Geçmişteki sert kış mevsimleri ve iklim döngüleri, 3. Büyük orman yangınları, 4. Volkanik patlamaların izleri (iklim günlüğü kaydı).',
-        rubric: [
-          { criterion: 'Metinde sıralanan 4 olaydan en az 3 tanesini eksiksiz yazma', points: 15 },
-          { criterion: 'Yalnızca 1 veya 2 bilgi yazma', points: 8 },
-          { criterion: 'Hatalı cevap', points: 0 }
-        ],
-        linesNeeded: 3
-      },
-      {
-        id: 'g6-s3-e4-q3',
-        number: 3,
-        outcomeCode: 'T.O.6.16',
-        title: 'Bilgilendirici Metinde Anahtar Kelimeleri Belirleme',
-        points: 20,
-        prompt: 'Okuduğunuz bilgilendirici metnin ana konusunu ve iletilen mesajı doğrudan yansıtan 3 adet anahtar kelime belirleyiniz. Her bir anahtar kelimeyi seçme gerekçenizi metinle ilişkilendirerek yazınız.',
-        expectedAnswer: '1. Anıt Ağaç: Metnin ana konusunu ve korunan kadim canlıyı temsil ettiği için.\n2. İklim Günlüğü/Hafıza: Ağacın doğa olaylarını halkalarında kaydedip geleceğe aktarmasını vurguladığı için.\n3. Koruma/Emanet: Metnin ana iletisi olan bu mirasın gelecek kuşaklara korunarak bırakılması gerektiğini anlattığı için.',
-        rubric: [
-          { criterion: '3 anahtar kelimeyi ve metinle tutarlı gerekçeleri eksiksiz yazma', points: 20 },
-          { criterion: '2 anahtar kelime veya gerekçeleri kısmen yazma', points: 12 },
-          { criterion: 'Hatalı cevap', points: 0 }
-        ],
-        linesNeeded: 4
-      },
-      {
-        id: 'g6-s3-e4-q4',
-        number: 4,
-        outcomeCode: 'T.O.6.21',
-        title: 'Metinden Hareketle Söz Varlığını Çözümleme (Kalıp İfadeler)',
-        points: 15,
-        prompt: 'Metinde geçen "sımsıkı tutunmak" ve "gözü gibi korumak" söz varlığı unsurlarını (deyim/ifade) çözümleyiniz. Bu unsurların doğa ile insan arasındaki sorumluluk bağına nasıl bir anlam kattığını açıklayınız.',
-        expectedAnswer: 'Sımsıkı tutunmak: Köklerin toprağı kavraması, erozyonu engellemesi ve hayata direnme kararlılığıdır.\nGözü gibi korumak: Bir şeye derin sevgi, özen ve titizlikle sahip çıkmak; ona hiçbir zarar gelmemesi için çaba göstermektir. İnsanın doğaya karşı koruma sorumluluğunu anlatır.',
-        rubric: [
-          { criterion: 'İki ifadenin anlamını ve doğa-insan sorumluluk bağıyla ilişkisini tam açıklama', points: 15 },
-          { criterion: 'Tek ifadenin anlamını verme veya metin bağını kuramama', points: 8 },
-          { criterion: 'Hatalı cevap', points: 0 }
-        ],
-        linesNeeded: 4
-      },
-      {
-        id: 'g6-s3-e4-q5',
-        number: 5,
-        outcomeCode: 'T.Y.6.18',
-        title: 'Yazısını Zenginleştirecek Söz Varlığı Kullanımı (Paragraf)',
-        points: 20,
-        prompt: '"Kök salmak" (deyim), "emanet" (kavram) ve "yeşil vatan" (kalıp söz) unsurlarını anlamına uygun biçimde kullanarak "Doğa Sevgisi ve Gelecek Kuşaklar" konulu 3-4 cümlelik özgün ve zengin bir metin oluşturunuz.',
-        expectedAnswer: 'Topraklarımızda asırlardır kök salmış her anıt ağaç, bize geçmişin paha biçilmez bir emanetidir. Bizler doğamıza sımsıkı sahip çıkarak yeşil vatanımızı yarınlara taşımalıyız. Ancak bu bilinçle hareket edersek gelecek kuşaklara temiz ve nefes alınabilir bir dünya bırakabiliriz.',
-        rubric: [
-          { criterion: '3 unsuru da bağlama uygun kullanarak 3-4 cümlelik akıcı metin oluşturma', points: 20 },
-          { criterion: '1 unsuru eksik kullanma veya cümle bağlantılarının kopuk olması', points: 12 },
-          { criterion: 'Konu dışı yazı', points: 0 }
-        ],
-        linesNeeded: 5
-      },
-      {
-        id: 'g6-s3-e4-q6',
-        number: 6,
-        outcomeCode: 'T.Y.6.21',
-        title: 'Yazım Kuralları ve Noktalama İşaretlerini Uygulama',
-        points: 15,
-        prompt: 'Aşağıdaki metindeki yazım ve noktalama hatalarını tespit ederek doğrularını ve dayandıkları kuralları yazınız:\n"Türkiye\'nin en yaşlı ağacı Zonguldak\'ta ki Gümeli tabiat anıtında bulunuyor. Mühendis Ahmet bey şöyle dedi; Bu ağaç dörtbin yıldır yaşıyor."',
-        expectedAnswer: '1. "Zonguldak\'ta ki" -> "Zonguldak\'taki" (Sıfat türeten -ki ait olduğu söze bitişik yazılır).\n2. "Gümeli tabiat anıtı" -> "Gümeli Tabiat Anıtı" (Yer, tabiat anıtı adları büyük harfle başlar).\n3. "Ahmet bey" -> "Ahmet Bey" (Özel ada bağlı saygı/unvan sözleri büyük harfle başlar).\n4. "dörtbin" -> "dört bin" (Sayılar metin içinde ayrı yazılır).\n5. "...dedi; Bu..." -> "dedi: \"Bu...\"" (Alıntı ve açıklama sözlerinden önce iki nokta konur).',
-        rubric: [
-          { criterion: 'En az 3 adet kuralı doğru açıklayıp düzeltme', points: 15 },
-          { criterion: '1 veya 2 hatayı doğru tespit etme', points: 8 },
-          { criterion: 'Hatalı cevap', points: 0 }
-        ],
-        linesNeeded: 4
       }
     ]
   },

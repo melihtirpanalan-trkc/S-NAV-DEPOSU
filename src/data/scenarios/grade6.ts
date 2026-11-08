@@ -846,8 +846,8 @@ Bakırcılar Çarşısı'nda usta-çırak ilişkisi yalnızca meslek öğretmez;
         outcomeCode: 'T.Y.6.21',
         title: 'Yazım Kuralları ve Noktalama İşaretlerini Uygulama',
         points: 15,
-        prompt: 'Aşağıdaki metinde yer alan yazım ve noktalama hatalarını tespit ederek doğrularını ve dayandıkları kuralları yazınız:\n"Gaziantep'de ki tarihi Bakırcılar Çarşısı, 18. yüzyıldan beri varlığını koruyor. Çırak heyecanla sordu; Usta bunu kime yapıyoruz?"',
-        expectedAnswer: '1. "Gaziantep'de ki" -> "Gaziantep'teki" (Sıfat türeten -ki ait olduğu söze bitişik yazılır, ünsüz benzeşmesi uygulanır).\n2. "tarihi" -> "tarihî" (Nispet i'si ayrımı için düzeltme işareti kullanılır).\n3. "...sordu; Usta..." -> "sordu: — Usta..." (Konuşma cümlesinden önce iki nokta konur; noktalı virgül gelmez).',
+        prompt: 'Aşağıdaki metinde yer alan yazım ve noktalama hatalarını tespit ederek doğrularını ve dayandıkları kuralları yazınız:\n"Gaziantep\'de ki tarihi Bakırcılar Çarşısı, 18. yüzyıldan beri varlığını koruyor. Çırak heyecanla sordu; Usta bunu kime yapıyoruz?"',
+        expectedAnswer: '1. "Gaziantep\'de ki" -> "Gaziantep\'teki" (Sıfat türeten -ki ait olduğu söze bitişik yazılır, ünsüz benzeşmesi uygulanır).\n2. "tarihi" -> "tarihî" (Nispet i\'si ayrımı için düzeltme işareti kullanılır).\n3. "...sordu; Usta..." -> "sordu: — Usta..." (Konuşma cümlesinden önce iki nokta konur; noktalı virgül gelmez).',
         rubric: [
           { criterion: '3 hatayı ve kurallarını eksiksiz tespit edip düzeltme', points: 15 },
           { criterion: '1 veya 2 hatayı doğru tespit etme', points: 8 },
@@ -962,8 +962,8 @@ Bilim insanları için bir anıt ağaç, yeryüzünün hafıza kaydıdır. Gövd
         outcomeCode: 'T.Y.6.21',
         title: 'Yazım Kuralları ve Noktalama İşaretlerini Uygulama',
         points: 15,
-        prompt: 'Aşağıdaki metindeki yazım ve noktalama hatalarını tespit ederek doğrularını ve dayandıkları kuralları yazınız:\n"Türkiye'nin en yaşlı ağacı Zonguldak'ta ki Gümeli tabiat anıtında bulunuyor. Mühendis Ahmet bey şöyle dedi; Bu ağaç dörtbin yıldır yaşıyor."',
-        expectedAnswer: '1. "Zonguldak'ta ki" -> "Zonguldak'taki" (Sıfat türeten -ki ait olduğu söze bitişik yazılır).\n2. "Gümeli tabiat anıtı" -> "Gümeli Tabiat Anıtı" (Yer, tabiat anıtı adları büyük harfle başlar).\n3. "Ahmet bey" -> "Ahmet Bey" (Özel ada bağlı saygı/unvan sözleri büyük harfle başlar).\n4. "dörtbin" -> "dört bin" (Sayılar metin içinde ayrı yazılır).\n5. "...dedi; Bu..." -> "dedi: \"Bu...\"" (Alıntı ve açıklama sözlerinden önce iki nokta konur).',
+        prompt: 'Aşağıdaki metindeki yazım ve noktalama hatalarını tespit ederek doğrularını ve dayandıkları kuralları yazınız:\n"Türkiye\'nin en yaşlı ağacı Zonguldak\'ta ki Gümeli tabiat anıtında bulunuyor. Mühendis Ahmet bey şöyle dedi; Bu ağaç dörtbin yıldır yaşıyor."',
+        expectedAnswer: '1. "Zonguldak\'ta ki" -> "Zonguldak\'taki" (Sıfat türeten -ki ait olduğu söze bitişik yazılır).\n2. "Gümeli tabiat anıtı" -> "Gümeli Tabiat Anıtı" (Yer, tabiat anıtı adları büyük harfle başlar).\n3. "Ahmet bey" -> "Ahmet Bey" (Özel ada bağlı saygı/unvan sözleri büyük harfle başlar).\n4. "dörtbin" -> "dört bin" (Sayılar metin içinde ayrı yazılır).\n5. "...dedi; Bu..." -> "dedi: \"Bu...\"" (Alıntı ve açıklama sözlerinden önce iki nokta konur).',
         rubric: [
           { criterion: 'En az 3 adet kuralı doğru açıklayıp düzeltme', points: 15 },
           { criterion: '1 veya 2 hatayı doğru tespit etme', points: 8 },
